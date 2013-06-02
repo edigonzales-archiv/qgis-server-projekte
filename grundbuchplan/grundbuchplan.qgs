@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>604045.795905</xmin>
-            <ymin>228100.277656</ymin>
-            <xmax>604341.580931</xmax>
-            <ymax>228358.028328</ymax>
+            <xmin>604155.368502</xmin>
+            <ymin>228182.904818</ymin>
+            <xmax>604582.613541</xmax>
+            <ymax>228851.521280</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -161,7 +161,7 @@
                         <legendlayerfile isInOverview="0" layerid="resfproj20130228151944033" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PHLI" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PSDR" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="dprsfproj20130228151955926" visible="1"/>
                     </filegroup>
@@ -206,6 +206,11 @@
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143415108" visible="1"/>
                         </filegroup>
                     </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.500" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="lnna20130228143417669" visible="1"/>
+                        </filegroup>
+                    </legendlayer>
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143419657" visible="1"/>
@@ -214,11 +219,6 @@
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143421763" visible="1"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.500" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="lnna20130228143417669" visible="1"/>
                         </filegroup>
                     </legendlayer>
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.5000" showFeatureCount="0">
@@ -467,49 +467,49 @@
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (farbig)">
             <legendgroup open="false" checked="Qt::Unchecked" name="FI.farbig">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="FI.farbig.Fixpunkte" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="FI.fFP" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="FI_Fixpunkte_copy20130228171319036" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="GEM.farbig.Hoheitsgrenzpunkte">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.farbig.Hoheitsgrenzpunkt" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.fHGP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="GEM_Hoheitsgrenzpunkt_copy20130228171234081" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="LI.farbig.Grenzpunkte">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grenzpunkt" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fGP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_Grenzpunkt_copy20130228171046032" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="LA.farbig">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LA.farbig.Landesgrenzabschnitt" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LA.fLGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LA_Landesgrenzabschnitt_copy20130228170959192" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="KA.farbig">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="KA.farbig.Kantonsgrenzabschnitt" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="KA.fKGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="KA_Kantonsgrenzabschnitt_copy20130228170854612" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="BE.farbig">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BE.farbig.Bezirksgrenzabschnitt" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BE.fBGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BE_Bezirksgrenzabschnitt_copy20130228170744442" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="GEM.farbig">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.farbig.Gemeindegrenzen" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.fGG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="GEM_Gemeindegrenzen_copy20130228170550371" visible="0"/>
                     </filegroup>
@@ -517,85 +517,85 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="LI.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_Grundstuecksnummer_250_copy20130228165403814" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fNR.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_Grundstuecksnummer_500_copy20130228165403917" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fNR.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_Grundstuecksnummer_1000_copy20130228165403996" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fNR.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_Grundstuecksnummer_2000_copy20130228165404073" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Grundstuecksnummer.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fNR.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_Grundstuecksnummer_5000_copy20130228165404150" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_projektierte_Grundstuecksnummer_250_copy20130228165746298" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPNR.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_projektierte_Grundstuecksnummer_500_copy20130228165746414" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPNR.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_projektierte_Grundstuecksnummer_1000_copy20130228165746520" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPNR.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_projektierte_Grundstuecksnummer_2000_copy20130228165746626" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Grundstuecksnummer.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPNR.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="LI_projektierte_Grundstuecksnummer_5000_copy20130228165746728" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Hilfslinien" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fHLI" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="liegenschaften_grundstueckpos20130530173048335" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Hilfslinien" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPHLI" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_Hilfslinien_copy20130228170213484" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.Liegenschaft" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fLI" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_Liegenschaft_copy20130228170213646" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.SelbstRecht" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fSDR" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_SelbstRecht_copy20130228170213749" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektierte_Liegenschaft" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPLI" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_projektierte_Liegenschaft_copy20130228170213855" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.farbig.projektiertes_SelbstRecht" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.fPSDR" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_projektiertes_SelbstRecht_copy20130228170213927" visible="0"/>
                     </filegroup>
@@ -603,142 +603,142 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="NO.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_250_copy20130228164909438" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_500_copy20130228164909520" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_1000_copy20130228164909610" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_2000_copy20130228164909691" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_5000_copy20130228164909775" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Ortsnamen.20000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fONA.20000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Ortsnamen_20000_copy20130228164909864" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendgroup open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen.1:250" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_250_copy20130228164020480" visible="0"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen.1:500" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_500_copy20130228164020612" visible="0"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen.1:1000" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_1000_copy20130228164020719" visible="0"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen.1:2000" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_2000_copy20130228164020832" visible="0"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen.1:5000" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_5000_copy20130228164020920" visible="0"/>
-                        </filegroup>
-                    </legendlayer>
-                </legendgroup>
                 <legendgroup open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fGNA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_250_copy20130228164409564" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fGNA.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_500_copy20130228164409644" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fGNA.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_1000_copy20130228164409727" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fGNA.2000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_5000_copy20130228164409909" visible="0"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fGNA.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_2000_copy20130228164409817" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.farbig.Gelaendenamen.5000" showFeatureCount="0">
+                </legendgroup>
+                <legendgroup open="false" checked="Qt::Unchecked" name="NO.farbig.Flurnamen">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fFNA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="NO_Gelaendenamen_5000_copy20130228164409909" visible="0"/>
+                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_250_copy20130228164020480" visible="0"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fFNA.500" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_500_copy20130228164020612" visible="0"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fFNA.1000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_1000_copy20130228164020719" visible="0"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fFNA.2000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_2000_copy20130228164020832" visible="0"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.fFNA.5000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="NO_Flurnamen_1_5000_copy20130228164020920" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="GEB.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fHNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Hausnummern_250_copy20130228163615125" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fHNR.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Hausnummern_500_copy20130228163615222" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fHNR.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Hausnummern_1000_copy20130228163615308" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fHNR.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Hausnummern_2000_copy20130228163615396" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Hausnummern.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fHNR.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Hausnummern_5000_copy20130228163615479" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fLNA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Lokalisationsnamen_250_copy20130228163210892" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fLNA.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Lokalisationsnamen_500_copy20130228163210979" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fLNA.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Lokalisationsnamen_1000_copy20130228163211044" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fLNA.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Lokalisationsnamen_2000_copy20130228163211112" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.farbig.Lokalisationsnamen.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.fLNA.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="GEB_Lokalisationsnamen_5000_copy20130228163211192" visible="0"/>
                         </filegroup>
@@ -747,79 +747,79 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="RO.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="RO.farbig.Leitungsobjekt">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLO.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="RO_Leitungsobjekt_250_copy20130228162847655" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLO.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="RO_Leitungsobjekt_500_copy20130228162847738" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLO.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="RO_Leitungsobjekt_1000_copy20130228162847815" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLO.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="RO_Leitungsobjekt_2000_copy20130228162847888" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLO.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="RO_Leitungsobjekt_5000_copy20130228162847954" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="RO.Linienelement" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.fLE" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="RO_Linienelement_copy20130228163037173" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="EO.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="EO.farbig.Objektname">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Objektname.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="EO_Objektname_250_copy20130228162607879" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Objektname.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fONA.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="EO_Objektname_500_copy20130228162607992" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Objektname.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fONA.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="EO_Objektname_1000_copy20130228162608083" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Objektname.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fONA.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="EO_Objektname_2000_copy20130228162608168" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Punktelement" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fPE" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="EO_Punktelement_copy20130228162319100" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Linienelement" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fLE" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="EO_Linienelement_copy20130228162319285" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.farbig.Flaechenelement" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fFE" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="EO_Flaechenelement_copy20130228162319371" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="BB.farbig.projektierte_Gebäude">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.projektiert" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fPG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BB_projektiert_copy20130228160058843" visible="0"/>
                     </filegroup>
@@ -827,73 +827,73 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="BB.farbig">
                 <legendgroup open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fSYM.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Objektnamen_250_copy20130228155457350" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fSYM.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Objektnamen_500_copy20130228155457468" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fSYM.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Objektnamen_1000_copy20130228155457554" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fSYM.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Objektnamen_2000_copy20130228155457637" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Objektnamen.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fSYM.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Objektnamen_5000_copy20130228155457727" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Unchecked" name="BB.farbig.Symbole">
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BB.farbig.Symbole.250" showFeatureCount="0">
-                        <filegroup open="true" hidden="false">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fONA.250" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Symbole_250_copy20130228153951345" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BB.farbig.Symbole.500" showFeatureCount="0">
-                        <filegroup open="true" hidden="false">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fONA.500" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Symbole_500_copy20130228153952134" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BB.farbig.Symbole.1000" showFeatureCount="0">
-                        <filegroup open="true" hidden="false">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fONA.1000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Symbole_1000_copy20130228153952764" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BB.farbig.Symbole.2000" showFeatureCount="0">
-                        <filegroup open="true" hidden="false">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fONA.2000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Symbole_2000_copy20130228153953383" visible="0"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="BB.farbig.Symbole.5000" showFeatureCount="0">
-                        <filegroup open="true" hidden="false">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fONA.5000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="BB_Symbole_5000_copy20130228153953995" visible="0"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Linien" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fLinien" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BB_Linien_copy20130228153715664" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.farbig.Raster" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.fRaster" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BB_Raster_copy20130228153720583" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="EO.farbig.unterirdisch">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="EO.farbig.unterirdische_Gebaeude_Reservoir" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.fU" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="EO_unterirdische_Gebaeude_Reservoir_copy20130228153601292" visible="0"/>
                     </filegroup>
                 </legendlayer>
@@ -1351,7 +1351,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Linien</layername>
+            <layername>BB.fLinien</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -1806,7 +1806,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Objektnamen.1000</layername>
+            <layername>BB.fSYM.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -1997,7 +1997,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Objektnamen.2000</layername>
+            <layername>BB.fSYM.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -2188,7 +2188,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Objektnamen.250</layername>
+            <layername>BB.fSYM.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -2379,7 +2379,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Objektnamen.5000</layername>
+            <layername>BB.fSYM.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -2570,7 +2570,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Objektnamen.500</layername>
+            <layername>BB.fSYM.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -2761,7 +2761,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art" IN ('Gebaeude', 'Reben', 'Hoch_Flachmoor', 'Schilfguertel', 'geschlossener_Wald', 'Fels', 'uebrige_bestockte', 'Geroell_Sand', 'uebrige_befestigte', 'Trottoir', 'Flugplatz', 'Strasse_Weg', 'Wasserbecken', 'stehendes', 'fliessendes')</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Raster</layername>
+            <layername>BB.fRaster</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -3677,7 +3677,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Symbole.1000</layername>
+            <layername>BB.fONA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -3912,7 +3912,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Symbole.2000</layername>
+            <layername>BB.fONA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -4147,7 +4147,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Symbole.250</layername>
+            <layername>BB.fONA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -4382,7 +4382,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Symbole.5000</layername>
+            <layername>BB.fONA.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -4617,7 +4617,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.Symbole.500</layername>
+            <layername>BB.fONA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -4852,7 +4852,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.farbig.projektiert</layername>
+            <layername>BB.fPG</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -5092,7 +5092,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BE.farbig.Bezirksgrenzabschnitt</layername>
+            <layername>BE.fBGA</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -5388,7 +5388,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Flaechenelement</layername>
+            <layername>EO.fFE</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -5882,7 +5882,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Linienelement</layername>
+            <layername>EO.fLE</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -6446,7 +6446,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Objektname.1000</layername>
+            <layername>EO.fONA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -6637,7 +6637,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Objektname.2000</layername>
+            <layername>EO.fONA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -6828,7 +6828,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Objektname.250</layername>
+            <layername>EO.fONA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -7019,7 +7019,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Objektname.500</layername>
+            <layername>EO.fONA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -7210,7 +7210,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.Punktelement</layername>
+            <layername>EO.fPE</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -7845,7 +7845,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.farbig.unterirdische_Gebaeude_Reservoir</layername>
+            <layername>EO.fU</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -8123,7 +8123,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>FI.farbig.Fixpunkte</layername>
+            <layername>FI.fFP</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -8996,7 +8996,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Hausnummern.1000</layername>
+            <layername>GEB.fHNR.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -9171,7 +9171,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Hausnummern.2000</layername>
+            <layername>GEB.fHNR.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -9346,7 +9346,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Hausnummern.250</layername>
+            <layername>GEB.fHNR.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -9542,7 +9542,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Hausnummern.5000</layername>
+            <layername>GEB.fHNR.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -9717,7 +9717,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Hausnummern.500</layername>
+            <layername>GEB.fHNR.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -9892,7 +9892,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Lokalisationsnamen.1000</layername>
+            <layername>GEB.fLNA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -10082,7 +10082,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Lokalisationsnamen.2000</layername>
+            <layername>GEB.fLNA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -10272,7 +10272,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Lokalisationsnamen.250</layername>
+            <layername>GEB.fLNA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -10462,7 +10462,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Lokalisationsnamen.5000</layername>
+            <layername>GEB.fLNA.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -10652,7 +10652,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.farbig.Lokalisationsnamen.500</layername>
+            <layername>GEB.fLNA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -10842,7 +10842,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEM.farbig.Gemeindegrenzen</layername>
+            <layername>GEM.fGG</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -11155,7 +11155,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEM.farbig.Hoheitsgrenzpunkt</layername>
+            <layername>GEM.fHGP</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -12071,7 +12071,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>KA.farbig.Kantonsgrenzabschnitt</layername>
+            <layername>KA.fKGA</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -12480,7 +12480,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LA.farbig.Landesgrenzabschnitt</layername>
+            <layername>LA.fLGA</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -12826,7 +12826,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grenzpunkt</layername>
+            <layername>LI.fGP</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -13742,7 +13742,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grundstuecksnummer.1000</layername>
+            <layername>LI.fNR.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -13934,7 +13934,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grundstuecksnummer.2000</layername>
+            <layername>LI.fNR.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -14126,7 +14126,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grundstuecksnummer.250</layername>
+            <layername>LI.fNR.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -14318,7 +14318,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grundstuecksnummer.5000</layername>
+            <layername>LI.fNR.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -14510,7 +14510,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Grundstuecksnummer.500</layername>
+            <layername>LI.fNR.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -14702,7 +14702,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Hilfslinien</layername>
+            <layername>LI.fPHLI</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -14954,7 +14954,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Liegenschaft</layername>
+            <layername>LI.fLI</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -15198,7 +15198,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.SelbstRecht</layername>
+            <layername>LI.fSDR</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -15745,7 +15745,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Grundstuecksnummer.1000</layername>
+            <layername>LI.fPNR.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -15942,7 +15942,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Grundstuecksnummer.2000</layername>
+            <layername>LI.fPNR.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -16134,7 +16134,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Grundstuecksnummer.250</layername>
+            <layername>LI.fPNR.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -16326,7 +16326,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Grundstuecksnummer.5000</layername>
+            <layername>LI.fPNR.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -16518,7 +16518,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Grundstuecksnummer.500</layername>
+            <layername>LI.fPNR.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -16710,7 +16710,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektierte_Liegenschaft</layername>
+            <layername>LI.fPLI</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -16954,7 +16954,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.projektiertes_SelbstRecht</layername>
+            <layername>LI.fPSDR</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -17249,7 +17249,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Flurnamen.1:1000</layername>
+            <layername>NO.fFNA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -17443,7 +17443,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Flurnamen.1:2000</layername>
+            <layername>NO.fFNA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -17637,7 +17637,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Flurnamen.1:250</layername>
+            <layername>NO.fFNA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -17831,7 +17831,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Flurnamen.1:5000</layername>
+            <layername>NO.fFNA.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18025,7 +18025,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Flurnamen.1:500</layername>
+            <layername>NO.fFNA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18219,7 +18219,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Gelaendenamen.1000</layername>
+            <layername>NO.fGNA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18392,7 +18392,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Gelaendenamen.2000</layername>
+            <layername>NO.fGNA.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18565,7 +18565,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Gelaendenamen.250</layername>
+            <layername>NO.fGNA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18738,7 +18738,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Gelaendenamen.5000</layername>
+            <layername>NO.fGNA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -18932,7 +18932,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Gelaendenamen.500</layername>
+            <layername>NO.fGNA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -19105,7 +19105,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.1000</layername>
+            <layername>NO.fONA.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -19299,7 +19299,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.20000</layername>
+            <layername>NO.fONA.20000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -19493,7 +19493,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.2000</layername>
+            <layername>NO.fONA.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -19687,7 +19687,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.250</layername>
+            <layername>NO.fONA.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -19881,7 +19881,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.5000</layername>
+            <layername>NO.fONA.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -20075,7 +20075,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.farbig.Ortsnamen.500</layername>
+            <layername>NO.fONA.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -20295,7 +20295,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Leitungsobjekt.1000</layername>
+            <layername>RO.fLO.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -20485,7 +20485,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Leitungsobjekt.2000</layername>
+            <layername>RO.fLO.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -20675,7 +20675,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Leitungsobjekt.250</layername>
+            <layername>RO.fLO.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -20865,7 +20865,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Leitungsobjekt.5000</layername>
+            <layername>RO.fLO.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -21057,7 +21057,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Leitungsobjekt.500</layername>
+            <layername>RO.fLO.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -21247,7 +21247,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.Linienelement</layername>
+            <layername>RO.fLE</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -22986,7 +22986,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PHLI</layername>
+            <layername>LI.PSDR</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -26736,7 +26736,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.farbig.Hilfslinien</layername>
+            <layername>LI.fHLI</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
