@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>604045.795905</xmin>
+            <xmin>604085.698018</xmin>
             <ymin>228100.277656</ymin>
-            <xmax>604341.580931</xmax>
+            <xmax>604301.678818</xmax>
             <ymax>228358.028328</ymax>
         </extent>
         <projections>0</projections>
@@ -31,51 +31,51 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="Amtliche Vermessung (schwarz-weiss)">
+        <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung (schwarz-weiss)">
             <legendgroup open="false" checked="Qt::Checked" name="FI">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.FP" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.Fixpunkt" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="cppt20130228152904216" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="GEM.Hoheitsgrenzpunkte">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.HGP" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.Hoheitsgrenzpunkt" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbbp20130228152858052" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="LI.Grenzpunkte">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.GP" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grenzpunkt" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="osbp20130228152854360" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="LA">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LA.LGA" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LA.Landesgrenzabschnitt" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152553716" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="KA">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="KA.KGA" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="KA.Kantonsgrenzabschnitt" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152546959" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="BE">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BE.BGA" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BE.Bezirksgrenzabschnitt" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152536122" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="GEM">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.GG" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.Gemeindegrenzen" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="mbsf20130226090653083" visible="1"/>
                     </filegroup>
@@ -83,85 +83,85 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="LI">
                 <legendgroup open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.NR.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnr20130228145843533" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.NR.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnr20130228145844823" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.NR.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnr20130228145846083" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.NR.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnr20130228145847281" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.NR.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Grundstuecksnummer.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnr20130228145848581" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PRN.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnrproj20130228150801772" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PRN.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnrproj20130228150802909" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PRN.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnrproj20130228150803939" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PRN.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnrproj20130228150805161" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PRN.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Grundstuecksnummer.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="osnrproj20130228150807471" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.HLI" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="LI.Hilfslinien" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_farbig_Hilfslinien_Kopie20130530173248449" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PHLI" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Hilfslinien" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="liegenschaften_projgrundstueckpos20130228151755234" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.LI" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.Liegenschaft" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="resf20130228151945508" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.SDR" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.SelbstRecht" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="dprsf20130228151954680" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PLI" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektierte_Liegenschaft" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="resfproj20130228151944033" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.PHLI" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.projektiertes_SelbstRecht" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="dprsfproj20130228151955926" visible="1"/>
                     </filegroup>
@@ -169,86 +169,86 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="NO">
                 <legendgroup open="false" checked="Qt::Checked" name="NO.Ortsnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144905688" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144907154" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144908500" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144909928" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144911296" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.ONA.20000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Ortsnamen.20000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228144912724" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Checked" name="NO.Gelaendenamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Gelaendenamen.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143415108" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.1000" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="lnna20130228143419657" visible="1"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.2000" showFeatureCount="0">
-                        <filegroup open="false" hidden="false">
-                            <legendlayerfile isInOverview="0" layerid="lnna20130228143421763" visible="1"/>
-                        </filegroup>
-                    </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Gelaendenamen.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143417669" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.GNA.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Gelaendenamen.1000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="lnna20130228143419657" visible="1"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Gelaendenamen.2000" showFeatureCount="0">
+                        <filegroup open="false" hidden="false">
+                            <legendlayerfile isInOverview="0" layerid="lnna20130228143421763" visible="1"/>
+                        </filegroup>
+                    </legendlayer>
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Gelaendenamen.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130228143424330" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendgroup open="false" checked="Qt::Checked" name="NO.Flurnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.FNA.250" showFeatureCount="0">
+                <legendgroup open="true" checked="Qt::Checked" name="NO.Flurnamen">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Flurnamen.1:250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130227164054701" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.FNA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Flurnamen.1:500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130227164055847" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.FNA.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Flurnamen.1:1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130227164056980" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.FNA.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.Flurnamen.1:2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130227164058041" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NO.FNA.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NO.Flurnamen.1:5000" showFeatureCount="0">
                         <filegroup open="true" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lnna20130227164059082" visible="1"/>
                         </filegroup>
@@ -257,54 +257,54 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="GEB">
                 <legendgroup open="false" checked="Qt::Checked" name="GEB.Hausnummern">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.HNR.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Hausnummern.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="hadr20130227162435396" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.HNR.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Hausnummern.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="hadr20130227162428842" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.HNR.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Hausnummern.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="hadr20130227162430490" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.HNR.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Hausnummern.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="hadr20130227162432138" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.HNR.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Hausnummern.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="hadr20130227162433815" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
                 <legendgroup open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.LNA.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="locpos20130227162433488" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.LNA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="locpos20130227162431800" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.LNA.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="locpos20130227162435044" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.LNA.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="locpos20130227162430148" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.LNA.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.Lokalisationsnamen.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="locpos20130227162428464" visible="1"/>
                         </filegroup>
@@ -312,34 +312,34 @@
                 </legendgroup>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="RO">
-                <legendgroup open="false" checked="Qt::Checked" name="RO.Leitungsobjekt">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LO.250" showFeatureCount="0">
+                <legendgroup open="true" checked="Qt::Checked" name="RO.Leitungsobjekt">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Leitungsobjekt.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="plna20130227161355785" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LO.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Leitungsobjekt.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="plna20130227161356915" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LO.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Leitungsobjekt.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="plna20130227161357992" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LO.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Leitungsobjekt.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="plna20130227161359171" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LO.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Leitungsobjekt.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="plna20130227161400195" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.LE" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.Linienelement" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="plli20130227161401194" visible="1"/>
                     </filegroup>
@@ -347,100 +347,100 @@
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="EO">
                 <legendgroup open="true" checked="Qt::Checked" name="EO.Objektname">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.ONA.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Objektname.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="soobj20130227160750297" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.ONA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Objektname.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="soobj20130227160749068" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.ONA.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Objektname.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="soobj20130227160747866" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.ONA.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Objektname.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="soobj20130227160744450" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.PE" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Punktelement" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="sopt20130227160739302" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.LE" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Linienelement" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="soli20130227160737607" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.FE" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.Flaechenelement" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="sofs20130227160735560" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="BB.projektierte_Gebäude">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.PG" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BB.projektiert" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="lcsfproj20130228160021539" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="BB">
                 <legendgroup open="false" checked="Qt::Checked" name="BB.Symbole">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.SYM.250" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Symbole.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="v_bodenbedeckung_boflaechesymbol20130226091240417" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.SYM.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Symbole.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="v_bodenbedeckung_boflaechesymbol20130226091244883" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.SYM.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Symbole.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="v_bodenbedeckung_boflaechesymbol20130226091246370" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.SYM.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Symbole.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="v_bodenbedeckung_boflaechesymbol20130226091247717" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.SYM.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Symbole.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="v_bodenbedeckung_boflaechesymbol20130226091249212" visible="1"/>
                         </filegroup>
                     </legendlayer>
                 </legendgroup>
-                <legendgroup open="false" checked="Qt::Checked" name="BB.Objektnamen">
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.ONA.250" showFeatureCount="0">
+                <legendgroup open="true" checked="Qt::Checked" name="BB.Objektnamen">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Objektnamen.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lcobj20130226091209680" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.ONA.500" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Objektnamen.500" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lcobj20130226091208595" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.ONA.1000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Objektnamen.1000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lcobj20130226091207237" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.ONA.2000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Objektnamen.2000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lcobj20130226091206028" visible="1"/>
                         </filegroup>
                     </legendlayer>
-                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.ONA.5000" showFeatureCount="0">
+                    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.Objektnamen.5000" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
                             <legendlayerfile isInOverview="0" layerid="lcobj20130226091204762" visible="1"/>
                         </filegroup>
@@ -458,7 +458,7 @@
                 </legendlayer>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="EO.unterirdisch">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="EO.U" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="EO.unterirdische_Gebaeude_Reservoir" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="sofs20130226090604357" visible="1"/>
                     </filegroup>
@@ -929,18 +929,34 @@
     </legend>
     <Composer title="A4-Hoch" visible="0">
         <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="297" printAsRaster="0">
-            <ComposerLabel valign="32" labelText="Amtliche Vermessung Schweiz" halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,19,-1,5,50,0,0,0,0,0"/>
+            <ComposerLabel valign="32" labelText="Plan für das Grundbuch" halign="1" margin="0">
+                <LabelFont description="CadastraCondensed,18,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="119.135" x="17" y="11.5" rotation="0" height="10.1972" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="2.60403" id="gemeinde" positionLock="true">
+                <ComposerItem width="100.632" x="17" y="12" rotation="0" height="8.45794" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="12.2416" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
+            <ComposerShape shapeType="1" shapeWidth="44" outlineWidth="0" transparentFill="1" shapeHeight="25">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="44" x="107.8" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="22" lastValidViewScaleFactor="2.55034" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerShape shapeType="1" shapeWidth="72" outlineWidth="0" transparentFill="1" shapeHeight="25">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="72" x="35.8" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="22" lastValidViewScaleFactor="5.20805" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
             <ComposerLabel valign="32" labelText="00.11.20XX" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="14.219" x="186" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="12.2416" id="lieferdatum" positionLock="true">
+                <ComposerItem width="14.219" x="186" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="12.2416" id="lieferdatum" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -948,7 +964,7 @@
             <ComposerLabel valign="32" labelText="Für die Richtigkeit des Auszuges:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40" x="157" y="264" rotation="0" height="4.68947" frame="false" outlineWidth="0.3" zValue="21" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
+                <ComposerItem width="40" x="157" y="264" rotation="0" height="4.68947" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -956,7 +972,7 @@
             <ComposerLabel valign="32" labelText="&#xa;Grundstücke mit roten Grenzen und unterstrichenen Nummern sind nicht rechtskräftig. &#xa;Projektierte Gebäude sind rot gestrichelt. Sie weisen eine reduzierte Genauigkeit auf.&#xa;Allenfalls dargestellte Baulinien dienen der Orientierung.&#xa;Waldlinien sind nicht rechtsverbindlich." halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="67.9787" x="42" y="264" rotation="0" height="23.8959" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.20805" id="" positionLock="true">
+                <ComposerItem width="67.9787" x="42" y="264" rotation="0" height="23.8959" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="10.2013" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -964,7 +980,7 @@
             <ComposerLabel valign="32" labelText="Massstab " halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="13" x="17" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
+                <ComposerItem width="13" x="17" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -972,7 +988,7 @@
             <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)&#x9;" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="14.219" x="103" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
+                <ComposerItem width="14.219" x="103" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -980,7 +996,7 @@
             <ComposerLabel valign="32" labelText="Hinweise:&#xa;-&#xa;&#xa;-&#xa;&#xa;-&#xa;-" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="12.8263" x="39" y="264" rotation="0" height="20.2565" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
+                <ComposerItem width="12.8263" x="39" y="264" rotation="0" height="20.2565" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -988,7 +1004,7 @@
             <ComposerLabel valign="32" labelText="Nachführungsgeometer, " halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40.3292" x="157" y="278.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="5.20805" id="nfgeometer" positionLock="true">
+                <ComposerItem width="40.3292" x="157" y="278.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="12.2416" id="nfgeometer" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -996,7 +1012,7 @@
             <ComposerLabel valign="32" labelText="Nachführungsgeometer" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40.3292" x="157" y="281.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
+                <ComposerItem width="40.3292" x="157" y="281.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1004,15 +1020,15 @@
             <ComposerLabel valign="64" labelText="Amt für Geoinformation Kanton Solothurn, Rötistrasse 4, 4500 Solothurn" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="12.2416" id="anschrift" positionLock="true">
+                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="12.2416" id="anschrift" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax, 032 627 75 98, E-mail: agi@bd.so.ch, Web: www.agi.so.ch" halign="2" margin="0">
+            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax, 032 627 75 98, Email: agi@bd.so.ch, Web: www.agi.so.ch" halign="2" margin="0">
                 <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="10" rotation="270" height="127.863" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="5.20805" id="kontakt" positionLock="true">
+                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="2.60403" id="kontakt" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1020,7 +1036,7 @@
             <ComposerLabel valign="32" labelText="Legende: &#xa;www.cadastre.ch/legende&#xa;&#xa;&#xa;             " halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="42" x="112" y="278.5" rotation="0" height="7.44271" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="2.55034" id="" positionLock="true">
+                <ComposerItem width="42" x="112" y="278.5" rotation="0" height="7.44271" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.55034" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1028,7 +1044,7 @@
             <ComposerLabel valign="32" labelText="Quelle: &#xa;Amtliche Vermessung Schweiz" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="42" x="112" y="264" rotation="0" height="6.5833" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
+                <ComposerItem width="42" x="112" y="264" rotation="0" height="6.5833" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1040,7 +1056,7 @@
                 </ComposerItem>
             </ComposerPicture>
             <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/grundbuchplan/images/logoavdl.svg" pictureHeight="12" mapId="-1">
-                <ComposerItem width="40" x="158" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="2.60403" id="" positionLock="true">
+                <ComposerItem width="40" x="158" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1048,7 +1064,7 @@
             <ComposerLabel valign="32" labelText="Auszug aus dem Plan für das Grundbuch vom:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="57.7079" x="50" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="5.20805" id="" positionLock="true">
+                <ComposerItem width="57.7079" x="50" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1056,13 +1072,13 @@
             <ComposerLabel valign="32" labelText="Daten der amtlichen Vermessung vom:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="49.1667" x="142" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
+                <ComposerItem width="49.1667" x="142" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="0" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" units="0" numSegmentsLeft="0" style="Numeric" unitLabel="asdf" font="CadastraCondensed,7,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0.3" numUnitsPerSegment="0">
-                <ComposerItem width="7.6" x="28" y="22.5" rotation="0" height="3" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
+                <ComposerItem width="7.6" x="28" y="22.5" rotation="0" height="3" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1080,7 +1096,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="227311" xmin="596044" ymax="227428" xmax="596136"/>
+                <Extent ymin="227311" xmin="596044" ymax="227427" xmax="596136"/>
                 <LayerSet/>
                 <Grid gridStyle="1" crossLength="3" intervalX="50" offsetX="0" intervalY="50" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="1">
                     <symbol outputUnit="MM" alpha="1" type="line" name="">
@@ -1092,44 +1108,28 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.15"/>
+                            <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="185" x="15" y="28" rotation="0" height="235" frame="true" outlineWidth="0.2" zValue="5" lastValidViewScaleFactor="2.60403" id="" positionLock="true">
+                <ComposerItem width="185" x="15" y="28" rotation="0" height="234" frame="true" outlineWidth="0.2" zValue="5" lastValidViewScaleFactor="2.60403" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
-            <ComposerShape shapeType="1" shapeWidth="185" outlineWidth="0" transparentFill="1" shapeHeight="18">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="185" x="15" y="10" rotation="0" height="18" frame="true" outlineWidth="0.2" zValue="4" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="72" outlineWidth="0" transparentFill="1" shapeHeight="25">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="255" blue="255" green="255"/>
-                <ComposerItem width="72" x="35.8" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="10.4161" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
             <ComposerShape shapeType="1" shapeWidth="185" outlineWidth="0" transparentFill="1" shapeHeight="25">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="185" x="15" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="10.4161" id="" positionLock="true">
+                <ComposerItem width="185" x="15" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="10.2013" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="44" outlineWidth="0" transparentFill="1" shapeHeight="25">
+            <ComposerShape shapeType="1" shapeWidth="185" outlineWidth="0" transparentFill="1" shapeHeight="18">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="44" x="107.8" y="262" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="10.4161" id="" positionLock="true">
+                <ComposerItem width="185" x="15" y="10" rotation="0" height="18" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1137,27 +1137,67 @@
         </Composition>
     </Composer>
     <Composer title="A3-Hoch" visible="0">
-        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="420" printAsRaster="0">
+        <Composition printResolution="304" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="420" printAsRaster="0">
             <ComposerLabel valign="32" labelText="Plan für das Grundbuch" halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,19,-1,5,50,0,0,0,0,0"/>
+                <LabelFont description="CadastraCondensed,18,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="100.632" x="17" y="12" rotation="0" height="8.45794" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="1.84323" id="gemeinde" positionLock="true">
+                <ComposerItem width="100.632" x="17" y="12" rotation="0" height="8.45794" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="12.2416" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Nachführungsgeometer" halign="1" margin="0">
+            <ComposerShape shapeType="1" shapeWidth="84" outlineWidth="0" transparentFill="1" shapeHeight="25">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="84" x="150" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="22" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerShape shapeType="1" shapeWidth="114.2" outlineWidth="0" transparentFill="1" shapeHeight="25">
+                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+                <FillColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem width="114.2" x="35.8" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="22" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerShape>
+            <ComposerLabel valign="32" labelText="00.11.20XX" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40.3292" x="240" y="404.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="14.219" x="271" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="3.0604" id="lieferdatum" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Nachführungsgeometer, " halign="1" margin="0">
+            <ComposerLabel valign="32" labelText="Für die Richtigkeit des Auszuges:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40.3292" x="240" y="401.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="21" lastValidViewScaleFactor="3.0604" id="nfgeometer" positionLock="true">
+                <ComposerItem width="40" x="240" y="387" rotation="0" height="4.68947" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="&#xa;Grundstücke mit roten Grenzen und unterstrichenen Nummern sind nicht rechtskräftig. &#xa;Projektierte Gebäude sind rot gestrichelt. Sie weisen eine reduzierte Genauigkeit auf.&#xa;Allenfalls dargestellte Baulinien dienen der Orientierung.&#xa;Waldlinien sind nicht rechtsverbindlich." halign="1" margin="0">
+                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="140" x="42" y="387" rotation="0" height="24" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Massstab " halign="1" margin="0">
+                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="13" x="17" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)&#x9;" halign="1" margin="0">
+                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="14.219" x="150" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1170,50 +1210,18 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)&#x9;" halign="1" margin="0">
+            <ComposerLabel valign="32" labelText="Nachführungsgeometer, " halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="14.219" x="150" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="40.3292" x="240" y="401.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="3.0604" id="nfgeometer" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Massstab " halign="1" margin="0">
+            <ComposerLabel valign="32" labelText="Nachführungsgeometer" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="13" x="17" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="5.10067" id="" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="&#xa;Grundstücke mit roten Grenzen und unterstrichenen Nummern sind nicht rechtskräftig. &#xa;Projektierte Gebäude sind rot gestrichelt. Sie weisen eine reduzierte Genauigkeit auf.&#xa;Allenfalls dargestellte Baulinien dienen der Orientierung.&#xa;Waldlinien sind nicht rechtsverbindlich." halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="140" x="42" y="387" rotation="0" height="24" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="12.2416" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Für die Richtigkeit des Auszuges:" halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="40" x="240" y="387" rotation="0" height="4.68947" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="00.11.20XX" halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="14.219" x="271" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="3.0604" id="lieferdatum" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax, 032 627 75 98, Email: agi@bd.so.ch, Web: www.agi.so.ch" halign="2" margin="0">
-                <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="10" rotation="270" height="170.661" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="3.68646" id="kontakt" positionLock="true">
+                <ComposerItem width="40.3292" x="240" y="404.5" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1221,15 +1229,15 @@
             <ComposerLabel valign="64" labelText="Amt für Geoinformation Kanton Solothurn, Rötistrasse 4, 4500 Solothurn" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="313" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="12.2416" id="anschrift" positionLock="true">
+                <ComposerItem width="4" x="11" y="313" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="12.2416" id="anschrift" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Quelle: &#xa;Amtliche Vermessung Schweiz" halign="1" margin="0">
-                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
+            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax, 032 627 75 98, Email: agi@bd.so.ch, Web: www.agi.so.ch" halign="2" margin="0">
+                <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="42" x="155" y="387" rotation="0" height="6.5833" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="2.60403" id="kontakt" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1237,19 +1245,27 @@
             <ComposerLabel valign="32" labelText="Legende: &#xa;www.cadastre.ch/legende&#xa;&#xa;&#xa;             " halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="42" x="155" y="401.5" rotation="0" height="7.44271" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="42" x="155" y="401.5" rotation="0" height="7.44271" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/grundbuchplan/images/logoavdl.svg" pictureHeight="12" mapId="-1">
-                <ComposerItem width="40" x="243" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="1.84323" id="" positionLock="true">
+            <ComposerLabel valign="32" labelText="Quelle: &#xa;Amtliche Vermessung Schweiz" halign="1" margin="0">
+                <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="42" x="155" y="387" rotation="0" height="6.5833" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerPicture pictureWidth="10" file="/opt/qgis-server-projekte/grundbuchplan/images/north_arrow7.svg" pictureHeight="15" mapId="0">
+                <ComposerItem width="10" x="20.8" y="390" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerPicture pictureWidth="10" file="/opt/qgis-server-projekte/grundbuchplan/images/north_arrow7.svg" pictureHeight="15" mapId="0">
-                <ComposerItem width="10" x="20.8" y="390" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
+            <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/grundbuchplan/images/logoavdl.svg" pictureHeight="12" mapId="-1">
+                <ComposerItem width="40" x="243" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1257,7 +1273,7 @@
             <ComposerLabel valign="32" labelText="Auszug aus dem Plan für das Grundbuch vom:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="57.7079" x="97" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="57.7079" x="97" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1265,13 +1281,13 @@
             <ComposerLabel valign="32" labelText="Daten der amtlichen Vermessung vom:" halign="1" margin="0">
                 <LabelFont description="CadastraCondensed,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="49.1667" x="227" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                <ComposerItem width="49.1667" x="227" y="22.5" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="0" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" units="0" numSegmentsLeft="0" style="Numeric" unitLabel="asdf" font="CadastraCondensed,7,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0.3" numUnitsPerSegment="0">
-                <ComposerItem width="7.6" x="28" y="22.5" rotation="0" height="3" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
+                <ComposerItem width="7.6" x="28" y="22.5" rotation="0" height="3" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="5.10067" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1306,7 +1322,7 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="272" x="15" y="28" rotation="0" height="358" frame="true" outlineWidth="0.2" zValue="5" lastValidViewScaleFactor="3.68646" id="" positionLock="true">
+                <ComposerItem width="272" x="15" y="28" rotation="0" height="357" frame="true" outlineWidth="0.2" zValue="5" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1314,7 +1330,7 @@
             <ComposerShape shapeType="1" shapeWidth="272" outlineWidth="0" transparentFill="1" shapeHeight="25">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="272" x="15" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="4" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
+                <ComposerItem width="272" x="15" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="6.12081" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1322,23 +1338,7 @@
             <ComposerShape shapeType="1" shapeWidth="272" outlineWidth="0" transparentFill="1" shapeHeight="18">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="272" x="15" y="10" rotation="0" height="18" frame="true" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="114.2" outlineWidth="0" transparentFill="1" shapeHeight="25">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="114.2" x="35.8" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="2" lastValidViewScaleFactor="3.68646" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerShape>
-            <ComposerShape shapeType="1" shapeWidth="84" outlineWidth="0" transparentFill="1" shapeHeight="25">
-                <OutlineColor alpha="255" red="0" blue="0" green="0"/>
-                <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="84" x="150" y="385" rotation="0" height="25" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="3.68646" id="" positionLock="true">
+                <ComposerItem width="272" x="15" y="10" rotation="0" height="18" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -15493,7 +15493,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.HLI</layername>
+            <layername>LI.Hilfslinien</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -21818,7 +21818,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>FI.FP</layername>
+            <layername>FI.Fixpunkt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -22691,7 +22691,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.SDR</layername>
+            <layername>LI.SelbstRecht</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -22986,7 +22986,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PHLI</layername>
+            <layername>LI.projektiertes_SelbstRecht</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -23281,7 +23281,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.HNR.500</layername>
+            <layername>GEB.Hausnummern.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -23456,7 +23456,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.HNR.1000</layername>
+            <layername>GEB.Hausnummern.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -23631,7 +23631,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.HNR.2000</layername>
+            <layername>GEB.Hausnummern.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -23806,7 +23806,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.HNR.5000</layername>
+            <layername>GEB.Hausnummern.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -23981,7 +23981,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.HNR.250</layername>
+            <layername>GEB.Hausnummern.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -24156,7 +24156,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.ONA.5000</layername>
+            <layername>BB.Objektnamen.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -24347,7 +24347,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.ONA.2000</layername>
+            <layername>BB.Objektnamen.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -24538,7 +24538,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.ONA.1000</layername>
+            <layername>BB.Objektnamen.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -24729,7 +24729,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.ONA.500</layername>
+            <layername>BB.Objektnamen.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -24920,7 +24920,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.ONA.250</layername>
+            <layername>BB.Objektnamen.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -26496,7 +26496,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.PG</layername>
+            <layername>BB.projektiert</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -26988,7 +26988,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PHLI</layername>
+            <layername>LI.projektierte_Hilfslinien</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -27240,7 +27240,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.FNA.250</layername>
+            <layername>NO.Flurnamen.1:250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -27434,7 +27434,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.FNA.500</layername>
+            <layername>NO.Flurnamen.1:500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -27628,7 +27628,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.FNA.1000</layername>
+            <layername>NO.Flurnamen.1:1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -27822,7 +27822,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.FNA.2000</layername>
+            <layername>NO.Flurnamen.1:2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28016,7 +28016,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.FNA.5000</layername>
+            <layername>NO.Flurnamen.1:5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28210,7 +28210,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.GNA.250</layername>
+            <layername>NO.Gelaendenamen.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28383,7 +28383,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.GNA.500</layername>
+            <layername>NO.Gelaendenamen.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28556,7 +28556,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.GNA.1000</layername>
+            <layername>NO.Gelaendenamen.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28729,7 +28729,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.GNA.2000</layername>
+            <layername>NO.Gelaendenamen.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -28902,7 +28902,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.GNA.5000</layername>
+            <layername>NO.Gelaendenamen.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -29096,7 +29096,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.250</layername>
+            <layername>NO.Ortsnamen.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -29290,7 +29290,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.500</layername>
+            <layername>NO.Ortsnamen.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -29484,7 +29484,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.1000</layername>
+            <layername>NO.Ortsnamen.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -29678,7 +29678,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.2000</layername>
+            <layername>NO.Ortsnamen.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -29872,7 +29872,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.5000</layername>
+            <layername>NO.Ortsnamen.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -30066,7 +30066,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>NO.ONA.20000</layername>
+            <layername>NO.Ortsnamen.20000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -30260,7 +30260,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.LNA.5000</layername>
+            <layername>GEB.Lokalisationsnamen.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -30450,7 +30450,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.LNA.2000</layername>
+            <layername>GEB.Lokalisationsnamen.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -30640,7 +30640,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.LNA.500</layername>
+            <layername>GEB.Lokalisationsnamen.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -30830,7 +30830,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.LNA.250</layername>
+            <layername>GEB.Lokalisationsnamen.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -31020,7 +31020,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEB.LNA.1000</layername>
+            <layername>GEB.Lokalisationsnamen.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -31210,7 +31210,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEM.GG</layername>
+            <layername>GEM.Gemeindegrenzen</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -31523,7 +31523,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.GP</layername>
+            <layername>LI.Grenzpunkt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -32439,7 +32439,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.NR.250</layername>
+            <layername>LI.Grundstuecksnummer.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -32631,7 +32631,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.NR.500</layername>
+            <layername>LI.Grundstuecksnummer.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -32823,7 +32823,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.NR.1000</layername>
+            <layername>LI.Grundstuecksnummer.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33015,7 +33015,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.NR.2000</layername>
+            <layername>LI.Grundstuecksnummer.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33207,7 +33207,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.NR.5000</layername>
+            <layername>LI.Grundstuecksnummer.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33399,7 +33399,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PRN.250</layername>
+            <layername>LI.projektierte_Grundstuecksnummer.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33591,7 +33591,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PRN.500</layername>
+            <layername>LI.projektierte_Grundstuecksnummer.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33783,7 +33783,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PRN.1000</layername>
+            <layername>LI.projektierte_Grundstuecksnummer.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -33980,7 +33980,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PRN.2000</layername>
+            <layername>LI.projektierte_Grundstuecksnummer.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -34172,7 +34172,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PRN.5000</layername>
+            <layername>LI.projektierte_Grundstuecksnummer.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -34364,7 +34364,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LE</layername>
+            <layername>RO.Linienelement</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -34606,7 +34606,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LO.250</layername>
+            <layername>RO.Leitungsobjekt.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -34796,7 +34796,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LO.500</layername>
+            <layername>RO.Leitungsobjekt.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -34986,7 +34986,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LO.1000</layername>
+            <layername>RO.Leitungsobjekt.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -35176,7 +35176,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LO.2000</layername>
+            <layername>RO.Leitungsobjekt.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -35366,7 +35366,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>RO.LO.5000</layername>
+            <layername>RO.Leitungsobjekt.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -35626,7 +35626,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.LI</layername>
+            <layername>LI.Liegenschaft</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -35870,7 +35870,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LI.PLI</layername>
+            <layername>LI.projektierte_Liegenschaft</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -36114,7 +36114,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.U</layername>
+            <layername>EO.unterirdische_Gebaeude_Reservoir</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -36300,7 +36300,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.FE</layername>
+            <layername>EO.Flaechenelement</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -36794,7 +36794,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.LE</layername>
+            <layername>EO.Linienelement</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -37358,7 +37358,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.ONA.2000</layername>
+            <layername>EO.Objektname.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -37549,7 +37549,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.ONA.1000</layername>
+            <layername>EO.Objektname.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -37740,7 +37740,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.ONA.500</layername>
+            <layername>EO.Objektname.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -37931,7 +37931,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.ONA.250</layername>
+            <layername>EO.Objektname.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -38122,7 +38122,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>EO.PE</layername>
+            <layername>EO.Punktelement</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -38757,7 +38757,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>GEM.HGP</layername>
+            <layername>GEM.Hoheitsgrenzpunkt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -39673,7 +39673,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BE.BGA</layername>
+            <layername>BE.Bezirksgrenzabschnitt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -39969,7 +39969,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>KA.KGA</layername>
+            <layername>KA.Kantonsgrenzabschnitt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -40378,7 +40378,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>LA.LGA</layername>
+            <layername>LA.Landesgrenzabschnitt</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -40724,7 +40724,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.SYM.250</layername>
+            <layername>BB.Symbole.250</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -40959,7 +40959,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.SYM.500</layername>
+            <layername>BB.Symbole.500</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -41194,7 +41194,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.SYM.1000</layername>
+            <layername>BB.Symbole.1000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -41429,7 +41429,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.SYM.2000</layername>
+            <layername>BB.Symbole.2000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -41664,7 +41664,7 @@
             <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>BB.SYM.5000</layername>
+            <layername>BB.Symbole.5000</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>

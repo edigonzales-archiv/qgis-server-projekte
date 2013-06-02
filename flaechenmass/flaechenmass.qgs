@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>592911.100299</xmin>
-            <ymin>213813.761100</ymin>
-            <xmax>647396.608701</xmax>
-            <ymax>262065.414900</ymax>
+            <xmin>613562.158952</xmin>
+            <ymin>248110.303427</ymin>
+            <xmax>613585.207253</xmax>
+            <ymax>248130.387997</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -27,10 +27,20 @@
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Flaechenmass">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Berechnung_2013-05-24" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="flaechenmass_2013_05_2420130525182002953" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2013_05_24_Kopie20130531125235538" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berechnung_2013-05-20" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="Berechnung_2013_05_20_Kopie20130531125301363" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2013-05-24" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="flaechenmass_2013_05_2420130525182002953" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berechnung 2013-05-20" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="flaechenmass_2013_05_2020130524152716389" visible="0"/>
                 </filegroup>
@@ -88,18 +98,18 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
             <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, Email: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
                 <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -110,50 +120,10 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,75,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Amtliche Vermessung" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="35.7058" x="17" y="23" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Aus den Daten können keine rechtlichen Ansprüche, &#xa;insbesondere auch keine Haftung des Kantons abgeleitet werden." halign="1" margin="0">
+            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -166,10 +136,50 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
+            <ComposerLabel valign="32" labelText="Aus den Daten können keine rechtlichen Ansprüche, &#xa;insbesondere auch keine Haftung des Kantons abgeleitet werden." halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Amtliche Vermessung" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="35.7058" x="17" y="23" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,75,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -249,18 +259,18 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, Email: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
-                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
             <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
                 <ComposerItem width="4" x="11" y="312.5" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="3.0604" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, Email: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -271,50 +281,10 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
-            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
+            <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="23.0506" x="105" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Aus den Daten können keine rechtlichen Ansprüche, &#xa;insbesondere auch keine Haftung des Kantons abgeleitet werden." halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -327,10 +297,50 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,7,-1,5,75,1,0,0,0,0"/>
+            <ComposerLabel valign="32" labelText="Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Aus den Daten können keine rechtlichen Ansprüche, &#xa;insbesondere auch keine Haftung des Kantons abgeleitet werden." halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="23.0506" x="105" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -386,7 +396,199 @@
             </ComposerShape>
         </Composition>
     </Composer>
-    <projectlayers layercount="7">
+    <projectlayers layercount="9">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>2013_05_24_Kopie20130531125235538</id>
+            <datasource>./data/flaechenmass_2013-05-24.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Berechnung_2013-05-24</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;differenz&quot; > 1 OR  &quot;differenz&quot; &lt; -1" symbol="0" label="> 1 m2"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; > 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt; -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="1" label="= 1 m2 (diff > 0.6)"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt;= 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; >= -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="2" label="= 1 m2 (diff &lt; 0.6)"/>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="232,87,90,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="241,170,104,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="247,224,144,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="'GB-Nr. '  ||  &quot;nummer&quot;  || '|'  || 'NBIdent: ' ||  &quot;nbident&quot;  || '|' || 'techn. Fläche: ' ||  round(&quot;flaeche&quot;,3) || ' m2|' || 'techn. Fläche (gerundet): ' ||  &quot;flaeche_ge&quot; || ' m2|' || 'Flächenmass: ' ||  &quot;flaechenma&quot; || ' m2|' || 'Differenz: ' ||  &quot;differenz&quot; || 'm2'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="3000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value="|"/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <editorlayout>generatedlayout</editorlayout>
+            <displayfield>nbident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="datum"/>
+                <edittype type="0" name="differenz"/>
+                <edittype type="0" name="flaeche"/>
+                <edittype type="0" name="flaeche_ge"/>
+                <edittype type="0" name="flaechenma"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="lieferdatu"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="nbident"/>
+                <edittype type="0" name="nummer"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>AVWMS_sw20130524151757805</id>
             <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/jpeg&amp;layers=AVWMS_sw&amp;styles=&amp;url=http://www.sogis1.so.ch/wms/avwms</datasource>
@@ -412,6 +614,198 @@
                 <rasterTransparency/>
             </rasterrenderer>
             <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>Berechnung_2013_05_20_Kopie20130531125301363</id>
+            <datasource>./data/flaechenmass_2013-05-20.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Berechnung_2013-05-20</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;differenz&quot; > 1 OR  &quot;differenz&quot; &lt; -1" symbol="0" label="> 1 m2"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; > 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt; -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="1" label="= 1 m2 (diff > 0.6)"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt;= 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; >= -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="2" label="= 1 m2 (diff &lt; 0.6)"/>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="232,87,90,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="241,170,104,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="247,224,144,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="'GB-Nr. '  ||  &quot;nummer&quot;  || '|'  || 'NBIdent: ' ||  &quot;nbident&quot;  || '|' || 'techn. Fläche: ' ||  round(&quot;flaeche&quot;,3) || ' m2|' || 'techn. Fläche (gerundet): ' ||  &quot;flaeche_ge&quot; || ' m2|' || 'Flächenmass: ' ||  &quot;flaechenma&quot; || ' m2|' || 'Differenz: ' ||  &quot;differenz&quot; || 'm2'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="3000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value="|"/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <editorlayout>generatedlayout</editorlayout>
+            <displayfield>nbident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="datum"/>
+                <edittype type="0" name="differenz"/>
+                <edittype type="0" name="flaeche"/>
+                <edittype type="0" name="flaeche_ge"/>
+                <edittype type="0" name="flaechenma"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="lieferdatu"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="nbident"/>
+                <edittype type="0" name="nummer"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Ortho_SO20130524151526054</id>
@@ -522,7 +916,7 @@
             <datasource>./data/flaechenmass_2013-05-20.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Berechnung_2013-05-20</layername>
+            <layername>Berechnung 2013-05-20</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -714,7 +1108,7 @@
             <datasource>./data/flaechenmass_2013-05-24.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Berechnung_2013-05-24</layername>
+            <layername>2013-05-24</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
