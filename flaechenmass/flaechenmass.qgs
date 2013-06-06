@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>613562.158952</xmin>
-            <ymin>248110.303427</ymin>
-            <xmax>613585.207253</xmax>
-            <ymax>248130.387997</ymax>
+            <xmin>590309.993434</xmin>
+            <ymin>212183.909459</ymin>
+            <xmax>647159.635038</xmax>
+            <ymax>262541.205463</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,25 +24,41 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Flaechenmass">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Berechnung_2013-05-24" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Liegenschaft">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LS_2013-06-05" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="2013_05_24_Kopie20130531125235538" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="flaechenmass_ls_2013_06_0520130605114329969" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berechnung_2013-05-20" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LS_2013-05-24" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="2013_05_24_Kopie20130531125235538" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LS_2013-05-20" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Berechnung_2013_05_20_Kopie20130531125301363" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="2013-05-24" showFeatureCount="0">
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="SelbstRecht">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="SDR_2013-06-05" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="flaechenmass_2013_05_2420130525182002953" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="flaechenmass_sdr_2013_06_0520130605114330058" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Berechnung 2013-05-20" showFeatureCount="0">
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Proj. Liegenschaft">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PLS_2013-06-05" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="flaechenmass_2013_05_2020130524152716389" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="flaechenmass_ls_proj_2013_06_0520130605114330036" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Proj. SelbstRecht">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="PSDR_2013-06-05" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="flaechenmass_sdr_proj_2013_06_0520130605114330069" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -396,13 +412,13 @@
             </ComposerShape>
         </Composition>
     </Composer>
-    <projectlayers layercount="9">
+    <projectlayers layercount="11">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>2013_05_24_Kopie20130531125235538</id>
             <datasource>./data/flaechenmass_2013-05-24.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Berechnung_2013-05-24</layername>
+            <layername>LS_2013-05-24</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -620,7 +636,7 @@
             <datasource>./data/flaechenmass_2013-05-20.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Berechnung_2013-05-20</layername>
+            <layername>LS_2013-05-20</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -912,11 +928,11 @@
             <rasterresampler maxOversampling="2"/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>flaechenmass_2013_05_2020130524152716389</id>
-            <datasource>./data/flaechenmass_2013-05-20.shp</datasource>
+            <id>flaechenmass_ls_2013_06_0520130605114329969</id>
+            <datasource>./data/flaechenmass_ls_2013-06-05.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Berechnung 2013-05-20</layername>
+            <layername>LS_2013-06-05</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
@@ -1104,11 +1120,395 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>flaechenmass_2013_05_2420130525182002953</id>
-            <datasource>./data/flaechenmass_2013-05-24.shp</datasource>
+            <id>flaechenmass_ls_proj_2013_06_0520130605114330036</id>
+            <datasource>./data/flaechenmass_ls_proj_2013-06-05.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>2013-05-24</layername>
+            <layername>PLS_2013-06-05</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;differenz&quot; > 1 OR  &quot;differenz&quot; &lt; -1" symbol="0" label="> 1 m2"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; > 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt; -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="1" label="= 1 m2 (diff > 0.6)"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt;= 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; >= -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="2" label="= 1 m2 (diff &lt; 0.6)"/>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="232,87,90,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="241,170,104,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="247,224,144,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="'GB-Nr. '  ||  &quot;nummer&quot;  || '|'  || 'NBIdent: ' ||  &quot;nbident&quot;  || '|' || 'techn. Fläche: ' ||  round(&quot;flaeche&quot;,3) || ' m2|' || 'techn. Fläche (gerundet): ' ||  &quot;flaeche_ge&quot; || ' m2|' || 'Flächenmass: ' ||  &quot;flaechenma&quot; || ' m2|' || 'Differenz: ' ||  &quot;differenz&quot; || 'm2'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="3000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value="|"/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <editorlayout>generatedlayout</editorlayout>
+            <displayfield>nbident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="datum"/>
+                <edittype type="0" name="differenz"/>
+                <edittype type="0" name="flaeche"/>
+                <edittype type="0" name="flaeche_ge"/>
+                <edittype type="0" name="flaechenma"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="lieferdatu"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="nbident"/>
+                <edittype type="0" name="nummer"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>flaechenmass_sdr_2013_06_0520130605114330058</id>
+            <datasource>./data/flaechenmass_sdr_2013-06-05.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>SDR_2013-06-05</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;differenz&quot; > 1 OR  &quot;differenz&quot; &lt; -1" symbol="0" label="> 1 m2"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; > 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt; -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="1" label="= 1 m2 (diff > 0.6)"/>
+                    <rule filter="(&quot;differenz&quot; = 1 OR &quot;differenz&quot; = -1) AND ( (&quot;flaechenma&quot; - &quot;flaeche&quot; &lt;= 0.6 AND &quot;flaechenma&quot; > &quot;flaeche&quot;) OR (&quot;flaechenma&quot; - &quot;flaeche&quot; >= -0.6 AND &quot;flaechenma&quot; &lt; &quot;flaeche&quot;) )" symbol="2" label="= 1 m2 (diff &lt; 0.6)"/>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="232,87,90,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="241,170,104,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.666667" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="247,224,144,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="'GB-Nr. '  ||  &quot;nummer&quot;  || '|'  || 'NBIdent: ' ||  &quot;nbident&quot;  || '|' || 'techn. Fläche: ' ||  round(&quot;flaeche&quot;,3) || ' m2|' || 'techn. Fläche (gerundet): ' ||  &quot;flaeche_ge&quot; || ' m2|' || 'Flächenmass: ' ||  &quot;flaechenma&quot; || ' m2|' || 'Differenz: ' ||  &quot;differenz&quot; || 'm2'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="1"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="3000"/>
+                <property key="labeling/scaleMin" value="1"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value="|"/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <editorlayout>generatedlayout</editorlayout>
+            <displayfield>nbident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="datum"/>
+                <edittype type="0" name="differenz"/>
+                <edittype type="0" name="flaeche"/>
+                <edittype type="0" name="flaeche_ge"/>
+                <edittype type="0" name="flaechenma"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="lieferdatu"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="nbident"/>
+                <edittype type="0" name="nummer"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>flaechenmass_sdr_proj_2013_06_0520130605114330069</id>
+            <datasource>./data/flaechenmass_sdr_proj_2013-06-05.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>PSDR_2013-06-05</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
