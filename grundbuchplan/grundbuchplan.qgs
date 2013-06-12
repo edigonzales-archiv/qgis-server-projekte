@@ -1348,7 +1348,7 @@
     <projectlayers layercount="158">
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Linien_copy20130228153715664</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fLinien</layername>
@@ -1803,7 +1803,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Objektnamen_1000_copy20130228155457554</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fSYM.1000</layername>
@@ -1994,7 +1994,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Objektnamen_2000_copy20130228155457637</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fSYM.2000</layername>
@@ -2185,7 +2185,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Objektnamen_250_copy20130228155457350</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fSYM.250</layername>
@@ -2376,7 +2376,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Objektnamen_5000_copy20130228155457727</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fSYM.5000</layername>
@@ -2567,7 +2567,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Objektnamen_500_copy20130228155457468</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fSYM.500</layername>
@@ -2758,7 +2758,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Raster_copy20130228153720583</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art" IN ('Gebaeude', 'Reben', 'Hoch_Flachmoor', 'Schilfguertel', 'geschlossener_Wald', 'Fels', 'uebrige_bestockte', 'Geroell_Sand', 'uebrige_befestigte', 'Trottoir', 'Flugplatz', 'Strasse_Weg', 'Wasserbecken', 'stehendes', 'fliessendes')</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art" IN ('Gebaeude', 'Reben', 'Hoch_Flachmoor', 'Schilfguertel', 'geschlossener_Wald', 'Fels', 'uebrige_bestockte', 'Geroell_Sand', 'uebrige_befestigte', 'Trottoir', 'Flugplatz', 'Strasse_Weg', 'Wasserbecken', 'stehendes', 'fliessendes')</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fRaster</layername>
@@ -3674,7 +3674,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Symbole_1000_copy20130228153952764</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fONA.1000</layername>
@@ -3909,7 +3909,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Symbole_2000_copy20130228153953383</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fONA.2000</layername>
@@ -4144,7 +4144,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Symbole_250_copy20130228153951345</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fONA.250</layername>
@@ -4379,7 +4379,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Symbole_5000_copy20130228153953995</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fONA.5000</layername>
@@ -4614,7 +4614,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Symbole_500_copy20130228153952134</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fONA.500</layername>
@@ -4849,7 +4849,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>BB_projektiert_copy20130228160058843</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.fPG</layername>
@@ -5089,7 +5089,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="20000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BE_Bezirksgrenzabschnitt_copy20130228170744442</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BE.fBGA</layername>
@@ -5385,7 +5385,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Flaechenelement_copy20130228162319371</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fFE</layername>
@@ -5879,7 +5879,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Linienelement_copy20130228162319285</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fLE</layername>
@@ -6443,7 +6443,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Objektname_1000_copy20130228162608083</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fONA.1000</layername>
@@ -6634,7 +6634,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Objektname_2000_copy20130228162608168</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fONA.2000</layername>
@@ -6825,7 +6825,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Objektname_250_copy20130228162607879</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fONA.250</layername>
@@ -7016,7 +7016,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Objektname_500_copy20130228162607992</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fONA.500</layername>
@@ -7207,7 +7207,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_Punktelement_copy20130228162319100</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fPE</layername>
@@ -7842,7 +7842,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>EO_unterirdische_Gebaeude_Reservoir_copy20130228153601292</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.fU</layername>
@@ -8120,7 +8120,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>FI_Fixpunkte_copy20130228171319036</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>FI.fFP</layername>
@@ -8993,7 +8993,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Hausnummern_1000_copy20130228163615308</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fHNR.1000</layername>
@@ -9168,7 +9168,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Hausnummern_2000_copy20130228163615396</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fHNR.2000</layername>
@@ -9343,7 +9343,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Hausnummern_250_copy20130228163615125</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fHNR.250</layername>
@@ -9539,7 +9539,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Hausnummern_5000_copy20130228163615479</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fHNR.5000</layername>
@@ -9714,7 +9714,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Hausnummern_500_copy20130228163615222</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fHNR.500</layername>
@@ -9889,7 +9889,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Lokalisationsnamen_1000_copy20130228163211044</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fLNA.1000</layername>
@@ -10079,7 +10079,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Lokalisationsnamen_2000_copy20130228163211112</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fLNA.2000</layername>
@@ -10269,7 +10269,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Lokalisationsnamen_250_copy20130228163210892</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fLNA.250</layername>
@@ -10459,7 +10459,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Lokalisationsnamen_5000_copy20130228163211192</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fLNA.5000</layername>
@@ -10649,7 +10649,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEB_Lokalisationsnamen_500_copy20130228163210979</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.fLNA.500</layername>
@@ -10839,7 +10839,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+06" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEM_Gemeindegrenzen_copy20130228170550371</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEM.fGG</layername>
@@ -11152,7 +11152,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>GEM_Hoheitsgrenzpunkt_copy20130228171234081</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEM.fHGP</layername>
@@ -12068,7 +12068,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>KA_Kantonsgrenzabschnitt_copy20130228170854612</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>KA.fKGA</layername>
@@ -12477,7 +12477,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+06" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LA_Landesgrenzabschnitt_copy20130228170959192</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LA.fLGA</layername>
@@ -12823,7 +12823,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grenzpunkt_copy20130228171046032</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fGP</layername>
@@ -13739,7 +13739,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grundstuecksnummer_1000_copy20130228165403996</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fNR.1000</layername>
@@ -13931,7 +13931,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grundstuecksnummer_2000_copy20130228165404073</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fNR.2000</layername>
@@ -14123,7 +14123,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grundstuecksnummer_250_copy20130228165403814</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fNR.250</layername>
@@ -14315,7 +14315,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grundstuecksnummer_5000_copy20130228165404150</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fNR.5000</layername>
@@ -14507,7 +14507,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Grundstuecksnummer_500_copy20130228165403917</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fNR.500</layername>
@@ -14699,7 +14699,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>LI_Hilfslinien_copy20130228170213484</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPHLI</layername>
@@ -14951,7 +14951,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Liegenschaft_copy20130228170213646</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fLI</layername>
@@ -15195,7 +15195,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_SelbstRecht_copy20130228170213749</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fSDR</layername>
@@ -15490,7 +15490,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>LI_farbig_Hilfslinien_Kopie20130530173248449</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.HLI</layername>
@@ -15742,7 +15742,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Grundstuecksnummer_1000_copy20130228165746520</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPNR.1000</layername>
@@ -15939,7 +15939,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Grundstuecksnummer_2000_copy20130228165746626</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPNR.2000</layername>
@@ -16131,7 +16131,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Grundstuecksnummer_250_copy20130228165746298</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPNR.250</layername>
@@ -16323,7 +16323,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Grundstuecksnummer_5000_copy20130228165746728</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPNR.5000</layername>
@@ -16515,7 +16515,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Grundstuecksnummer_500_copy20130228165746414</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPNR.500</layername>
@@ -16707,7 +16707,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektierte_Liegenschaft_copy20130228170213855</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPLI</layername>
@@ -16951,7 +16951,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_projektiertes_SelbstRecht_copy20130228170213927</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fPSDR</layername>
@@ -17246,7 +17246,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Flurnamen_1_1000_copy20130228164020719</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fFNA.1000</layername>
@@ -17440,7 +17440,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Flurnamen_1_2000_copy20130228164020832</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fFNA.2000</layername>
@@ -17634,7 +17634,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Flurnamen_1_250_copy20130228164020480</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fFNA.250</layername>
@@ -17828,7 +17828,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Flurnamen_1_5000_copy20130228164020920</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fFNA.5000</layername>
@@ -18022,7 +18022,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Flurnamen_1_500_copy20130228164020612</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fFNA.500</layername>
@@ -18216,7 +18216,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Gelaendenamen_1000_copy20130228164409727</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fGNA.1000</layername>
@@ -18389,7 +18389,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Gelaendenamen_2000_copy20130228164409817</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fGNA.5000</layername>
@@ -18562,7 +18562,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Gelaendenamen_250_copy20130228164409564</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fGNA.250</layername>
@@ -18735,7 +18735,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Gelaendenamen_5000_copy20130228164409909</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fGNA.2000</layername>
@@ -18929,7 +18929,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Gelaendenamen_500_copy20130228164409644</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fGNA.500</layername>
@@ -19102,7 +19102,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_1000_copy20130228164909610</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.1000</layername>
@@ -19296,7 +19296,7 @@
         </maplayer>
         <maplayer minimumScale="6000" maximumScale="25000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_20000_copy20130228164909864</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.20000</layername>
@@ -19490,7 +19490,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_2000_copy20130228164909691</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.2000</layername>
@@ -19684,7 +19684,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_250_copy20130228164909438</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.250</layername>
@@ -19878,7 +19878,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_5000_copy20130228164909775</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.5000</layername>
@@ -20072,7 +20072,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>NO_Ortsnamen_500_copy20130228164909520</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.fONA.500</layername>
@@ -20292,7 +20292,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Leitungsobjekt_1000_copy20130228162847815</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLO.1000</layername>
@@ -20482,7 +20482,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Leitungsobjekt_2000_copy20130228162847888</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLO.2000</layername>
@@ -20672,7 +20672,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Leitungsobjekt_250_copy20130228162847655</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLO.250</layername>
@@ -20862,7 +20862,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Leitungsobjekt_5000_copy20130228162847954</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLO.5000</layername>
@@ -21054,7 +21054,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Leitungsobjekt_500_copy20130228162847738</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLO.500</layername>
@@ -21244,7 +21244,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>RO_Linienelement_copy20130228163037173</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.fLE</layername>
@@ -21512,7 +21512,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>baulinien_abstandslinie_v20130429174406781</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_baulinien"."baulinien_abstandslinie_v" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_baulinien"."baulinien_abstandslinie_v" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Baulinie</layername>
@@ -21815,7 +21815,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>cppt20130228152904216</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>FI.FP</layername>
@@ -22688,7 +22688,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>dprsf20130228151954680</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.SDR</layername>
@@ -22983,7 +22983,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>dprsfproj20130228151955926</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."dprsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PSDR</layername>
@@ -23278,7 +23278,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>hadr20130227162428842</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.HNR.500</layername>
@@ -23453,7 +23453,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>hadr20130227162430490</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.HNR.1000</layername>
@@ -23628,7 +23628,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>hadr20130227162432138</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.HNR.2000</layername>
@@ -23803,7 +23803,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>hadr20130227162433815</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.HNR.5000</layername>
@@ -23978,7 +23978,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>hadr20130227162435396</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.HNR.250</layername>
@@ -24153,7 +24153,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcobj20130226091204762</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.ONA.5000</layername>
@@ -24344,7 +24344,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcobj20130226091206028</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.ONA.2000</layername>
@@ -24535,7 +24535,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcobj20130226091207237</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.ONA.1000</layername>
@@ -24726,7 +24726,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcobj20130226091208595</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.ONA.500</layername>
@@ -24917,7 +24917,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcobj20130226091209680</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lcobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.ONA.250</layername>
@@ -25108,7 +25108,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="20000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcsf20130226090746975</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art" IN ('Gebaeude', 'Reben', 'Hoch_Flachmoor', 'Schilfguertel', 'geschlossener_Wald', 'Fels', 'uebrige_bestockte', 'Geroell_Sand')</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art" IN ('Gebaeude', 'Reben', 'Hoch_Flachmoor', 'Schilfguertel', 'geschlossener_Wald', 'Fels', 'uebrige_bestockte', 'Geroell_Sand')</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.Raster</layername>
@@ -26038,7 +26038,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="20000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcsf20130226090750047</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.Linien</layername>
@@ -26493,7 +26493,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lcsfproj20130228160021539</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.PG</layername>
@@ -26733,7 +26733,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>liegenschaften_grundstueckpos20130530173048335</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.fHLI</layername>
@@ -26985,7 +26985,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="5000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>liegenschaften_projgrundstueckpos20130228151755234</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_dm01avso24"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PHLI</layername>
@@ -27237,7 +27237,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130227164054701</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.FNA.250</layername>
@@ -27431,7 +27431,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130227164055847</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.FNA.500</layername>
@@ -27625,7 +27625,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130227164056980</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.FNA.1000</layername>
@@ -27819,7 +27819,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130227164058041</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.FNA.2000</layername>
@@ -28013,7 +28013,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130227164059082</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Flurname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.FNA.5000</layername>
@@ -28207,7 +28207,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228143415108</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.GNA.250</layername>
@@ -28380,7 +28380,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228143417669</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.GNA.500</layername>
@@ -28553,7 +28553,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228143419657</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.GNA.1000</layername>
@@ -28726,7 +28726,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228143421763</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.GNA.2000</layername>
@@ -28899,7 +28899,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228143424330</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" = 'Gelaendename'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.GNA.5000</layername>
@@ -29093,7 +29093,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144905688</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.250</layername>
@@ -29287,7 +29287,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144907154</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.500</layername>
@@ -29481,7 +29481,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144908500</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.1000</layername>
@@ -29675,7 +29675,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144909928</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.2000</layername>
@@ -29869,7 +29869,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144911296</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.5000</layername>
@@ -30063,7 +30063,7 @@
         </maplayer>
         <maplayer minimumScale="6000" maximumScale="25000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lnna20130228144912724</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql="kategorie" =  'Ortsname'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>NO.ONA.20000</layername>
@@ -30257,7 +30257,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>locpos20130227162428464</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.LNA.5000</layername>
@@ -30447,7 +30447,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>locpos20130227162430148</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.LNA.2000</layername>
@@ -30637,7 +30637,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>locpos20130227162431800</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.LNA.500</layername>
@@ -30827,7 +30827,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>locpos20130227162433488</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.LNA.250</layername>
@@ -31017,7 +31017,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>locpos20130227162435044</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEB.LNA.1000</layername>
@@ -31207,7 +31207,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>mbsf20130226090653083</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEM.GG</layername>
@@ -31520,7 +31520,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osbp20130228152854360</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.GP</layername>
@@ -32436,7 +32436,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnr20130228145843533</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.NR.250</layername>
@@ -32628,7 +32628,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnr20130228145844823</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.NR.500</layername>
@@ -32820,7 +32820,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnr20130228145846083</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.NR.1000</layername>
@@ -33012,7 +33012,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnr20130228145847281</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.NR.2000</layername>
@@ -33204,7 +33204,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnr20130228145848581</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.NR.5000</layername>
@@ -33396,7 +33396,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnrproj20130228150801772</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PRN.250</layername>
@@ -33588,7 +33588,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnrproj20130228150802909</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PRN.500</layername>
@@ -33780,7 +33780,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnrproj20130228150803939</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PRN.1000</layername>
@@ -33977,7 +33977,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnrproj20130228150805161</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PRN.2000</layername>
@@ -34169,7 +34169,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osnrproj20130228150807471</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnrproj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PRN.5000</layername>
@@ -34361,7 +34361,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plli20130227161401194</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."plli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LE</layername>
@@ -34603,7 +34603,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plna20130227161355785</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LO.250</layername>
@@ -34793,7 +34793,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plna20130227161356915</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LO.500</layername>
@@ -34983,7 +34983,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plna20130227161357992</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LO.1000</layername>
@@ -35173,7 +35173,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plna20130227161359171</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LO.2000</layername>
@@ -35363,7 +35363,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>plna20130227161400195</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>RO.LO.5000</layername>
@@ -35555,7 +35555,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>qgis_printcomposer_info_v20130526155343449</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_nfgeometer"."qgis_printcomposer_info_v" (wkb_geometry) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_nfgeometer"."qgis_printcomposer_info_v" (wkb_geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>print</layername>
@@ -35623,7 +35623,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>resf20130228151945508</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resf" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.LI</layername>
@@ -35867,7 +35867,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>resfproj20130228151944033</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."resfproj" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LI.PLI</layername>
@@ -36111,7 +36111,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="5000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>sofs20130226090604357</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql="art" = 'unterirdisches_Gebaeude' OR "art" = 'Reservoir'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.U</layername>
@@ -36297,7 +36297,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>sofs20130227160735560</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."sofs" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.FE</layername>
@@ -36791,7 +36791,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>soli20130227160737607</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."soli" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.LE</layername>
@@ -37355,7 +37355,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>soobj20130227160744450</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.ONA.2000</layername>
@@ -37546,7 +37546,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>soobj20130227160747866</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.ONA.1000</layername>
@@ -37737,7 +37737,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>soobj20130227160749068</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.ONA.500</layername>
@@ -37928,7 +37928,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>soobj20130227160750297</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.ONA.250</layername>
@@ -38119,7 +38119,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>sopt20130227160739302</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."sopt" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>EO.PE</layername>
@@ -38754,7 +38754,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>tbbp20130228152858052</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."tbbp" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>GEM.HGP</layername>
@@ -39670,7 +39670,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>tbli20130228152536122</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Bezirksgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BE.BGA</layername>
@@ -39966,7 +39966,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+06" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>tbli20130228152546959</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Kantonsgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>KA.KGA</layername>
@@ -40375,7 +40375,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+06" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>tbli20130228152553716</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avwmsde_t"."tbli" (geometrie) sql="typ" = 'Landesgrenzen'</datasource>
             <title></title>
             <abstract></abstract>
             <layername>LA.LGA</layername>
@@ -40721,7 +40721,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="300" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>v_bodenbedeckung_boflaechesymbol20130226091240417</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.SYM.250</layername>
@@ -40956,7 +40956,7 @@
         </maplayer>
         <maplayer minimumScale="300" maximumScale="750" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>v_bodenbedeckung_boflaechesymbol20130226091244883</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.SYM.500</layername>
@@ -41191,7 +41191,7 @@
         </maplayer>
         <maplayer minimumScale="750" maximumScale="1250" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>v_bodenbedeckung_boflaechesymbol20130226091246370</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.SYM.1000</layername>
@@ -41426,7 +41426,7 @@
         </maplayer>
         <maplayer minimumScale="1250" maximumScale="3000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>v_bodenbedeckung_boflaechesymbol20130226091247717</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.SYM.2000</layername>
@@ -41661,7 +41661,7 @@
         </maplayer>
         <maplayer minimumScale="3000" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>v_bodenbedeckung_boflaechesymbol20130226091249212</id>
-            <datasource>dbname='rosebud' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_pfdgb"."v_bodenbedeckung_boflaechesymbol" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BB.SYM.5000</layername>
