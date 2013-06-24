@@ -5,9 +5,9 @@
         <units>meters</units>
         <extent>
             <xmin>632910.918134</xmin>
-            <ymin>242516.978688</ymin>
+            <ymin>242184.346186</ymin>
             <xmax>636112.376471</xmax>
-            <ymax>244875.077649</ymax>
+            <ymax>245207.710151</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -32,56 +32,56 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)">
-            <legendgroup open="false" checked="Qt::Unchecked" name="FI">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Fixpunkte">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="FI.FP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="cppt20130228152904216" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="GEM.Hoheitsgrenzpunkte">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Hoheitsgrenzpunkte">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.HGP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbbp20130228152858052" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="LI.Grenzpunkte">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Grenzpunkte">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.GP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="osbp20130228152854360" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="LA">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Landesgrenzabschnitt">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LA.LGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152553716" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="KA">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Kantonsgrenzabschnitt">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="KA.KGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152546959" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="BE">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Bezirksgrenzabschnitt">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BE.BGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="tbli20130228152536122" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="GEM">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Gemeindegrenze">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEM.GG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="mbsf20130226090653083" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="LI">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Liegenschaften">
                 <legendgroup open="false" checked="Qt::Unchecked" name="LI.Grundstuecksnummer">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LI.NR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -167,7 +167,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="NO">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Nomenklatur">
                 <legendgroup open="false" checked="Qt::Unchecked" name="NO.Ortsnamen">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="NO.ONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -255,7 +255,7 @@
                     </legendlayer>
                 </legendgroup>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="GEB">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Gebäudeadressen">
                 <legendgroup open="false" checked="Qt::Unchecked" name="GEB.Hausnummern">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.HNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -311,7 +311,7 @@
                     </legendlayer>
                 </legendgroup>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="RO">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Rohrleitungen">
                 <legendgroup open="false" checked="Qt::Unchecked" name="RO.Leitungsobjekt">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RO.LO.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -345,7 +345,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="EO">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Einzelobjekte">
                 <legendgroup open="true" checked="Qt::Unchecked" name="EO.Objektname">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="EO.ONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -384,14 +384,14 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="BB.projektierte_Gebäude">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Projektierte Gebäude">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.PG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="lcsfproj20130228160021539" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="BB">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Bodenbedeckung">
                 <legendgroup open="false" checked="Qt::Unchecked" name="BB.Symbole">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="BB.SYM.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -457,7 +457,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="EO.unterirdisch">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Unterirdische Einzelobjekte">
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="EO.U" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="sofs20130226090604357" visible="0"/>
@@ -466,56 +466,56 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung (farbig)">
-            <legendgroup open="false" checked="Qt::Checked" name="FI.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Fixpunkte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.fFP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="FI_Fixpunkte_copy20130228171319036" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="GEM.farbig.Hoheitsgrenzpunkte">
+            <legendgroup open="false" checked="Qt::Checked" name="Hoheitsgrenzpunkte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.fHGP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="GEM_Hoheitsgrenzpunkt_copy20130228171234081" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="LI.farbig.Grenzpunkte">
+            <legendgroup open="false" checked="Qt::Checked" name="Grenzpunkte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.fGP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LI_Grenzpunkt_copy20130228171046032" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="LA.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Landesgrenzabschnitt (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LA.fLGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="LA_Landesgrenzabschnitt_copy20130228170959192" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="KA.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Kantonsgrenzabschnitt (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="KA.fKGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="KA_Kantonsgrenzabschnitt_copy20130228170854612" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="BE.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Bezirksgrenzabschnitt (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BE.fBGA" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BE_Bezirksgrenzabschnitt_copy20130228170744442" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="GEM.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Gemeindegrenze (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEM.fGG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="GEM_Gemeindegrenzen_copy20130228170550371" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="LI.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Liegenschaften (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="LI.farbig.Grundstuecksnummer">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.fNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -601,7 +601,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="NO.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Homenklatur (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="NO.farbig.Ortsnamen">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NO.fONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -689,7 +689,7 @@
                     </legendlayer>
                 </legendgroup>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="GEB.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Gebäudeadressen (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="GEB.farbig.Hausnummern">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.fHNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -745,7 +745,7 @@
                     </legendlayer>
                 </legendgroup>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="RO.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Rohrleitungen (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="RO.farbig.Leitungsobjekt">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="RO.fLO.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -779,7 +779,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="EO.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Einzelobjekte (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="EO.farbig.Objektname">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.fONA.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -818,14 +818,14 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="BB.farbig.projektierte_Gebäude">
+            <legendgroup open="false" checked="Qt::Checked" name="Projektierte Gebäude (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.fPG" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="BB_projektiert_copy20130228160058843" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="BB.farbig">
+            <legendgroup open="false" checked="Qt::Checked" name="Bodenbedeckung (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="BB.farbig.Objektnamen">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BB.fSYM.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -891,7 +891,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="EO.farbig.unterirdisch">
+            <legendgroup open="false" checked="Qt::Checked" name="Unterirdische Einzelobjekte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EO.fU" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="EO_unterirdische_Gebaeude_Reservoir_copy20130228153601292" visible="1"/>
