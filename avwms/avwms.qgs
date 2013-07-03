@@ -4,15 +4,15 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>589966.070217</xmin>
+            <xmin>585934.654333</xmin>
             <ymin>212512.317969</ymin>
-            <xmax>647353.367283</xmax>
+            <xmax>651384.783167</xmax>
             <ymax>262520.307031</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                 <srsid>1919</srsid>
                 <srid>21781</srid>
                 <authid>EPSG:21781</authid>
@@ -24,7 +24,7 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="true" checked="Qt::Checked" name="AVWMS_farbig">
+        <legendgroup open="false" checked="Qt::Checked" name="AVWMS_farbig">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="tbbp_farbig" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="tbbp20120205191521533" visible="1"/>
@@ -418,7 +418,7 @@
             <layername>CPPT</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -557,7 +557,7 @@
             <layername>cppt_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -696,7 +696,7 @@
             <layername>cppt_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -835,7 +835,7 @@
             <layername>DPRSF</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -925,7 +925,7 @@
             <layername>dprsf_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1015,7 +1015,7 @@
             <layername>dprsf_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1105,7 +1105,7 @@
             <layername>DPRSFPROJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1185,7 +1185,7 @@
             <layername>dprsfproj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1265,7 +1265,7 @@
             <layername>dprsfproj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1345,7 +1345,7 @@
             <layername>HADR</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1524,7 +1524,7 @@
             <layername>hadr_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1703,7 +1703,7 @@
             <layername>hadr_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -1882,7 +1882,7 @@
             <layername>LCOBJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -2055,7 +2055,7 @@
             <layername>lcobj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -2228,7 +2228,7 @@
             <layername>lcobj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -2401,7 +2401,7 @@
             <layername>LCSF</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -2618,7 +2618,7 @@
             <layername>LCSFC</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -2975,7 +2975,7 @@
             <layername>lcsf_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3332,7 +3332,7 @@
             <layername>lcsf_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3549,7 +3549,7 @@
             <layername>LCSFPROJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3636,7 +3636,7 @@
             <layername>lcsfproj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3723,7 +3723,7 @@
             <layername>lcsfproj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3810,7 +3810,7 @@
             <layername>LNNA</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -3947,7 +3947,7 @@
             <layername>lnna_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4079,7 +4079,7 @@
             <layername>lnna_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4211,7 +4211,7 @@
             <layername>LOCPOS</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4383,7 +4383,7 @@
             <layername>locpos_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4555,7 +4555,7 @@
             <layername>locpos_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4727,7 +4727,7 @@
             <layername>MBSF</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4802,7 +4802,7 @@
             <layername>mbsf_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4877,7 +4877,7 @@
             <layername>mbsf_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -4952,7 +4952,7 @@
             <layername>OSBP</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5100,7 +5100,7 @@
             <layername>osbp_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5248,7 +5248,7 @@
             <layername>osbp_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5396,7 +5396,7 @@
             <layername>OSNR</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5570,7 +5570,7 @@
             <layername>osnr_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5744,7 +5744,7 @@
             <layername>osnr_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -5918,7 +5918,7 @@
             <layername>OSNRPROJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6092,7 +6092,7 @@
             <layername>osnrproj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6266,7 +6266,7 @@
             <layername>osnrproj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6440,7 +6440,7 @@
             <layername>PLLI</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6537,7 +6537,7 @@
             <layername>plli_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6634,7 +6634,7 @@
             <layername>plli_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6731,7 +6731,7 @@
             <layername>PLNA</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6859,7 +6859,7 @@
             <layername>plna_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -6987,7 +6987,7 @@
             <layername>plna_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7115,7 +7115,7 @@
             <layername>RESF</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7194,7 +7194,7 @@
             <layername>resf_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7273,7 +7273,7 @@
             <layername>resf_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7352,7 +7352,7 @@
             <layername>RESFPROJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7431,7 +7431,7 @@
             <layername>resfproj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7510,7 +7510,7 @@
             <layername>resfproj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7589,7 +7589,7 @@
             <layername>SOSF</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7690,7 +7690,7 @@
             <layername>SOSFC</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -7992,7 +7992,7 @@
             <layername>sofs_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -8383,7 +8383,7 @@
             <layername>sofs_underground_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -8560,7 +8560,7 @@
             <layername>sofs_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -8750,7 +8750,7 @@
             <layername>SOLI</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -8884,7 +8884,7 @@
             <layername>soli_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9018,7 +9018,7 @@
             <layername>soli_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9152,7 +9152,7 @@
             <layername>SOOBJ</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9325,7 +9325,7 @@
             <layername>soobj_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9454,7 +9454,7 @@
             <layername>soobj_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9627,7 +9627,7 @@
             <layername>SOPT</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9718,7 +9718,7 @@
             <layername>sopt_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9809,7 +9809,7 @@
             <layername>sopt_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -9900,7 +9900,7 @@
             <layername>TBBP</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -10063,7 +10063,7 @@
             <layername>tbbp_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -10226,7 +10226,7 @@
             <layername>tbbp_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -10389,7 +10389,7 @@
             <layername>TBLI</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -10562,7 +10562,7 @@
             <layername>tbli_farbig</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
@@ -10735,7 +10735,7 @@
             <layername>tbli_sw</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +no_defs</proj4>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
                     <srsid>1919</srsid>
                     <srid>21781</srid>
                     <authid>EPSG:21781</authid>
