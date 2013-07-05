@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>632910.918134</xmin>
-            <ymin>242184.346186</ymin>
-            <xmax>636112.376471</xmax>
-            <ymax>245207.710151</ymax>
+            <xmin>610184.279466</xmin>
+            <ymin>229248.894008</ymin>
+            <xmax>610257.667696</xmax>
+            <ymax>229296.134070</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -466,7 +466,7 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung (farbig)">
-            <legendgroup open="false" checked="Qt::Checked" name="Fixpunkte (farbig)">
+            <legendgroup open="true" checked="Qt::Checked" name="Fixpunkte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.fFP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="FI_Fixpunkte_copy20130228171319036" visible="1"/>
@@ -8118,7 +8118,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>FI_Fixpunkte_copy20130228171319036</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
@@ -8207,7 +8207,7 @@
                         <rule scalemaxdenom="3000" symbol="44" scalemindenom="1250" label="1:2000"/>
                         <rule scalemaxdenom="6000" symbol="45" scalemindenom="3000" label="1:5000"/>
                     </rule>
-                    <rule filter="kategorie = 'HPF2'" label="HFP2">
+                    <rule filter="kategorie = 'HFP2'" label="HFP2">
                         <rule scalemaxdenom="300" symbol="46" label="1:250"/>
                         <rule scalemaxdenom="750" symbol="47" scalemindenom="300" label="1:500"/>
                         <rule scalemaxdenom="1250" symbol="48" scalemindenom="750" label="1:1000"/>
@@ -21813,7 +21813,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>cppt20130228152904216</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
@@ -21902,7 +21902,7 @@
                         <rule scalemaxdenom="3000" symbol="44" scalemindenom="1250" label="1:2000"/>
                         <rule scalemaxdenom="6000" symbol="45" scalemindenom="3000" label="1:5000"/>
                     </rule>
-                    <rule filter="kategorie = 'HPF2'" label="HFP2">
+                    <rule filter="kategorie = 'HFP2'" label="HFP2">
                         <rule scalemaxdenom="300" symbol="46" label="1:250"/>
                         <rule scalemaxdenom="750" symbol="47" scalemindenom="300" label="1:500"/>
                         <rule scalemaxdenom="1250" symbol="48" scalemindenom="750" label="1:1000"/>
