@@ -1,0 +1,9 @@
+Langer GET-Request:
+ - Probleme mit IE
+ - POST nicht ganz einfach umsetzbar
+ - Layernamen verkürzt (unlesbar)
+ - noch Spielraum mit den Layer, z.B. 1:250 löschen oder Hoheitsgrenzen zusammensetzen
+ - in QGISExtensions.js folgenden Zeile auskommentiert: 
+  * printUrl += '&SELECTION='+encodeURIComponent(thematicLayer.params.SELECTION);
+  -> ist notwendig (?) für clientseitig wählbare Transparenz.
+

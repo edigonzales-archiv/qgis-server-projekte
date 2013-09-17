@@ -1,5 +1,5 @@
 <Composer title="A4-Hoch" visible="1">
- <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" numPages="1" paperHeight="297" printAsRaster="0">
+ <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
   <ComposerLabel valign="32" labelText="Amtliche Vermessung Schweiz" halign="1" margin="0">
    <LabelFont description="CadastraCondensed,19,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
@@ -111,7 +111,7 @@
    </ComposerItem>
   </ComposerPicture>
   <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/grundbuchplan/images/logoavdl.svg" pictureHeight="12" mapId="-1">
-   <ComposerItem width="40" x="158" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="2.60403" id="" positionLock="true">
+   <ComposerItem width="40" x="158" y="11" rotation="0" height="12" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="2.76846" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
