@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>595285.499216</xmin>
-            <ymin>205276.800275</ymin>
-            <xmax>632860.272976</xmax>
-            <ymax>236436.368759</ymax>
+            <xmin>603487.876899</xmin>
+            <ymin>228635.702324</ymin>
+            <xmax>603547.029771</xmax>
+            <ymax>228683.337600</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -31,7 +31,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)">
             <legendgroup open="false" checked="Qt::Unchecked" name="Fixpunkte">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="FI.FP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
@@ -256,6 +256,11 @@
                 </legendgroup>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Unchecked" name="Gebäudeadressen">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.HLI" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="GEB_fHLI_copy20131129101538929" visible="0"/>
+                    </filegroup>
+                </legendlayer>
                 <legendgroup open="false" checked="Qt::Unchecked" name="GEB.Hausnummern">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="GEB.HNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -466,7 +471,7 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung (farbig)">
-            <legendgroup open="true" checked="Qt::Checked" name="Fixpunkte (farbig)">
+            <legendgroup open="false" checked="Qt::Checked" name="Fixpunkte (farbig)">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.fFP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="FI_Fixpunkte_copy20130228171319036" visible="1"/>
@@ -515,7 +520,7 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Liegenschaften (farbig)">
+            <legendgroup open="true" checked="Qt::Checked" name="Liegenschaften (farbig)">
                 <legendgroup open="false" checked="Qt::Checked" name="LI.farbig.Grundstuecksnummer">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LI.fNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -690,6 +695,11 @@
                 </legendgroup>
             </legendgroup>
             <legendgroup open="false" checked="Qt::Checked" name="Gebäudeadressen (farbig)">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="GEB.fHLI" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="gebaeudeadressen_lokalisationsnamepos20131129101307106" visible="1"/>
+                    </filegroup>
+                </legendlayer>
                 <legendgroup open="false" checked="Qt::Checked" name="GEB.farbig.Hausnummern">
                     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="GEB.fHNR.250" showFeatureCount="0">
                         <filegroup open="false" hidden="false">
@@ -921,9 +931,9 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="print" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="print" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="qgis_printcomposer_info_v20131008134145656" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="qgis_printcomposer_info_v20131008134145656" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -1345,7 +1355,7 @@
             </ComposerShape>
         </Composition>
     </Composer>
-    <projectlayers layercount="158">
+    <projectlayers layercount="160">
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>BB_Linien_copy20130228153715664</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql=</datasource>
@@ -1764,7 +1774,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -1794,6 +1803,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -1950,7 +1960,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -1985,6 +1994,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -2141,7 +2151,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -2176,6 +2185,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -2332,7 +2342,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -2367,6 +2376,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -2523,7 +2533,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -2558,6 +2567,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -2714,7 +2724,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -2749,6 +2758,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -3635,7 +3645,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -3665,6 +3674,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -3867,7 +3877,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -3900,6 +3909,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -4102,7 +4112,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -4135,6 +4144,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -4337,7 +4347,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -4370,6 +4379,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -4572,7 +4582,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -4605,6 +4614,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -4807,7 +4817,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -4840,6 +4849,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -5050,7 +5060,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -5080,6 +5089,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -5342,7 +5352,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -5376,6 +5385,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -5839,7 +5849,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -5870,6 +5879,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -6404,7 +6414,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -6434,6 +6443,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -6590,7 +6600,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -6625,6 +6634,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -6781,7 +6791,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -6816,6 +6825,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -6972,7 +6982,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -7007,6 +7016,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -7163,7 +7173,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -7198,6 +7207,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -7801,7 +7811,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -7833,6 +7842,7 @@
                 <edittype type="0" name="qualitaet"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -8080,7 +8090,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -8111,6 +8120,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -8952,7 +8962,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -8984,6 +8993,7 @@
                 <edittype type="11" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -9119,7 +9129,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -9159,6 +9168,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -9294,7 +9304,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -9334,6 +9343,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -9490,7 +9500,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -9530,6 +9539,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -9665,7 +9675,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -9705,6 +9714,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -9840,7 +9850,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -9880,6 +9889,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -10036,7 +10046,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10070,6 +10079,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -10226,7 +10236,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10260,6 +10269,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -10416,7 +10426,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10450,6 +10459,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -10606,7 +10616,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10640,6 +10649,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -10796,7 +10806,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10830,6 +10839,262 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>GEB_fHLI_copy20131129101538929</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."gebaeudeadressen_lokalisationsnamepos" (hilfslinie) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>GEB.HLI</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule>
+                        <rule scalemaxdenom="300" symbol="0" label="1:250"/>
+                        <rule scalemaxdenom="750" symbol="1" scalemindenom="300" label="1:500"/>
+                        <rule scalemaxdenom="1250" symbol="2" scalemindenom="750" label="1:1000"/>
+                        <rule scalemaxdenom="3000" symbol="3" scalemindenom="1250" label="1:2000"/>
+                        <rule scalemaxdenom="6000" symbol="4" scalemindenom="3000" label="1:5000"/>
+                    </rule>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.28"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.28"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.2"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="3">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.14"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="4">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefined/AlwaysShow" value=""/>
+                <property key="labeling/dataDefined/Bold" value=""/>
+                <property key="labeling/dataDefined/BufferColor" value=""/>
+                <property key="labeling/dataDefined/BufferSize" value=""/>
+                <property key="labeling/dataDefined/BufferTransp" value=""/>
+                <property key="labeling/dataDefined/Color" value=""/>
+                <property key="labeling/dataDefined/Family" value=""/>
+                <property key="labeling/dataDefined/FontTransp" value=""/>
+                <property key="labeling/dataDefined/Hali" value=""/>
+                <property key="labeling/dataDefined/Italic" value=""/>
+                <property key="labeling/dataDefined/LabelDistance" value=""/>
+                <property key="labeling/dataDefined/MaxScale" value=""/>
+                <property key="labeling/dataDefined/MinScale" value=""/>
+                <property key="labeling/dataDefined/PositionX" value=""/>
+                <property key="labeling/dataDefined/PositionY" value=""/>
+                <property key="labeling/dataDefined/Rotation" value=""/>
+                <property key="labeling/dataDefined/Show" value=""/>
+                <property key="labeling/dataDefined/Size" value=""/>
+                <property key="labeling/dataDefined/Strikeout" value=""/>
+                <property key="labeling/dataDefined/Underline" value=""/>
+                <property key="labeling/dataDefined/Vali" value=""/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Ubuntu"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="10"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="10"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="anfindex"/>
+                <edittype type="0" name="endindex"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="groesse"/>
+                <edittype type="0" name="groesse_txt"/>
+                <edittype type="0" name="grundstueckpos_von"/>
+                <edittype type="0" name="hali"/>
+                <edittype type="0" name="hali_txt"/>
+                <edittype type="0" name="lieferdatum"/>
+                <edittype type="0" name="lokalisationsnamepos_von"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="ori"/>
+                <edittype type="0" name="pos"/>
+                <edittype type="0" name="projgrundstueckpos_von"/>
+                <edittype type="0" name="tid"/>
+                <edittype type="0" name="vali"/>
+                <edittype type="0" name="vali_txt"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -11115,7 +11380,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -11143,6 +11407,7 @@
                 <edittype type="0" name="name"/>
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -12030,7 +12295,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -12059,6 +12323,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -12434,7 +12699,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -12468,6 +12732,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -12780,7 +13045,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -12814,6 +13078,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -13701,7 +13966,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -13730,6 +13994,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -13886,7 +14151,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -13922,6 +14186,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -14078,7 +14343,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -14114,6 +14378,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -14270,7 +14535,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -14306,6 +14570,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -14462,7 +14727,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -14498,6 +14762,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -14654,7 +14919,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -14690,6 +14954,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -14697,7 +14962,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_Hilfslinien_copy20130228170213484</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_projgrundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
@@ -14902,7 +15167,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -14942,6 +15206,7 @@
                 <edittype type="0" name="vali"/>
                 <edittype type="0" name="vali_txt"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -15154,7 +15419,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -15186,6 +15450,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -15448,7 +15713,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -15481,6 +15745,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -15488,7 +15753,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>LI_farbig_Hilfslinien_Kopie20130530173248449</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
@@ -15693,7 +15958,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -15733,6 +15997,7 @@
                 <edittype type="0" name="vali"/>
                 <edittype type="0" name="vali_txt"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -15889,7 +16154,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -15930,6 +16194,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -16086,7 +16351,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -16122,6 +16386,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -16278,7 +16543,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -16314,6 +16578,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -16470,7 +16735,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -16506,6 +16770,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -16662,7 +16927,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -16698,6 +16962,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -16910,7 +17175,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -16942,6 +17206,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -17204,7 +17469,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -17237,6 +17501,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -17393,7 +17658,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -17431,6 +17695,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -17587,7 +17852,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -17625,6 +17889,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -17781,7 +18046,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -17819,6 +18083,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -17975,7 +18240,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18013,6 +18277,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -18169,7 +18434,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18207,6 +18471,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -18342,7 +18607,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18380,6 +18644,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -18515,7 +18780,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18553,6 +18817,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -18688,7 +18953,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18726,6 +18990,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -18882,7 +19147,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -18920,6 +19184,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -19055,7 +19320,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -19093,6 +19357,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -19249,7 +19514,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -19287,6 +19551,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -19443,7 +19708,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -19481,6 +19745,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -19637,7 +19902,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -19675,6 +19939,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -19831,7 +20096,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -19869,6 +20133,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -20025,7 +20290,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -20063,6 +20327,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -20219,7 +20484,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -20257,6 +20521,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -20439,7 +20704,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -20473,6 +20737,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -20629,7 +20894,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -20663,6 +20927,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -20819,7 +21084,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -20853,6 +21117,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -21009,7 +21274,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -21045,6 +21309,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -21201,7 +21466,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -21235,6 +21499,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -21447,7 +21712,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -21477,6 +21741,7 @@
                 <edittype type="0" name="medium"/>
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -21714,7 +21979,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -21754,6 +22018,7 @@
                 <edittype type="0" name="qualitaet"/>
                 <edittype type="0" name="qualitaet_txt"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -22647,7 +22912,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -22679,6 +22943,7 @@
                 <edittype type="11" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -22941,7 +23206,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -22974,6 +23238,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -23236,7 +23501,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -23269,6 +23533,262 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>gebaeudeadressen_lokalisationsnamepos20131129101307106</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."gebaeudeadressen_lokalisationsnamepos" (hilfslinie) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>GEB.fHLI</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule>
+                        <rule scalemaxdenom="300" symbol="0" label="1:250"/>
+                        <rule scalemaxdenom="750" symbol="1" scalemindenom="300" label="1:500"/>
+                        <rule scalemaxdenom="1250" symbol="2" scalemindenom="750" label="1:1000"/>
+                        <rule scalemaxdenom="3000" symbol="3" scalemindenom="1250" label="1:2000"/>
+                        <rule scalemaxdenom="6000" symbol="4" scalemindenom="3000" label="1:5000"/>
+                    </rule>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.28"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.28"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.2"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="3">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.14"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="4">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefined/AlwaysShow" value=""/>
+                <property key="labeling/dataDefined/Bold" value=""/>
+                <property key="labeling/dataDefined/BufferColor" value=""/>
+                <property key="labeling/dataDefined/BufferSize" value=""/>
+                <property key="labeling/dataDefined/BufferTransp" value=""/>
+                <property key="labeling/dataDefined/Color" value=""/>
+                <property key="labeling/dataDefined/Family" value=""/>
+                <property key="labeling/dataDefined/FontTransp" value=""/>
+                <property key="labeling/dataDefined/Hali" value=""/>
+                <property key="labeling/dataDefined/Italic" value=""/>
+                <property key="labeling/dataDefined/LabelDistance" value=""/>
+                <property key="labeling/dataDefined/MaxScale" value=""/>
+                <property key="labeling/dataDefined/MinScale" value=""/>
+                <property key="labeling/dataDefined/PositionX" value=""/>
+                <property key="labeling/dataDefined/PositionY" value=""/>
+                <property key="labeling/dataDefined/Rotation" value=""/>
+                <property key="labeling/dataDefined/Show" value=""/>
+                <property key="labeling/dataDefined/Size" value=""/>
+                <property key="labeling/dataDefined/Strikeout" value=""/>
+                <property key="labeling/dataDefined/Underline" value=""/>
+                <property key="labeling/dataDefined/Vali" value=""/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Ubuntu"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="10"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="10"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="anfindex"/>
+                <edittype type="0" name="endindex"/>
+                <edittype type="0" name="gem_bfs"/>
+                <edittype type="0" name="groesse"/>
+                <edittype type="0" name="groesse_txt"/>
+                <edittype type="0" name="grundstueckpos_von"/>
+                <edittype type="0" name="hali"/>
+                <edittype type="0" name="hali_txt"/>
+                <edittype type="0" name="lieferdatum"/>
+                <edittype type="0" name="lokalisationsnamepos_von"/>
+                <edittype type="0" name="los"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="ori"/>
+                <edittype type="0" name="pos"/>
+                <edittype type="0" name="projgrundstueckpos_von"/>
+                <edittype type="0" name="tid"/>
+                <edittype type="0" name="vali"/>
+                <edittype type="0" name="vali_txt"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -23404,7 +23924,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -23444,6 +23963,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -23579,7 +24099,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -23619,6 +24138,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -23754,7 +24274,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -23794,6 +24313,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -23929,7 +24449,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -23969,6 +24488,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -24104,7 +24624,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>gebaeudename</displayfield>
             <label>0</label>
             <labelattributes>
@@ -24144,6 +24663,7 @@
                 <edittype type="0" name="y"/>
                 <edittype type="0" name="zusatzziffern"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -24300,7 +24820,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -24335,6 +24854,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -24491,7 +25011,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -24526,6 +25045,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -24682,7 +25202,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -24717,6 +25236,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -24873,7 +25393,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -24908,6 +25427,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -25064,7 +25584,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -25099,6 +25618,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -25999,7 +26519,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -26029,6 +26548,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -26454,7 +26974,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -26484,6 +27003,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -26694,7 +27214,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -26724,6 +27243,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -26731,7 +27251,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="6000" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>liegenschaften_grundstueckpos20130530173048335</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=LINESTRING table="av_avdpool_ng"."liegenschaften_grundstueckpos" (hilfslinie) sql="hilfslinie" IS NOT NULL</datasource>
             <title></title>
@@ -26936,7 +27456,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -26976,6 +27495,7 @@
                 <edittype type="0" name="vali"/>
                 <edittype type="0" name="vali_txt"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -27188,7 +27708,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -27228,6 +27747,7 @@
                 <edittype type="0" name="vali"/>
                 <edittype type="0" name="vali_txt"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -27384,7 +27904,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -27422,6 +27941,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -27578,7 +28098,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -27616,6 +28135,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -27772,7 +28292,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -27810,6 +28329,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -27966,7 +28486,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28004,6 +28523,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -28160,7 +28680,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28198,6 +28717,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -28333,7 +28853,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28371,6 +28890,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -28506,7 +29026,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28544,6 +29063,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -28679,7 +29199,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28717,6 +29236,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -28852,7 +29372,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -28890,6 +29409,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -29046,7 +29566,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -29084,6 +29603,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -29240,7 +29760,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -29278,6 +29797,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -29434,7 +29954,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -29472,6 +29991,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -29628,7 +30148,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -29666,6 +30185,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -29822,7 +30342,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -29860,6 +30379,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30016,7 +30536,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -30054,6 +30573,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30210,7 +30730,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -30248,6 +30767,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30404,7 +30924,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -30438,6 +30957,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30594,7 +31114,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -30628,6 +31147,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30784,7 +31304,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -30818,6 +31337,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -30974,7 +31494,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -31008,6 +31527,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -31164,7 +31684,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>strassenname</displayfield>
             <label>0</label>
             <labelattributes>
@@ -31198,6 +31717,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -31483,7 +32003,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -31511,6 +32030,7 @@
                 <edittype type="0" name="name"/>
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -32398,7 +32918,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -32427,6 +32946,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -32583,7 +33103,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -32619,6 +33138,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -32775,7 +33295,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -32811,6 +33330,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -32967,7 +33487,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33003,6 +33522,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -33159,7 +33679,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33195,6 +33714,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -33351,7 +33871,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33387,6 +33906,7 @@
                 <edittype type="11" name="x"/>
                 <edittype type="11" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -33543,7 +34063,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33579,6 +34098,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -33735,7 +34255,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33771,6 +34290,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -33927,7 +34447,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>name</displayfield>
             <label>0</label>
             <labelattributes>
@@ -33968,6 +34487,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -34124,7 +34644,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -34160,6 +34679,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -34316,7 +34836,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -34352,6 +34871,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -34564,7 +35084,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -34594,6 +35113,7 @@
                 <edittype type="0" name="medium"/>
                 <edittype type="0" name="ogc_fid"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -34750,7 +35270,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -34784,6 +35303,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -34940,7 +35460,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -34974,6 +35493,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -35130,7 +35650,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -35164,6 +35683,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -35320,7 +35840,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -35354,6 +35873,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -35510,7 +36030,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -35546,6 +36065,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -35591,8 +36111,7 @@
                 <sizescale field="" scalemethod="area"/>
             </renderer-v2>
             <customproperties/>
-            <editorlayout>generatedlayout</editorlayout>
-            <displayfield></displayfield>
+            <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -35614,6 +36133,7 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform></editform>
             <editforminit></editforminit>
             <annotationform></annotationform>
@@ -35826,7 +36346,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -35858,6 +36377,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -36070,7 +36590,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -36102,6 +36621,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="vollstaendigkeit"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -36257,7 +36777,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -36288,6 +36807,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>../Plan_fuer_das_Grundbuch</annotationform>
@@ -36751,7 +37271,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -36782,6 +37301,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -37316,7 +37836,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -37346,6 +37865,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="qualitaet"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -37502,7 +38022,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -37537,6 +38056,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -37693,7 +38213,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -37728,6 +38247,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -37884,7 +38404,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -37919,6 +38438,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -38075,7 +38595,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -38110,6 +38629,7 @@
                 <edittype type="0" name="x"/>
                 <edittype type="0" name="y"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -38713,7 +39233,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -38745,6 +39264,7 @@
                 <edittype type="0" name="qualitaet"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -39632,7 +40152,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -39661,6 +40180,7 @@
                 <edittype type="0" name="ogc_fid"/>
                 <edittype type="0" name="punktzeichen"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -39923,7 +40443,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -39957,6 +40476,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -40332,7 +40852,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -40366,6 +40885,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -40678,7 +41198,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -40712,6 +41231,7 @@
                 <edittype type="0" name="tid"/>
                 <edittype type="0" name="typ"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -40914,7 +41434,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -40947,6 +41466,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -41149,7 +41669,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -41182,6 +41701,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -41384,7 +41904,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -41417,6 +41936,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -41619,7 +42139,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -41652,6 +42171,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -41854,7 +42374,6 @@
                 <property key="labeling/yOffset" value="0"/>
                 <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
-            <editorlayout>generatedlayout</editorlayout>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -41887,6 +42406,7 @@
                 <edittype type="0" name="ori"/>
                 <edittype type="0" name="rot"/>
             </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -41915,17 +42435,17 @@
         <WFSLayers type="QStringList">
             <value>qgis_printcomposer_info_v20131008134145656</value>
         </WFSLayers>
-        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <WMSRestrictedLayers type="QStringList">
             <value>print</value>
         </WMSRestrictedLayers>
+        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
-        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
         <Measure>
