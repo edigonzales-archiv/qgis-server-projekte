@@ -1,13 +1,13 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.9.0-Master">
-    <title></title>
+<qgis projectname="Webgis Fileverifikation Amtliche Vermessung" version="1.9.0-Master">
+    <title>Webgis Fileverifikation Amtliche Vermessung</title>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>611373.159726</xmin>
-            <ymin>226164.579033</ymin>
-            <xmax>611655.314211</xmax>
-            <ymax>226347.225997</ymax>
+            <xmin>571829.694168</xmin>
+            <ymin>210650.000000</ymin>
+            <xmax>659420.305832</xmax>
+            <ymax>267350.000000</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -29,58 +29,58 @@
                 <legendlayerfile isInOverview="0" layerid="mbsf20131205175630924" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="false" checked="Qt::Checked" name="Einzelobjekte">
-            <legendgroup open="false" checked="Qt::Checked" name="Doppelte EO.Linien">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Doppelte EO.Linien (Segmente)" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Einzelobjekte">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Doppelte EO.Linien">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Doppelte EO.Linien (Segmente)" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="t_doppelte_eo_linien20131206150641864" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="t_doppelte_eo_linien20131206150641864" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Gebäudeadressen">
-            <legendgroup open="false" checked="Qt::Checked" name="Doppelte Achsen">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Doppelte Achsen (Segment)" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Gebäudeadressen">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Doppelte Achsen">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Doppelte Achsen (Segment)" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="t_doppelte_achsen20131206114255860" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="t_doppelte_achsen20131206114255860" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Falscher Anfangspunkt">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Falscher Anfangspunkt (Punkt)" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Falscher Anfangspunkt">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Falscher Anfangspunkt (Punkt)" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="t_falscher_anfangspunkt20131206113219586" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="t_falscher_anfangspunkt20131206113219586" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Spinnennetz">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Spinnennetz Linien" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Spinnennetz">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Spinnennetz Linien" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="t_gebaeudeadressen_spinnennetz20131205171228584" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="t_gebaeudeadressen_spinnennetz20131205171228584" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Kürzeste Linie">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="HausnummerPos (blau)" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Kürzeste Linie">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="HausnummerPos (blau)" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="v_gebaeudeadressen_hausnummerpos20131206101937667" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="v_gebaeudeadressen_hausnummerpos20131206101937667" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Shortest Line" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Shortest Line" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="t_shortestline_hausnummerpos20131206101701953" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="t_shortestline_hausnummerpos20131206101701953" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Strassenachsen">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Anfangspunkt" showFeatureCount="0">
+            <legendgroup open="false" checked="Qt::Unchecked" name="Strassenachsen">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Anfangspunkt" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="gebaeudeadressen_strassenstueck20131206103514140" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="gebaeudeadressen_strassenstueck20131206103514140" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Strassenstück" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Strassenstück" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="v_strassenstueck_lokname20131206103035269" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="v_strassenstueck_lokname20131206103035269" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
@@ -98,7 +98,7 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <Composer title="Composer 1" visible="1">
+    <Composer title="Composer 1" visible="0">
         <Composition printResolution="200" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="2" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerPicture pictureWidth="15" file="./images/north-arrow_3_simple_symmetric_triangular_ziegler2.svg" pictureHeight="15" mapId="0">
                 <ComposerItem width="15" x="182.747" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
@@ -2275,13 +2275,48 @@
         </maplayer>
     </projectlayers>
     <properties>
-        <SpatialRefSys>
-            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-            <ProjectCRSID type="int">1919</ProjectCRSID>
-        </SpatialRefSys>
+        <WMSContactPerson type="QString">Mitarbeitende AGI</WMSContactPerson>
+        <WMSOnlineResource type="QString">http://www.sogis.ch</WMSOnlineResource>
+        <WMSContactOrganization type="QString">Amt für Geoinformation, Kanton Solothurn</WMSContactOrganization>
+        <WMSExtent type="QStringList">
+            <value>590000</value>
+            <value>210000</value>
+            <value>650000</value>
+            <value>270000</value>
+        </WMSExtent>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
         <Paths>
             <Absolute type="bool">false</Absolute>
         </Paths>
+        <WMSServiceTitle type="QString">Webgis Fileverifikation Amtliche Vermessung</WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+        <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
+        <Measure>
+            <Ellipsoid type="QString">NONE</Ellipsoid>
+        </Measure>
+        <WMSCrsList type="QStringList">
+            <value>EPSG:21781</value>
+            <value>EPSG:4326</value>
+            <value>EPSG:3035</value>
+            <value>EPSG:32632</value>
+            <value>EPSG:3395</value>
+        </WMSCrsList>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
         <Gui>
             <SelectionColorBluePart type="int">0</SelectionColorBluePart>
             <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -2291,9 +2326,30 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <PositionPrecision>
-            <DecimalPlaces type="int">2</DecimalPlaces>
-            <Automatic type="bool">true</Automatic>
-        </PositionPrecision>
+        <Identify>
+            <disabledLayers type="QStringList">
+                <value>Amtliche_Vermessung__grau_20131205173952643</value>
+                <value>bpav_10000_sw20131205174025556</value>
+            </disabledLayers>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">1919</ProjectCRSID>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString"></WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
     </properties>
 </qgis>
