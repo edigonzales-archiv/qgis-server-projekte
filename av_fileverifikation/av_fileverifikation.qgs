@@ -98,7 +98,7 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <Composer title="Composer 1" visible="0">
+    <Composer title="A4-Hochformat" visible="0">
         <Composition printResolution="200" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="2" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerPicture pictureWidth="15" file="./images/north-arrow_3_simple_symmetric_triangular_ziegler2.svg" pictureHeight="15" mapId="0">
                 <ComposerItem width="15" x="182.747" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
