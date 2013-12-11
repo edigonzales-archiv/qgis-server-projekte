@@ -29,7 +29,7 @@
                 <legendlayerfile isInOverview="0" layerid="mbsf20131205175630924" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Einzelobjekte">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Einzelobjekte">
             <legendgroup open="true" checked="Qt::Unchecked" name="Doppelte EO.Linien">
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Doppelte_EO_Linien" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
@@ -38,7 +38,7 @@
                 </legendlayer>
             </legendgroup>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Gebäudeadressen">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Gebäudeadressen">
             <legendgroup open="true" checked="Qt::Unchecked" name="Doppelte Achsen">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Doppelte_Achsensegmente" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
