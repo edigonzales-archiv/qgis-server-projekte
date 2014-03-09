@@ -1,0 +1,351 @@
+<Composer title="A4, 2L" visible="1">
+ <Composition printResolution="300" paperWidth="630" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="297">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="210" y="0" rotation="0" height="297" frame="true" outlineWidth="0.2" zValue="43" lastValidViewScaleFactor="3.24564" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="630" y="0" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="35" lastValidViewScaleFactor="12.9826" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="630" y="282" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="35" lastValidViewScaleFactor="12.9826" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="0" y="282" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="35" lastValidViewScaleFactor="25.9651" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="0" x="0" y="0" rotation="0" height="15" frame="true" outlineWidth="0.2" zValue="35" lastValidViewScaleFactor="25.9651" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="615" y="0" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="33" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="615" y="297" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="33" lastValidViewScaleFactor="12.9826" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="0" y="297" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="33" lastValidViewScaleFactor="25.9651" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="15" x="0" y="0" rotation="0" height="0" frame="true" outlineWidth="0.2" zValue="33" lastValidViewScaleFactor="25.9651" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerLabel valign="32" labelText="Vorname Name" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="15" y="265.5" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="nfgeometer" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Firma" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="63.8539" x="15" y="270" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="firma" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Strasse Nummer" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="15" y="274.5" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="strasse_nummer" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="PLZ Ortschaft" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="15" y="279" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="3.24564" id="plz_ortschaft" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Telefon" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="75" y="265.5" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="tel" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Fax" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="75" y="270" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="fax" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="E-Mail" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="75" y="274.5" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="email" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Web" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="41.9023" x="75" y="279" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="6.49128" id="web" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture pictureWidth="20" file="/opt/qgis-server-projekte/grundbuchplan/images/north_arrow7.svg" pictureHeight="20" mapId="0">
+   <ComposerItem width="20" x="604.6" y="272" rotation="0" height="20" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="12.9826" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" labelText="Gemeinde:" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,26,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="54.6677" x="15" y="50" rotation="0" height="11.6211" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Ortschaft:" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,26,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="54.6677" x="15" y="65" rotation="0" height="9.55127" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Gemeinde" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,26,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="54.6677" x="65" y="50" rotation="0" height="9.55127" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="3.24564" id="gemeinde_name" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Ortschaft" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,26,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="54.6677" x="65" y="65" rotation="0" height="9.55127" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="3.24564" id="grundbuch_name" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/grundbuchplan/images/kanton_4f.svg" pictureHeight="4.6" mapId="-1">
+   <ComposerItem width="50" x="149" y="10" rotation="0" height="4.6" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="5.48341" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerPicture pictureWidth="40" file="/opt/qgis-server-projekte/grundbuchplan/images/Logo_amtliche_Vermessung/logoavdr.tif" pictureHeight="8.32" mapId="-1">
+   <ComposerItem width="40" x="10" y="10" rotation="0" height="8.32" frame="false" outlineWidth="0.3" zValue="21" lastValidViewScaleFactor="2.74171" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerScaleBar brushColor="#000000" segmentMillimeters="0" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" units="0" numSegmentsLeft="0" style="Numeric" unitLabel="asdf" font="CadastraCondensed,10,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0.3" numUnitsPerSegment="0">
+   <ComposerItem width="9.9" x="30" y="115" rotation="0" height="3.9" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="6.49128" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Rectangle" drawCanvasItems="true">
+   <overviewFrame overviewFrameMap="-1">
+    <symbol outputUnit="MM" alpha="0.3" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="color" v="255,0,0,125"/>
+      <prop k="color_border" v="0,0,0,255"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="style" v="solid"/>
+      <prop k="style_border" v="no"/>
+      <prop k="width_border" v="0.26"/>
+     </layer>
+    </symbol>
+   </overviewFrame>
+   <Extent ymin="227311" xmin="596044" ymax="227376" xmax="596136"/>
+   <LayerSet/>
+   <Grid gridStyle="1" crossLength="3" intervalX="50" offsetX="0" intervalY="50" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" show="1">
+    <symbol outputUnit="MM" alpha="1" type="line" name="">
+     <layer pass="0" class="SimpleLine" locked="0">
+      <prop k="capstyle" v="square"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="customdash" v="5;2"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0"/>
+      <prop k="penstyle" v="solid"/>
+      <prop k="use_custom_dash" v="0"/>
+      <prop k="width" v="0.15"/>
+     </layer>
+    </symbol>
+    <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
+   </Grid>
+   <ComposerItem width="420" x="210" y="0" rotation="0" height="297" frame="false" outlineWidth="0.2" zValue="17" lastValidViewScaleFactor="1.62282" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLabel valign="32" labelText="Daten der amtlichen Vermessung vom:" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="74.29" x="15" y="105" rotation="0" height="6.35303" frame="false" outlineWidth="0.3" zValue="16" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Auszug aus dem Plan für das Grundbuch vom:" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="77" x="15" y="100" rotation="0" height="5.95312" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="3.24564" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Quelle: Amtliche Vermessung Schweiz" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="68.7089" x="15" y="152" rotation="0" height="6.5833" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="6.49128" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Legende: www.cadastre.ch/legende&#xa;&#xa;&#xa;             " halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="61.6662" x="15" y="162" rotation="0" height="7.44271" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="6.49128" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax, 032 627 75 98, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+   <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="4" x="204.9" y="185.763" rotation="90" height="106.237" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="25.9651" id="kontakt" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4500 Solothurn" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="4" x="204.9" y="5" rotation="90" height="81.8847" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="3.24564" id="anschrift" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Nachführungsgeometer" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="44.9524" x="143" y="279" rotation="0" height="6.72462" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Nachführungsgeometer, " halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="50.8931" x="143" y="274.5" rotation="0" height="6.62462" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="3.24564" id="nfgeometer" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Hinweise:&#xa;-&#xa;-&#xa;-&#xa;-" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="22.7729" x="15" y="125" rotation="0" height="23.5" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="6.49128" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)&#x9;" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="23.9023" x="100" y="100" rotation="0" height="6.04492" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Massstab " halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="17" x="15" y="115" rotation="0" height="4.54492" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="&#xa;Grundstücke mit roten Grenzen und unterstrichenen Nummern sind nicht rechtskräftig. &#xa;Projektierte Gebäude sind rot gestrichelt. Sie weisen eine reduzierte Genauigkeit auf.&#xa;Allenfalls dargestellte Baulinien dienen der Orientierung.&#xa;Waldlinien sind nicht rechtsverbindlich." halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="137" x="18" y="125" rotation="0" height="34.5833" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="6.49128" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Für die Richtigkeit des Auszuges:" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="64.8931" x="143" y="256.5" rotation="0" height="6.3" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="3.24564" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="00.11.20XX" halign="1" margin="0">
+   <LabelFont description="CadastraCondensed,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="22.7" x="100" y="105" rotation="0" height="5.73682" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="3.24564" id="lieferdatum" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" shapeWidth="200" outlineWidth="0" transparentFill="1" shapeHeight="287">
+   <OutlineColor alpha="255" red="0" blue="0" green="0"/>
+   <FillColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem width="200" x="5" y="5" rotation="0" height="287" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="6.49128" id="" positionLock="false">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+ </Composition>
+</Composer>
