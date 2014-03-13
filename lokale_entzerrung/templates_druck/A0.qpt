@@ -24,6 +24,12 @@
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerShape>
+  <ComposerPicture pictureWidth="151" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende2_1.svg" pictureHeight="77" mapId="-1">
+   <ComposerItem width="151" x="9.146" y="311.823" rotation="0" height="77" frame="false" outlineWidth="0.3" zValue="61" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
   <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
    <OutlineColor alpha="255" red="0" blue="0" green="0"/>
    <FillColor alpha="255" red="0" blue="0" green="0"/>
@@ -102,24 +108,6 @@
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
-   <ArrowColor alpha="255" red="238" blue="185" green="185"/>
-   <StartPoint x="12.813" y="332.91"/>
-   <StopPoint x="19.334" y="332.91"/>
-   <ComposerItem width="6.921" x="12.613" y="332.71" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="51" lastValidViewScaleFactor="2.18527" id="" positionLock="false">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
-  <ComposerArrow startMarkerFile="" arrowHeadWidth="0" endMarkerFile="" outlineWidth="0.4" markerMode="0">
-   <ArrowColor alpha="255" red="255" blue="0" green="0"/>
-   <StartPoint x="12.8597" y="319.068"/>
-   <StopPoint x="19.5819" y="319.068"/>
-   <ComposerItem width="7.1222" x="12.6597" y="318.868" rotation="0" height="0.4" frame="false" outlineWidth="0" zValue="50" lastValidViewScaleFactor="8.74109" id="" positionLock="false">
-    <FrameColor alpha="0" red="255" blue="255" green="255"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerArrow>
   <ComposerLabel valign="32" labelText="XXmm" halign="2" margin="0">
    <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
@@ -336,170 +324,6 @@
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLegend symbolWidth="7" title="" groupSpace="2" itemFont="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" symbolSpace="2" map="0" layerSpace="2" titleFont="Liberation Sans,16,-1,5,50,0,0,0,0,0" wrapChar="" layerFont="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" columnCount="2" iconLabelSpace="2" groupFont="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2">
-   <Model autoUpdate="1">
-    <LayerItem layerId="average_messungen20140227104656848" text="Vektoren Mittel 1:2" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-        <layer pass="0" class="VectorField" locked="0">
-         <prop k="angle_orientation" v="0"/>
-         <prop k="angle_units" v="0"/>
-         <prop k="scale" v="0.5"/>
-         <prop k="vector_field_type" v="0"/>
-         <prop k="x_attribute" v="dy_avg"/>
-         <prop k="y_attribute" v="dx_avg"/>
-         <symbol outputUnit="MM" alpha="1" type="line" name="@classificationSymbol@0">
-          <layer pass="0" class="SimpleLine" locked="0">
-           <prop k="capstyle" v="square"/>
-           <prop k="color" v="255,0,0,255"/>
-           <prop k="customdash" v="5;2"/>
-           <prop k="joinstyle" v="bevel"/>
-           <prop k="offset" v="0"/>
-           <prop k="penstyle" v="solid"/>
-           <prop k="use_custom_dash" v="0"/>
-           <prop k="width" v="0.4"/>
-          </layer>
-         </symbol>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="lagefixpunkte20140225083216405" text="Vektoren LFP / GP 1:2" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-        <layer pass="0" class="VectorField" locked="0">
-         <prop k="angle_orientation" v="0"/>
-         <prop k="angle_units" v="0"/>
-         <prop k="scale" v="0.5"/>
-         <prop k="vector_field_type" v="0"/>
-         <prop k="x_attribute" v="dy"/>
-         <prop k="y_attribute" v="dx"/>
-         <symbol outputUnit="MM" alpha="1" type="line" name="@classificationSymbol@0">
-          <layer pass="0" class="SimpleLine" locked="0">
-           <prop k="capstyle" v="square"/>
-           <prop k="color" v="238,185,185,255"/>
-           <prop k="customdash" v="5;2"/>
-           <prop k="joinstyle" v="bevel"/>
-           <prop k="offset" v="0"/>
-           <prop k="penstyle" v="solid"/>
-           <prop k="use_custom_dash" v="0"/>
-           <prop k="width" v="0.4"/>
-          </layer>
-         </symbol>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="hektarraster20140210111632875" text="Hektarraster (200m)" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="107,200,243,255"/>
-         <prop k="color_border" v="145,217,217,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="no"/>
-         <prop k="style_border" v="solid"/>
-         <prop k="width_border" v="0.4"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="gemeinde_operate20140207123332478" text="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="181,0,0,255"/>
-         <prop k="color_border" v="181,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="no"/>
-         <prop k="style_border" v="solid"/>
-         <prop k="width_border" v="0.4"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="chenyx06_tsp_lv0320140207160706218" text="TSP" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-        <layer pass="0" class="SvgMarker" locked="0">
-         <prop k="angle" v="0"/>
-         <prop k="fill" v="#ffaa00"/>
-         <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="outline" v="#000000"/>
-         <prop k="outline-width" v="1"/>
-         <prop k="size" v="5"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="cppt20140213160805946" text="LFP1 / LFP2" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
-        <layer pass="0" class="SvgMarker" locked="0">
-         <prop k="angle" v="0"/>
-         <prop k="fill" v="#0055ff"/>
-         <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="outline" v="#000000"/>
-         <prop k="outline-width" v="1"/>
-         <prop k="size" v="5"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="tseinteilung_toleranzstufe20140207125251551" text="Toleranzstufe TS2" showFeatureCount="0">
-     <VectorClassificationItemNg text="TS2">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleLine" locked="0">
-         <prop k="capstyle" v="square"/>
-         <prop k="color" v="205,179,202,255"/>
-         <prop k="customdash" v="5;2"/>
-         <prop k="joinstyle" v="bevel"/>
-         <prop k="offset" v="0"/>
-         <prop k="penstyle" v="solid"/>
-         <prop k="use_custom_dash" v="0"/>
-         <prop k="width" v="2"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-    <LayerItem layerId="bodenbedeckung_boflaeche20140227100700220" text="Wald" showFeatureCount="0">
-     <VectorClassificationItemNg text="">
-      <symbols>
-       <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-        <layer pass="0" class="SimpleFill" locked="0">
-         <prop k="color" v="221,250,221,255"/>
-         <prop k="color_border" v="0,0,0,255"/>
-         <prop k="offset" v="0,0"/>
-         <prop k="style" v="solid"/>
-         <prop k="style_border" v="no"/>
-         <prop k="width_border" v="0.26"/>
-        </layer>
-       </symbol>
-      </symbols>
-     </VectorClassificationItemNg>
-    </LayerItem>
-   </Model>
-   <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLegend>
   <ComposerLabel valign="32" labelText="Gemeindename" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,22,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
@@ -609,7 +433,7 @@
   <ComposerShape shapeType="1" shapeWidth="200" outlineWidth="0" transparentFill="1" shapeHeight="534">
    <OutlineColor alpha="255" red="0" blue="0" green="0"/>
    <FillColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem width="200" x="5" y="302" rotation="0" height="534" frame="true" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
+   <ComposerItem width="200" x="5" y="302" rotation="0" height="534" frame="true" outlineWidth="0.2" zValue="3" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -652,7 +476,7 @@
     </symbol>
     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
    </Grid>
-   <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="1.08907" id="" positionLock="true">
+   <ComposerItem width="979" x="210" y="0" rotation="0" height="841" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>

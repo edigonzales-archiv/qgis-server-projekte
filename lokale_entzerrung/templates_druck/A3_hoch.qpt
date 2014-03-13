@@ -1,5 +1,11 @@
 <Composer title="A3" visible="1">
  <Composition printResolution="200" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="2" paperHeight="420" alignmentSnapTolerance="2" printAsRaster="1">
+  <ComposerPicture pictureWidth="151" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende2_1.svg" pictureHeight="77" mapId="-1">
+   <ComposerItem width="151" x="17.4359" y="561.6" rotation="0" height="77" frame="false" outlineWidth="0.3" zValue="55" lastValidViewScaleFactor="4.31022" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerPicture>
   <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="15" mapId="-1">
    <ComposerItem width="50" x="232" y="8" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="51" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -7,15 +13,9 @@
    </ComposerItem>
   </ComposerPicture>
   <ComposerPicture pictureWidth="15" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="15" mapId="0">
-   <ComposerItem width="15" x="268" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+   <ComposerItem width="15" x="268" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="1.07756" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerPicture>
-  <ComposerPicture pictureWidth="96.963" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende.svg" pictureHeight="58.3" mapId="-1">
-   <ComposerItem width="96.963" x="19" y="558" rotation="0" height="58.3" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerPicture>
   <ComposerShape shapeType="1" shapeWidth="272" outlineWidth="0" transparentFill="1" shapeHeight="28">
@@ -62,7 +62,7 @@
     </symbol>
     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
    </Grid>
-   <ComposerItem width="272" x="15" y="38" rotation="0" height="372" frame="true" outlineWidth="0.2" zValue="46" lastValidViewScaleFactor="1.07756" id="" positionLock="true">
+   <ComposerItem width="272" x="15" y="38" rotation="0" height="372" frame="true" outlineWidth="0.2" zValue="46" lastValidViewScaleFactor="4.31022" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -134,7 +134,7 @@
   <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="4" x="11" y="742.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+   <ComposerItem width="4" x="11" y="312.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -142,15 +142,7 @@
   <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="4" x="11" y="312.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
-   <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="4" x="11" y="440.317" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+   <ComposerItem width="4" x="11" y="742.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -159,6 +151,14 @@
    <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+   <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="4" x="11" y="440.317" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -195,18 +195,18 @@
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" labelText="Bemerkungen:" halign="1" margin="0">
-   <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem width="24.8" x="19" y="625" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-   </ComposerItem>
-  </ComposerLabel>
   <ComposerLabel valign="32" labelText="Legende:" halign="1" margin="0">
    <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem width="24.8" x="19" y="553" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" labelText="Bemerkungen:" halign="1" margin="0">
+   <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem width="24.8" x="19" y="645" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.31022" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
@@ -446,7 +446,7 @@
   <ComposerShape shapeType="1" shapeWidth="272" outlineWidth="0" transparentFill="1" shapeHeight="400">
    <OutlineColor alpha="255" red="0" blue="0" green="0"/>
    <FillColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem width="272" x="15" y="440" rotation="0" height="400" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+   <ComposerItem width="272" x="15" y="440" rotation="0" height="400" frame="true" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="4.31022" id="" positionLock="true">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
    </ComposerItem>
