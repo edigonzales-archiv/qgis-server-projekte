@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>634683.914770</xmin>
-            <ymin>244990.269091</ymin>
-            <xmax>638987.900543</xmax>
-            <ymax>248673.407014</ymax>
+            <xmin>610216.150294</xmin>
+            <ymin>226405.302121</ymin>
+            <xmax>611654.876046</xmax>
+            <ymax>227326.086602</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,13 +24,13 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendgroup open="true" checked="Qt::Checked" name="Vektoren">
-            <legendlayer drawingOrder="0" open="true" checked="Qt::Checked" name="Vektoren Mittel" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Vektoren">
+            <legendlayer drawingOrder="1" open="true" checked="Qt::Checked" name="Vektoren Mittel" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="average_messungen20140227104656848" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="1" open="true" checked="Qt::Checked" name="Vektoren GP" showFeatureCount="0">
+            <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="Vektoren GP" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="grenzpunkte20140225103519301" visible="1"/>
                 </filegroup>
@@ -40,18 +40,35 @@
                     <legendlayerfile isInOverview="0" layerid="lagefixpunkte20140225083216405" visible="1"/>
                 </filegroup>
             </legendlayer>
+            <legendlayer drawingOrder="4" open="true" checked="Qt::Unchecked" name="Cluster Messungen" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="cluster_messungen20140227095517694" visible="0"/>
+                </filegroup>
+            </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="16" open="true" checked="Qt::Unchecked" name="Cluster Messungen" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="cluster_messungen20140227095517694" visible="0"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="3" open="false" checked="Qt::Checked" name="Hektarraster (200m)" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Checked" name="Weitere Kontrollmessungen">
+            <legendlayer drawingOrder="5" open="true" checked="Qt::Checked" name="Kontrollpunkte Dreiecksvermaschung" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="kontrollmessungen_lfp220140312120401675" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="6" open="true" checked="Qt::Checked" name="Kontrollpunkte Technikerkurs 2009" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="kontrollmessungen_techkurs20140312122835881" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="7" open="true" checked="Qt::Checked" name="Kontrollpunkte BBP 2006" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="kontrollmessungen_bbp20140312145527070" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendlayer drawingOrder="8" open="false" checked="Qt::Checked" name="Hektarraster (200m)" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="hektarraster20140210111632875" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="6" open="false" checked="Qt::Checked" name="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
+        <legendlayer drawingOrder="11" open="false" checked="Qt::Checked" name="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="gemeinde_operate20140207123332478" visible="1"/>
             </filegroup>
@@ -61,73 +78,73 @@
                 <legendlayerfile isInOverview="0" layerid="mbsf20140227171250075" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="Toleranzstufe TS2" showFeatureCount="0">
+        <legendlayer drawingOrder="18" open="false" checked="Qt::Checked" name="Toleranzstufe TS2" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="tseinteilung_toleranzstufe20140207125251551" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="8" open="false" checked="Qt::Checked" name="LFP1 / LFP2" showFeatureCount="0">
+        <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="LFP1 / LFP2" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="cppt20140213160805946" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="CHENyx06">
-            <legendlayer drawingOrder="7" open="true" checked="Qt::Checked" name="TSP" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="CHENyx06">
+            <legendlayer drawingOrder="9" open="true" checked="Qt::Checked" name="TSP" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="chenyx06_tsp_lv0320140207160706218" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="9" open="true" checked="Qt::Unchecked" name="Dreiecksvermaschung" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="Dreiecksvermaschung" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="chenyx06_lv0320140207155809498" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="Hintergrundkarten">
-            <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="Wald" showFeatureCount="0">
+            <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="Wald" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung_boflaeche20140227100700220" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)" showFeatureCount="0">
+            <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Amtliche_Vermessung__schwarz_weiss_20140207125144331" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="11" open="false" checked="Qt::Checked" name="Amtliche Vermessung (grau)" showFeatureCount="0">
+            <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="Amtliche Vermessung (grau)" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Amtliche_Vermessung__grau_20140225083114584" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="Basisplan schwarz-weiss 1:10000" showFeatureCount="0">
+            <legendlayer drawingOrder="16" open="false" checked="Qt::Unchecked" name="Basisplan schwarz-weiss 1:10000" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Basisplan_schwarz_weiss_1_1000020140207125207395" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="14" open="false" checked="Qt::Checked" name="Basisplan grau 1:10000" showFeatureCount="0">
+            <legendlayer drawingOrder="17" open="false" checked="Qt::Checked" name="Basisplan grau 1:10000" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Basisplan_schwarz_weiss_1_10000_copy20140227100234200" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="print" showFeatureCount="0">
+        <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="print" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="v_messungen_statistik20140303174821632" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="A4" visible="0">
+    <Composer title="A4" visible="1">
         <Composition printResolution="200" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="2" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="1">
-            <ComposerPicture pictureWidth="96.963" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende.svg" pictureHeight="58.3" mapId="-1">
-                <ComposerItem width="96.963" x="18" y="434" rotation="0" height="58.3" frame="false" outlineWidth="0.3" zValue="67" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+            <ComposerPicture pictureWidth="151" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende2_1.svg" pictureHeight="77" mapId="-1">
+                <ComposerItem width="151" x="16" y="436" rotation="0" height="77" frame="false" outlineWidth="0.3" zValue="58" lastValidViewScaleFactor="6.06281" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerLabel valign="32" labelText="Legende:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="18" y="429" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="66" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="18" y="429" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="53" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -135,7 +152,7 @@
             <ComposerLabel valign="32" labelText="Bemerkungen:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="18" y="500" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="66" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
+                <ComposerItem width="24.8" x="18" y="517" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="52" lastValidViewScaleFactor="6.06281" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -143,7 +160,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="409" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="65" lastValidViewScaleFactor="5.61322" id="ts3_95" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="409" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="51" lastValidViewScaleFactor="5.61322" id="ts3_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -151,7 +168,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="404" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="64" lastValidViewScaleFactor="5.61322" id="ts3_68" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="404" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="5.61322" id="ts3_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -159,7 +176,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="399" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="63" lastValidViewScaleFactor="5.61322" id="ts3_max" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="399" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="5.61322" id="ts3_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -167,7 +184,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="394" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="62" lastValidViewScaleFactor="5.61322" id="ts3_min" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="394" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="48" lastValidViewScaleFactor="5.61322" id="ts3_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -175,7 +192,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="389" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="61" lastValidViewScaleFactor="5.61322" id="ts3_stddev" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="389" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="47" lastValidViewScaleFactor="5.61322" id="ts3_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -183,7 +200,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="60" lastValidViewScaleFactor="5.61322" id="ts3_mean" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="46" lastValidViewScaleFactor="5.61322" id="ts3_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -191,7 +208,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="409" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="59" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="409" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="45" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -199,7 +216,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="404" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="58" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="404" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="44" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -207,7 +224,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="399" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="57" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="399" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="43" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -215,7 +232,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="394" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="56" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="394" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="42" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -223,7 +240,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="389" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="55" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="389" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="41" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -231,7 +248,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="54" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="40" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -239,7 +256,7 @@
             <ComposerLabel valign="32" labelText="TS3" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="15.1204" x="18" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="53" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="15.1204" x="18" y="384" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -247,7 +264,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="374" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="39" lastValidViewScaleFactor="5.61322" id="ts2_95" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="374" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="5.61322" id="ts2_95" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -255,7 +272,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="369" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="38" lastValidViewScaleFactor="5.61322" id="ts2_68" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="369" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="5.61322" id="ts2_68" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -263,7 +280,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="364" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="5.61322" id="ts2_max" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="364" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="5.61322" id="ts2_max" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -271,7 +288,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="359" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="5.61322" id="ts2_min" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="359" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="5.61322" id="ts2_min" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -279,7 +296,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="354" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="35" lastValidViewScaleFactor="5.61322" id="ts2_stddev" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="354" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="5.61322" id="ts2_stddev" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -287,7 +304,7 @@
             <ComposerLabel valign="32" labelText="XX mm" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="103" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="34" lastValidViewScaleFactor="5.61322" id="ts2_mean" positionLock="true">
+                <ComposerItem width="24.8" x="103" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="5.61322" id="ts2_mean" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -295,7 +312,7 @@
             <ComposerLabel valign="32" labelText="Fs min:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="359" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="33" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="359" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -303,7 +320,7 @@
             <ComposerLabel valign="32" labelText="Fs max:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="364" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="32" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="364" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -311,7 +328,7 @@
             <ComposerLabel valign="32" labelText="Fs 95%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="374" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="374" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -319,7 +336,7 @@
             <ComposerLabel valign="32" labelText="Fs Std. Abw.:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="354" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="30" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="354" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -327,7 +344,7 @@
             <ComposerLabel valign="32" labelText="Fs 68%:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="369" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="29" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="369" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="28" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -335,7 +352,7 @@
             <ComposerLabel valign="32" labelText="Fs Mittel:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="63" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="63" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="27" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -343,7 +360,7 @@
             <ComposerLabel valign="32" labelText="TS2" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="15.1204" x="18" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="15.1204" x="18" y="349" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="26" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -351,7 +368,7 @@
             <ComposerLabel valign="32" labelText="Quantum GIS" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,16,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="125.355" x="63" y="327" rotation="0" height="9.6129" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="5.61322" id="gemeinde" positionLock="true">
+                <ComposerItem width="125.355" x="63" y="327" rotation="0" height="9.6129" frame="false" outlineWidth="0.3" zValue="25" lastValidViewScaleFactor="5.61322" id="gemeinde" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -359,7 +376,7 @@
             <ComposerLabel valign="32" labelText="Quantum GIS" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,16,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="140.656" x="63" y="319" rotation="0" height="9.29247" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="5.61322" id="gemeinde_operat" positionLock="true">
+                <ComposerItem width="140.656" x="63" y="319" rotation="0" height="9.29247" frame="false" outlineWidth="0.3" zValue="24" lastValidViewScaleFactor="5.61322" id="gemeinde_operat" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -367,7 +384,7 @@
             <ComposerLabel valign="32" labelText="Statistik:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="18" y="339" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="21" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="18" y="339" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="23" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -375,7 +392,7 @@
             <ComposerLabel valign="32" labelText="Gemeinde:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,16,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="37.2669" x="18" y="327" rotation="0" height="10" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="37.2669" x="18" y="327" rotation="0" height="10" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -383,33 +400,33 @@
             <ComposerLabel valign="32" labelText="Operat:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,16,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="18" y="319" rotation="0" height="9.29247" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="24.8" x="18" y="319" rotation="0" height="9.29247" frame="false" outlineWidth="0.3" zValue="21" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
             <ComposerPicture pictureWidth="50" file="/opt/qgis-server-projekte/lokale_entzerrung/images/kanton_4f.svg" pictureHeight="15" mapId="-1">
-                <ComposerItem width="50" x="145" y="8" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="18" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
+                <ComposerItem width="50" x="145" y="8" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="20" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerPicture pictureWidth="15" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="15" mapId="0">
-                <ComposerItem width="15" x="182.747" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="17" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
+                <ComposerItem width="15" x="182.747" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="19" lastValidViewScaleFactor="1.5157" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerShape shapeType="1" shapeWidth="185" outlineWidth="0" transparentFill="1" shapeHeight="28">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem width="185" x="15" y="10" rotation="0" height="28" frame="true" outlineWidth="0.2" zValue="16" lastValidViewScaleFactor="3.12081" id="" positionLock="true">
+                <ComposerItem width="185" x="15" y="10" rotation="0" height="28" frame="true" outlineWidth="0.2" zValue="18" lastValidViewScaleFactor="3.12081" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerShape>
             <ComposerScaleBar brushColor="#000000" segmentMillimeters="0" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="1" outlineWidth="0.11" units="0" numSegmentsLeft="0" style="Numeric" unitLabel="" font="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="0" numUnitsPerSegment="0">
-                <ComposerItem width="6.3" x="128.2" y="23.3" rotation="0" height="2.4" frame="false" outlineWidth="0" zValue="15" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="6.3" x="128.2" y="23.3" rotation="0" height="2.4" frame="false" outlineWidth="0" zValue="17" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -444,7 +461,7 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="185" x="15" y="38" rotation="0" height="249" frame="true" outlineWidth="0.2" zValue="14" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="185" x="15" y="38" rotation="0" height="249" frame="true" outlineWidth="0.2" zValue="16" lastValidViewScaleFactor="1.5157" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -452,7 +469,7 @@
             <ComposerLabel valign="32" labelText="$CURRENT_DATE(dd.MM.yyyy)" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="15.6684" x="128" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="15" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -460,7 +477,7 @@
             <ComposerLabel valign="32" labelText="Erstellungsdatum:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="23.0506" x="105" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="23.0506" x="105" y="20" rotation="0" height="3.91709" frame="false" outlineWidth="0.3" zValue="14" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -468,7 +485,7 @@
             <ComposerLabel valign="32" labelText="Aus den Daten können keine rechtlichen Ansprüche, &#xa;insbesondere auch keine Haftung des Kantons abgeleitet werden." halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
+                <ComposerItem width="79.1052" x="105" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="13" lastValidViewScaleFactor="2.22483" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -476,7 +493,7 @@
             <ComposerLabel valign="32" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="28.2872" x="65" y="29" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="12" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -484,7 +501,7 @@
             <ComposerLabel valign="32" labelText="Telefon 032 627 75 92&#xa;Telefax 032 627 75 98" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="28.2872" x="65" y="20" rotation="0" height="6.81699" frame="false" outlineWidth="0.3" zValue="11" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -492,7 +509,7 @@
             <ComposerLabel valign="32" labelText="Rötistrasse 4&#xa;4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="35.7058" x="17" y="29" rotation="0" height="8.06016" frame="false" outlineWidth="0.3" zValue="10" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -500,7 +517,7 @@
             <ComposerLabel valign="32" labelText="Amtliche Vermessung" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="35.7058" x="17" y="23" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="35.7058" x="17" y="23" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="9" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -508,7 +525,7 @@
             <ComposerLabel valign="32" labelText="Amt für Geoinformation" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,7,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
+                <ComposerItem width="38.2669" x="17" y="20" rotation="0" height="4" frame="false" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="4.60664" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -516,7 +533,7 @@
             <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, Email: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -524,7 +541,7 @@
             <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="317.317" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="317.317" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="5.61322" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -532,7 +549,7 @@
             <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="190" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="2.80661" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -580,13 +597,13 @@
                 </ComposerItem>
             </ComposerPicture>
             <ComposerPicture pictureWidth="15" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="15" mapId="0">
-                <ComposerItem width="15" x="268" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+                <ComposerItem width="15" x="268" y="21.092" rotation="0" height="15" frame="false" outlineWidth="0.3" zValue="50" lastValidViewScaleFactor="1.07756" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerPicture>
             <ComposerPicture pictureWidth="96.963" file="/opt/qgis-server-projekte/lokale_entzerrung/images/legende.svg" pictureHeight="58.3" mapId="-1">
-                <ComposerItem width="96.963" x="19" y="558" rotation="0" height="58.3" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+                <ComposerItem width="96.963" x="19" y="558" rotation="0" height="58.3" frame="false" outlineWidth="0.3" zValue="49" lastValidViewScaleFactor="1.07756" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1026,7 +1043,7 @@
             </ComposerShape>
         </Composition>
     </Composer>
-    <Composer title="A2" visible="1">
+    <Composer title="A2" visible="0">
         <Composition printResolution="200" paperWidth="594" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="420" alignmentSnapTolerance="2" printAsRaster="1">
             <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
@@ -1100,6 +1117,12 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerShape>
+            <ComposerPicture pictureWidth="30" file="" pictureHeight="30" mapId="-1">
+                <ComposerItem width="30" x="430.255" y="217.847" rotation="0" height="30" frame="false" outlineWidth="0.3" zValue="56" lastValidViewScaleFactor="3.12605" id="" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerPicture>
             <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="420">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
                 <FillColor alpha="255" red="0" blue="0" green="0"/>
@@ -1108,12 +1131,6 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerShape>
-            <ComposerPicture pictureWidth="30" file="" pictureHeight="30" mapId="-1">
-                <ComposerItem width="30" x="430.255" y="217.847" rotation="0" height="30" frame="false" outlineWidth="0.3" zValue="56" lastValidViewScaleFactor="3.12605" id="" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerPicture>
             <ComposerPicture pictureWidth="30" file="/opt/qgis-server-projekte/lokale_entzerrung/images/north_arrow7.svg" pictureHeight="30" mapId="0">
                 <ComposerItem width="30" x="554.304" y="379.836" rotation="0" height="30" frame="false" outlineWidth="0.3" zValue="55" lastValidViewScaleFactor="3.12605" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -1528,8 +1545,59 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_lfp220140312120401675" text="kontrollmessungen_lfp2" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="147,240,54,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_techkurs20140312122835881" text="kontrollmessungen_techkurs" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="151,1,192,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_bbp20140312145527070" text="kontrollmessungen_bbp" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="241,187,120,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="101.3" x="10" y="309" rotation="0" height="57.2" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
+                <ComposerItem width="119.4" x="10" y="309" rotation="0" height="81.8" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -1686,14 +1754,14 @@
                     </symbol>
                     <Annotation rightDirection="0" bottomDirection="1" format="0" topPosition="0" precision="0" leftDirection="0" rightPosition="0" bottomPosition="0" frameDistance="4" show="1" font="CadastraCondensed,8,-1,5,50,2,0,0,0,0" leftPosition="0" topDirection="1"/>
                 </Grid>
-                <ComposerItem width="384.2" x="210" y="0" rotation="0" height="420" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="4.28029" id="" positionLock="true">
+                <ComposerItem width="384.2" x="210" y="0" rotation="0" height="420" frame="false" outlineWidth="0.2" zValue="1" lastValidViewScaleFactor="2.17815" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="A1" visible="1">
+    <Composer title="A1" visible="0">
         <Composition printResolution="200" paperWidth="841" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="594" alignmentSnapTolerance="2" printAsRaster="1">
             <ComposerShape shapeType="1" shapeWidth="15" outlineWidth="0" transparentFill="1" shapeHeight="0">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
@@ -2189,8 +2257,59 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_lfp220140312120401675" text="kontrollmessungen_lfp2" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="147,240,54,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_techkurs20140312122835881" text="kontrollmessungen_techkurs" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="151,1,192,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_bbp20140312145527070" text="kontrollmessungen_bbp" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="241,187,120,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
+                <ComposerItem width="119.4" x="10" y="307" rotation="0" height="95" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="1.54118" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2354,7 +2473,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="A0" visible="1">
+    <Composer title="A0" visible="0">
         <Composition printResolution="200" paperWidth="1189" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="841" alignmentSnapTolerance="2" printAsRaster="1">
             <ComposerShape shapeType="1" shapeWidth="0" outlineWidth="0" transparentFill="1" shapeHeight="15">
                 <OutlineColor alpha="255" red="0" blue="0" green="0"/>
@@ -2850,8 +2969,59 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_lfp220140312120401675" text="kontrollmessungen_lfp2" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="147,240,54,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_techkurs20140312122835881" text="kontrollmessungen_techkurs" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="151,1,192,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                    <LayerItem layerId="kontrollmessungen_bbp20140312145527070" text="kontrollmessungen_bbp" showFeatureCount="0">
+                        <VectorClassificationItemNg text="">
+                            <symbols>
+                                <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleMarker" locked="0">
+                                        <prop k="angle" v="0"/>
+                                        <prop k="color" v="241,187,120,255"/>
+                                        <prop k="color_border" v="0,0,0,255"/>
+                                        <prop k="name" v="circle"/>
+                                        <prop k="offset" v="0,0"/>
+                                        <prop k="scale_method" v="area"/>
+                                        <prop k="size" v="2"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
                 </Model>
-                <ComposerItem width="107.3" x="10" y="307" rotation="0" height="70" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
+                <ComposerItem width="119.4" x="10" y="307" rotation="0" height="95" frame="false" outlineWidth="0.3" zValue="22" lastValidViewScaleFactor="4.35629" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -3015,7 +3185,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <projectlayers layercount="17">
+    <projectlayers layercount="20">
         <maplayer minimumScale="-4.65661e-10" maximumScale="6000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>Amtliche_Vermessung__grau_20140225083114584</id>
             <datasource>crs=EPSG:21781&amp;featureCount=10&amp;format=image/png&amp;layers=Amtliche%20Vermessung%20(grau)&amp;styles=&amp;url=http://www.catais.org/wms/grundbuchplan_grau</datasource>
@@ -3136,7 +3306,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>average_messungen20140227104656848</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."average_messungen" (wkb_geometry) sql=</datasource>
             <title></title>
@@ -3220,7 +3390,7 @@
                 <property key="labeling/dataDefinedProperty8" value=""/>
                 <property key="labeling/dataDefinedProperty9" value=""/>
                 <property key="labeling/decimals" value="0"/>
-                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/displayAll" value="true"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
@@ -3313,7 +3483,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="50000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="50000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>bodenbedeckung_boflaeche20140227100700220</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avdpool_ng"."bodenbedeckung_boflaeche" (geometrie) sql="art_txt" = 'bestockt.geschlossener_Wald'</datasource>
             <title></title>
@@ -3338,7 +3508,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="221,250,221,255"/>
+                            <prop k="color" v="229,250,229,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -3508,7 +3678,7 @@
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="172,139,243,255"/>
-                            <prop k="color_border" v="170,170,170,255"/>
+                            <prop k="color_border" v="80,80,80,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
@@ -4299,7 +4469,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>grenzpunkte20140225103519301</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."grenzpunkte" (geometrie_lv03) sql="fs" IS NOT NULL</datasource>
             <title></title>
@@ -4333,7 +4503,7 @@
                             <symbol outputUnit="MM" alpha="1" type="line" name="@0@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="238,185,185,255"/>
+                                    <prop k="color" v="209,162,162,255"/>
                                     <prop k="customdash" v="5;2"/>
                                     <prop k="joinstyle" v="bevel"/>
                                     <prop k="offset" v="0"/>
@@ -4646,6 +4816,580 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>kontrollmessungen_bbp20140312145527070</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_bbp" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Kontrollpunkte BBP 2006</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="RuleRenderer">
+                <rules>
+                    <rule filter=" &quot;ac&quot; &lt; 10" symbol="0" label="GP"/>
+                    <rule filter=" &quot;ac&quot; > 9" symbol="1" label="LFP3"/>
+                    <rule symbol="2" label="Vektor"/>
+                </rules>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="1" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#ff00ff"/>
+                            <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_E_grenzpunkt_markstein_kunststoffzeichen_param.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="3"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                        <layer pass="1" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#ff00ff"/>
+                            <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_J_lagefixpunkt_3_auf_markstein_kunststoffzeichen_param.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="4"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                        <layer pass="0" class="VectorField" locked="0">
+                            <prop k="angle_orientation" v="0"/>
+                            <prop k="angle_units" v="0"/>
+                            <prop k="scale" v="0.5"/>
+                            <prop k="vector_field_type" v="0"/>
+                            <prop k="x_attribute" v="dy"/>
+                            <prop k="y_attribute" v="dx"/>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="@2@0">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="255,0,255,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.4"/>
+                                </layer>
+                            </symbol>
+                        </layer>
+                    </symbol>
+                </symbols>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="true"/>
+                <property key="labeling/dist" value="1"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value=" round(&quot;fs&quot;,0) || 'mm'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="255"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="255"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ac"/>
+                <edittype type="0" name="dx"/>
+                <edittype type="0" name="dy"/>
+                <edittype type="0" name="fs"/>
+                <edittype type="0" name="nummer"/>
+                <edittype type="0" name="ogc_fid"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>kontrollmessungen_lfp220140312120401675</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_lfp2" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Kontrollpunkte Dreiecksvermaschung</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="VectorField" locked="0">
+                            <prop k="angle_orientation" v="0"/>
+                            <prop k="angle_units" v="0"/>
+                            <prop k="scale" v="0.5"/>
+                            <prop k="vector_field_type" v="0"/>
+                            <prop k="x_attribute" v="dy"/>
+                            <prop k="y_attribute" v="dx"/>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="@0@0">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="0,170,127,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.4"/>
+                                </layer>
+                            </symbol>
+                        </layer>
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#00aa7f"/>
+                            <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_A_lagefixpunkt_1_und_2_begehbar_param.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="4"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="true"/>
+                <property key="labeling/dist" value="1"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="round(fs,0) || 'mm'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="127"/>
+                <property key="labeling/textColorG" value="170"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="dx"/>
+                <edittype type="0" name="dy"/>
+                <edittype type="0" name="fs"/>
+                <edittype type="0" name="nummer"/>
+                <edittype type="0" name="ogc_fid"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>kontrollmessungen_techkurs20140312122835881</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_techkurs" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Kontrollpunkte Technikerkurs 2009</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="VectorField" locked="0">
+                            <prop k="angle_orientation" v="0"/>
+                            <prop k="angle_units" v="0"/>
+                            <prop k="scale" v="0.5"/>
+                            <prop k="vector_field_type" v="0"/>
+                            <prop k="x_attribute" v="dy"/>
+                            <prop k="y_attribute" v="dx"/>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="@0@0">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="255,170,0,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.4"/>
+                                </layer>
+                            </symbol>
+                        </layer>
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#ffaa00"/>
+                            <prop k="name" v="/opt/qgis-server-projekte/lokale_entzerrung/symbols/grundbuchplan/symbol_J_lagefixpunkt_3_auf_markstein_kunststoffzeichen_param.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="4"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="true"/>
+                <property key="labeling/dist" value="1"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="round(fs,0) || 'mm'"/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="CadastraCondensed"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="8"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="170"/>
+                <property key="labeling/textColorR" value="255"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Bitstream Vera Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="dx"/>
+                <edittype type="0" name="dy"/>
+                <edittype type="0" name="fs"/>
+                <edittype type="0" name="kategorie"/>
+                <edittype type="0" name="nummer"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="punktzeichen"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>lagefixpunkte20140225083216405</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."lagefixpunkte" (geometrie_lv03) sql="fs" IS NOT NULL</datasource>
             <title></title>
@@ -4679,7 +5423,7 @@
                             <symbol outputUnit="MM" alpha="1" type="line" name="@0@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="238,185,185,255"/>
+                                    <prop k="color" v="206,162,162,255"/>
                                     <prop k="customdash" v="5;2"/>
                                     <prop k="joinstyle" v="bevel"/>
                                     <prop k="offset" v="0"/>

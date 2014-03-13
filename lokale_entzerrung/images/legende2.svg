@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="296.926mm" height="209.973mm"
+ viewBox="0 0 3507 2480"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Webgis Lokale Entzerrung</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" vector-effect="non-scaling-stroke" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#a0a0a4" fill-opacity="1" stroke="none" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L297,0 L297,210 L0,210 L0,0"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L297,0 L297,210 L0,210 L0,0"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L159.9,0 L159.9,113.2 L0,113.2 L0,0"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="86" font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+ >Vektoren</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="161" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Vektoren Mittel</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#ff0000" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,423.591,610.738)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,0.5 0,0.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="296" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Vektoren LFP</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#cea2a2" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,746.531)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,23.5 47,23.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="431" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Vektoren GP</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#d1a2a2" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,423.591,929.556)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,0.5 0,0.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="566" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Kontrollpunkte Dreiecksvermaschung</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#00aa7f" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1065.35)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,23.5 47,23.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#00aa7f" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,422.969,1088.34)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-23" y="-23" width="47" height="47" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAGoklEQVRoge2Ya1CU1x3Gf+fdd5dddpebC3IHMcotBMWqUbTEiUkmiZcGRSC2mToTMdMviZpLm4bsUB0rE9MEbdJx+il2RpwlHcjQZmzS1jqTNq0JjaaNQqXBEC/IHbnusrynH5ZlQBdcYEk7HZ5P7znnf87zvM+e8/7/ZwVzBYfdgJSVRIlCNpS554JCmYtFPZDPIkQ+bTwzVwxiTlZ12KOR/AuBFehCdS4h/3BHoGnmxnnJoVHhAOG4gw7MBU3gnT9VuhJFOTexU2poWg5FBy8EkiqwztvtCoo46m3+MG1dg+dJKCi6CmRgzQqs+Ey5E8T9AOsWJJ7/adbG1GVh0edHR/N499XtgaQLnBM1L1hxBjcgiFEQ/Vc37dPHmKyGK/3dfSnvV6gSaQTZjFGks6VsIBCUgXPeZXoZQQzA3qVrrsSYrAaAZHOY5fvJ2Rc9QSKRIflCoCgD47zDfg/IL0AYLKrhWsfWl+IMim5suN/tkhHvld90aSPRwCCQxo6y5tnSBsh5+ToIA8A7q74jxgsHMKsGcWzZYz2jTRPI1wLBOnvxVfaHQWwBSLdG1ufHZcT6Ctu9OCc11mSp97TEDhylebOlnp344yV6JG8CCIS7OrcwabJQgaBmbXEESG2UugJHgW6yeH8wO/Hh0T8A0gF2JmY1plptpqnCV0bERW2ITPF+OrORGbtnQz/zA+v4USQYLgOhBkXX2b71xQirGnTXaa1Dfa6Y2tedGtKKpAO3cwk7D3fNRMIsnNcfBEIBfpb9yKA/wgGijBbD86lrvwRAsAA1qGymCmbmfNUry9F0dQhEnDHkq+ZNe5MU4f9Sw9oI4e+Vf9XvdiUBI2gso6jsn9OVMX3nJQKpHEV4XrxqbYFtvHCJ5O9dN/h54zl+cvEsbzWe40J3CxI5FqNXdPxq1RPeDh2CN2dS90zfeYe9CKgEeGhhSuMH337qHu/Qhe4W9tT9hr91Xr1jWq4tkeMrNpEZEjXWl3b62OcNvR33eVpaPjsOVM+d+BP7zQSZ6xEiXocycHXzvuBoowWAM61NPP7RSQZHhiedblYNnF7/XdbZEgFo6G3vSTt9zDSa4JroJ4NdZUP+ypnetjFaXkKIeICX09d3eYW3Ofsp+LhqTPj3krL5ZGMJbVte5K8PPk1xYhYA/W4X2z920OUaBCDVagstSLjXu9cXYZb7pyPH/yRRaU9GkSdBqGF6483adU/G6ITn3csb/szplkYAXs3I4+jyR4k1WQlW9cSbQtgWn4FTc/NRezP9bhdm1UBeZDIAjyxcvPBIw186NGQwkvspfuAEjrO3/JHkv/M6joAwApxY9UTw+Pql+tolAOJNIZRm+M76ZZkb8P5SNdfrx/pD9EalPGtjGwBCBDMiy/2V5J/4U6UbgG0AK8JjmzfHplrHDzf2dQKwPjIJVfhe0qDoxvb65d7OCWPPLV2TvsBguuxpiSc5VZobGPFn7CqKUgGe+uXk6vyE20O8gl3ayJRLecdVZSKtIgTVuYWWcR1H/al77i6+jRIgC+DpRTmtS622O75Q3s/fmdYm+twun8v0DA/xp7Yro/GRd4yvtyXHrI6I+8zTEjmQsWt24h32CJAHAEw6tedI9sM+y93ChEwAOl2D7Kmrxe0tHEcxrI2w+9Nabg07AShKuNcn3a/XFKYJhPeKeIhqe9hU8qb+aQoeeA1EHsDbOY+71toSfBYw2WHRVH19kU7XIP/oaeX9G5dRhUL38BB/aG2ipK6WP7Y2AZAREsnxb232eTZC9EH6NufAF590XYsGzGgEUXX2d5PJmzxJOV7JAuU8CGWROayl8dFno6eqX+p723nw7DtcH+ydNCYxOJTf5z3FEsuCSWOcmpuwmsPXhkbccUjpRtPuo/jgJV+xvreNRICuAjz2VK7eHnW3wivNauOzh55hV/Jybr8GBikqJSkrqNu4Z0rh3thfrtjsybJCqOh0b0xW9/hWdKp0G4ryLsDW2NSWmtzi6CkZb8OtYSefdl2nwzWAzRDMyog4LKrB7/kSScpvKy5eGejOAEDTtlB0oPbu4h17TciQSwiSVKEMfr1pn8mbXL5JfN59szP7w1+E4jmX/8bSmcljx5zjY9Q7Zknr8wiSAPLj0+sH3MM3v+yb0UVnVrCoBlKtNlNDb3sesJje8OeACdl3ovOVP05ApzYAU95F/zuQfejcS9l26Ia3Z+KB1anl/E8KBxAW3OrhCT1jTyf2mzFa9n7jmqYFKTGKNwL1X+c85jGPecxjHvP4v8N/AAvS/+jtJQ78AAAAAElFTkSuQmCC" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#00aa7f" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1065.35)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="707" font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+ >Weitere Kontrollmessungen</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="782" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Kontrollpunkte Technikerkurs 2009</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#ffaa00" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1320.4)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,23.5 47,23.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#ffaa00" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,422.969,1343.4)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-23" y="-23" width="47" height="47" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAF00lEQVRoge2Ya2xURRTHf7N9sfRBaZtFaUo3lVIekqq09VEQG4wmEqMmUgQDgpiACUHFwAcNQTQhJBp8JMaIIo8ilJWaKiEGQwKSJkihKjQCBSJ9olBKKy1dtu3u+GHu9t7bbvfe3eK3/X/p3DMz//Pv7JmZcwZiiCGGGGKwgLibZLKaVPopQVKAxAU4AS+Ca0ADUCvK6blb/kYtXu5gDMm8DCxBUoogfuTBDAA1QAW97BXLuTMa31GLlx7ikKxCsAGYMGyAIwninOD3QsAXiuIfJJs4xzaxiUA0GqISLw+QR4BKoHjQmOyGnEUwYR6MK4SkLH2Crx26zsD1I9BcCb1NRroTOFgkXsRk/F/ESw+zkRxEkA5AagHM3AzZL9ijkwFoq4L6d6HnUtB6kwDzxUv8GomWiMRLD7OBnwEnCJi6Hma8D47ESGgUAj6ofwcubg1abiOYJxZw0i6FbfHyAHn4qUOQjiMBinfCpMWhRsKt89DdAAM9EJ+ifp20aaHdNVXAqVdBDoCkA8FDopxmO5pGPhmMcjzEEaBShYoILdzXrlaxcRfc+Xs4iXMiuJfBlLWQmKnbc5eoUDq1DASZwF4pmSME0kqXw454JKsIbs6CdcOFt1TCT1PgwpbQwgG8V+H8ZjWu9YC5z/0K5L8R/CrFw2t2ZFmGjfTgRNKIwEVqATx11hzjDR/C2fX6t6sMcpdCRjEkjIf+TrhZq36R9l/0cQ98DPlv6t/+O3B4Btz+C6ANyBPl9Nn5J8KJXyE9SOlBytYqaULzPjnY90OWlFcPybBo+1HK6kxtjhjO1/StzudhiZU2O2GjSJLd2nGowdcOda+rdlIWlNXAvc+EZ5r4LJQdh8QMQELdSujr1PtzFoIz2+w3WvGymlQkpYp4EaYou7gV+rtUu3iXOlHsIG06FG1Xbd8NuPSp3ifiIKc8+DVXenBGLZ5+SgZzlQnzDB1SxTCoGLda8aHIfh4yH1Ptxp3mPteTwVYiMCscTXjxEn05xxXq9lvn9VMld6m12FBwa/N6m6Dnsm5PLzSOmhqOwkq8S41KMucq3Q16O6OYqJBREprPma3Cx+h/BFhtWBVzcUNCb8CQkieMt5IZGsZ5A93mvqA/wdhwFFbivYBKa42IT9Hb/Z1EBeO8+DRzn79X/ZX0hqMIL15VQCqJ8rXrduPJcrPWWmgodBjyLyOft1WlC0b/I8Bq5fVg7DqjW9OmqVwF9FMnUjRp85LdkHKfbjf6CXAhHIWV+FqtdFOFxCCESrJAXflXD9rSO4jWKujQUnf3cnPfNc2PxIeXunA0YcVrxXINoCogaajW8t/Sbkrg1HK4dc6e8H/r4bSWdyW5IH+N3if90LJfc84xqxrXTnpQAajzuK1KtyZlwawvVbuvA47Ogbbq8EytVXD0ce1mFlD0FSSk6/3N+/T7Q7LHSph1VqleB64A95CSD0/Xq3M/iEufwB9rIZh+Z5WqHD2jRM8qO05C027oOKG7ffAzmLxa5/F74fB0uN0I0AJMtsoqbVVScj+rEHwBwJS3ofAj84C271WS5bthTZbkgqJtMPE5s/331XD5c80hK8RCvrGisid+Iw5mUAM8CkDJbrW6RvR1qiSrcefQ1wGFZLfanPlrzKECcGW7vg/gOAt4wk4lFUkNm0uA34AMRDwUfa0qoFDouazVsN3qAkotMB+HQ4XXrVSbVXJdq2Hb7GiK7PWgkkdwcARIBlTpNnMLxI2JhEbB74Wz6/RQgR4EZWIBp+1SRP5u8x0PE+CQVixDch7c/4EqJIIJVVgCvzpV/twQ3JxqxR3Mj0R4VOIBpIdJwF7QChVQ2WBOucrH0wuNFZG68rvOqAuoZf/QIv04sNhuqIxaPGibeDorEGwEsocNEHHaW2Wv+XLT0YLkPcrZYWdzhsLoX4k9JAILUTXnXFQFNMJgfAiOIdmDwDPa14G7+z6vas5ZwFQkLgRjkfQiuEaAC3ipG+2zdgwxxBBDDBHhP8+/J9bGFbKEAAAAAElFTkSuQmCC" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#ffaa00" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1320.4)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="20" y="917" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Kontrollpunkte BBP 2006</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,405.879,1485.72)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,422.874,1502.71)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-17" y="-17" width="35" height="35" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABSUlEQVRYhe2VsUoDQRCGvw1WooQIYiki9hKI5AUsBN/APIk+iVgYiARSWOoD2KkIaXwDm6S4wsRK8LfYdTiDept4R5r9YLk9mLv5mJubhUQikUgsB7fog0JtoAO0cDQQGfAI9BzuoSzBIomG0LWQbLnc3q+BUL16kZqehaQ9SV1JY3lGki4l7ZrQsFIhq8ixpDf9zFTSkQn1qxJpW0V+E/liImnHhJqxOWpz+HQAOANWCyLXgFO7O5kjRxxC9yLXI0W8WGXuYnOsRNs4GgBsRsZv2W4jNkX8ZxIZAsaR8SPbZeXL+IEGt5HRN7YrfwAKHYgwR6YF/fIqaVsfoWf2S5cJQgMR5sjkD5FDa95eJSJBph4mq58jF+GveQ/X828VeRJar0wmJ9SfOYtmV28Rkf+c2k38QGvhf98M36xXDjdc9L2JRCKRWAaffUehaGuZTYkAAAAASUVORK5CYII=" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,405.879,1485.72)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="110" y="987.5" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >GP</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1550.66)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,422.969,1573.66)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-23" y="-23" width="47" height="47" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEGklEQVRoge2YzWtdRRiHfydX21xpxbbhgg30hohEV12obdWCFP+NVjSlUOiifoC23ZRu3XThQhfFtpEitMbvQKkBGxDRQIWKwRQLokZqktosWm4SepvHxcw5Z870fNw0J3FzfnDvGebjfZ937pyZea9UqVKlSpUKFJRpDLFR0g5JA5IakuqS5iVNS7omaTxQcKdMnysSohuxH3EZcRdBzucu4lvEIKL7/4SuIQ4h/kkFXQ88Zp/pgdxAHER0rTV4P2I8AdMHHAVGgVmSmgG+Ad4BmvcF8T2iuVbguxFzkfMBYBhYojPdA84DTyYC+Bexay3AWwgI7EwudgjtawF4MxHAHcTO1QLvj2b8YeBcBtQSMAF8CgzZ5wTZv8wQ8FAUwE3EtrLBa9EaDzLAZ4AjwOOkv6BbgWPAzZSxZxJ9v0OUt4XbXcUYfzvF+ceYnSV/mzSfzcCFFBuHE/0OlAVeR0xHL6e/xt/14PYAp4FfgL/t80PgJa/fSc/OPNAftU8h1pUBvz9yOJwy42FbDzCSMqOuvgS22P5Bir1ziQD3lQF/OdrH3Zduhnip9ACTBeChJjBLJxx3y2lrA70R/KWVgm+MjvyjHsQRZ5aKZtzXZ87Y417bG1HbIqK+EviXIyejjoMl4l1lzzLBQ71gxze9+hHcpbM7j6/oXjEQlbY7tb9KumHLrzzQvMTj/pB03anfnuj1VJ6JIviGJGm9pB6n9ppTfq7AQpZ2ZNjrlVTz/GeoCL7ufMdyb+SbCixkyR13O9WrJD2SZ6IIft75jrXBKc8VWMiSO+5Rr62VUkpREfy0JGlR0qxTO+CUxwssZOnHDHtTkpY8/xkqgo9X41Wn9mlJW235bIGFLIXj+iQ94dRfTfSazDNRBD8uqS1JGnVqA0mv2vKYpK8KrPgalvSDLb/mtcV+FiVdWablpGzOafbje85+PEt8Um7BnJyd6Gfik7kBzDltbdxb6cUVgVv4wejQOO+BXHAOlM2YkzNPnzjgAfCF1/4R7gG1twz4bpssm9RtwXN40oKETl8EPgB+An63z/eB550+AfCeZ6eFuT+ZPn+Wcqu0ARyMHL+VMqPDmEtWJ/f5BvB5io1DiX6DpYBb+C5Mlm+MD6U4v4W5ZDUzoPuAEyTXeKhTib5jpWZSNoAmJss3OeeZFIhQvwFfY+77I8D1nL6ngFoEPo3oLRXcCWAXJss3zg5jMqAHUQt/qdxGPLsq4E4AOzFZvnHaj8mA2h1CtzG7SvxyhjO+uuBOANswWX4M0ItJJEaAKQ/4L8wyep20fxfGVm2p5ATQhThgk+X7X9AasAHoSmmLt8PB0l/OZQaxDrEPccmmbnlb5QLiImJvGft42f/P1yU9I5MBNWTu4y2Z2+GkpCuBgoUyfVaqVKlSpVz9B5Qze0pVSgvwAAAAAElFTkSuQmCC" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,399.975,1550.66)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="110" y="1047.5" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >LFP3</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#ff00ff" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,423.591,1645.13)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,0.5 0,0.5 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="110" y="1107.5" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Vektor</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="80" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Hektarraster (200m)</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#91d9d9" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1273.77,491.476)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L81,0 L81,46 L0,46 L0,0"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="215" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >TSP</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1285.58,650.886)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1314.57,679.878)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-29" y="-29" width="59" height="59" preserveAspectRatio="none" xlink:href="data:image/png;base64,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" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1285.58,650.886)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="360" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >LFP1 / LFP2</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1285.58,822.103)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1314.57,851.096)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<image x="-29" y="-29" width="59" height="59" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAHXUlEQVRoge2afXBU1RnGf2c3m80HJISQhCaQACYxhC8ZwaCUEizSaYahFLzRNoxkUQgBM0A0EZ1qwQ5UlJYGa1tomdEOU5S1UOtUZypTBafaUlrlswJSPmp0TEwQEvK5u6d/3L27dze7y36P09nnn+z73ve853nuuefc95wbiDeWyxQU+TqrpCneXRvi3SE32AAspJO18e5axLU3RRYgOYsgHbgGlGAV7fHqPr4jK3nGKRQgE8mWeHYfv5FV5J3Ae15eiWAG+8W/4kEhPiP7Q2kAdvq4InCwE2Rcbnp8xJ5mOTBDMycW8LHrmmA2CvfHg0bsxdbIDODHmpmXyccntlOclc4lXdRzLJPpQ9pGGbEX28+TCPI080ATWUlGeHkDybqoAvrZGGsqsRV7nywF1mlm5SRO3VVKNsCCqeTfNo4TuugmFDk+lnRiK9bODgQmAIOge986yvSXDzxKsYB+p2kGtseSTuzEVssqBFWa2byIz0aPIEkfMj6XNMs8PtK5lqDIu2NFKTZLviKTkZxEUAqQkcqn7XvIT04aGtrTD1kWPh+wOee15BTtTOewsEWbVmxGVtKgCQX47cOYfAkFSDPDz1fQ7XIIJpPL6ljQiv7I3i/zsHEOQQbAlELOn9hOSaAmUsLYes61djpvkOQqNkr4g+iIJrXoj6yNrZpQAbZXGxl3syZCwMFHyQak6iALEz+KNrXoil0qZyCwaGZtJZdL8wlq3zqzmOy7J+leRZI6quW0aNKLolgpMLAT59Qwm+hssXBLKBn2rWeiQdAFgMCA5GfRrJujJ1ahBrhTM1tqsQ9PDS1FbibJTYu4onNVorA0OgSjtUApcphzU54PUDiKTy6+wBhDGNkH7TDSwn+7+xjrdF0GJmIVvZHSjM7ISh7XhALsbyQnHKEAJiO85HlgUwQ0RUJPQ+Ril8gJCB7RzKrpXKooxuwvXEoYsKl//aasYOyt+ZzWuTaiyMJIqUb+GN8rDyJYDGA00PPJr0gbPcIzpKMLdh+Cg0fh5BXoG4TUZJhaBEvugJXzIctrg3e2la6y9aRotTXwClYR0b43MrHVcj6StzRzs0LbUwq5+pB9f4U1v4Evb/hPM3IY7FoF987ySr+D49b3cb9+BHPZL46ESzd8saukiat8CJQDZA+n/dNd5OjLwpY3YP2Lwaf8xUNQv8BtX+tBjlpBp82hbguRHEdwO1ZhD4dy+HP2KvU4hQK8uIZheqHvnIYNL+k6EvDAXPjjY3DsGXitGWrmqNWThof3wHtn3XZmGmJbDe6SUTANyUPhUg5vZBWZA5wDRgDcUUzr37dSoF2WEm5rhhOXVTvdDK9vhHmThqb683FY/Bz0Dqj2jFvg6Fb3TXBIyFvJf764zgRnkw5MlPA7cTVU2uGNrORpnEIF2PY2uIUC/O28Wyioj6cvoQALpkGLxW0fuwAfXNIRFPBqI/rlK5sBNoVDO3Sxar26SjNXL6Cz5GueIW/rXhpjs2HZNwKntFSCfgX/yynP63PLyZtVoqubBWtZKv3cPv8IUaxUz3mF2i7NzPVtNZ6rL8ClNvfvWaXq6ARCkhEqdJvAi21DY6yNlArocZpGROh1c2hiFRQErnF63kKSr/pXXy8Ey0Z/Q3wVHGOySan/Fhd0iedTzXeCTK/2EXTkQpmGdB+IFY+mrXYeab5CC0e5f//jQuBqCdRF6Kj72JxxOb7jfvIAU1JMfOZySH7KcpkSBHsgFLGpNCNcxTl7G/zXv5Xl7t8X2+AV7y88Xth7BFo7de39zMYUE+yuc51GAoynh8abMHchOLFLZBGSx1xmBe0VJf6f0NllMFG3PtfthvfP+Y5999+wdo/bnloEMwPsgpfNYVzhKN2JpOQJFFngv4UbwYk18CyCFACTkb4XHsTPg+YMF7Cj1m1f74U5T8HqX6sr7UetcOgkrNwFlZugu0+NEwJaaj0LDW8IAa81k4fEoTpIB7YFI+Pm64ci5wLvaOaW73Hjie8S1HeZLQfgBy8HE6ni2WXQtCi42KqtHH/zQ13d7GA2vxcBJ0xgsYo0IvknQk2al8mXV37JCH/Hor6w+5BaNvb0+48Zngo7LVBbGXzeji7seSvptjvIdLqOUU4Fm4XDXxtjwIyTNtUheFAz92/AXFYQWol5+wSwzAOzCb7ogg7nCbEQUD4G6u6BvQ3w9bLAebyRZsbgkFw8fMY1pfJp5wpnNn/gr41/4t+XWQxyHtQdx5wyOo88zcjQKA1F3yB09UJGqnoDIoHNDtkruHy9lyKnqw0oxSqu+Yr3v0ANshmnUIPAvqc+cqGgvj5yMiIXCmrltW+9x1FtLvCkv3jfYqvlZGCNZjZ8m17v+vergqrp5E8pQl9Nr0ORt/qK9fEYS4HCW8A3NY/RwGGDQfc95isGu4Nch4OZOtebWEWVd9xQsdVyMZKDsSQXJyzEKv6kd3iKXS5T6OEMENMv4HHCeWAyVjGgOTzfmD2UAQfiTCp2cFAGHv/KkEACCSSQQAIJJJBAAgkk8H+M/wGW8uYYThZkxgAAAABJRU5ErkJggg==" />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1285.58,822.103)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="505" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Alte Gemeindegrenzen / Operatsgrenzen</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#b50000" stroke-opacity="1" stroke-width="4.72441" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1273.77,993.32)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L81,0 L81,46 L0,46 L0,0"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="640" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Toleranzstufe TS2</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#cdb3ca" stroke-opacity="1" stroke-width="23.622" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.999751,0,0,0.999751,1273.77,1152.73)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" points="0,0 81,0 81,46 0,46 0,0 " />
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="865" y="710.5" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >TS2</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="781" font-family="Frutiger 55 Roman" font-size="49" font-weight="400" font-style="normal" 
+ >Hintergrundkarten</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1.18081,0,0,1.18081,358.646,355.684)"
+font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="775" y="856" font-family="Frutiger 55 Roman" font-size="42" font-weight="400" font-style="normal" 
+ >Wald</text>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#e5fae5" fill-opacity="1" stroke="none" transform="matrix(0.999751,0,0,0.999751,1273.77,1407.78)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+<path fill-rule="evenodd" d="M0,0 L81,0 L81,46 L0,46 L0,0"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,358.646,355.684)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(11.8081,0,0,11.8081,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" vector-effect="non-scaling-stroke" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Liberation Sans" font-size="37.5" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
