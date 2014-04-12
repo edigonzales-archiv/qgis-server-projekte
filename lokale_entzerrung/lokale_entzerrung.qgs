@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>598256.665283</xmin>
-            <ymin>216725.301769</ymin>
-            <xmax>619939.640964</xmax>
-            <ymax>228463.223586</ymax>
+            <xmin>597635.944125</xmin>
+            <ymin>217709.432431</ymin>
+            <xmax>602612.846203</xmax>
+            <ymax>220334.669362</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -63,9 +63,9 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="kontrollierte Operate" showFeatureCount="0">
+        <legendlayer drawingOrder="20" open="false" checked="Qt::Unchecked" name="kontrollierte Operate" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="operate_kontrolliert20140325100009596" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="operate_kontrolliert20140325100009596" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="Hektarraster (200m)" showFeatureCount="0">
@@ -73,8 +73,8 @@
                 <legendlayerfile isInOverview="0" layerid="hektarraster20140210111632875" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="10" open="true" checked="Qt::Checked" name="Alte Gemeindegrenzen / Operatsgrenzen" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="gemeinde_operate20140207123332478" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -105,10 +105,10 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Hintergrundkarten">
-            <legendlayer drawingOrder="20" open="false" checked="Qt::Checked" name="Wald" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="bodenbedeckung_boflaeche20140227100700220" visible="1"/>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Hintergrundkarten">
+            <legendlayer drawingOrder="19" open="true" checked="Qt::Checked" name="geschlossener Wald" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="lcsf20140403104138032" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="Amtliche Vermessung (schwarz-weiss)" showFeatureCount="0">
@@ -134,7 +134,7 @@
         </legendgroup>
         <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="print" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="v_messungen_statistik20140303174821632" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="v_messungen_statistik20140325142025490" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -729,7 +729,7 @@
             <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="312.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="742.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -737,15 +737,7 @@
             <ComposerLabel valign="64" labelText="Amt für Geoinformation, SO!GIS Koordination, Rötistrasse 4, 4501 Solothurn" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="742.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
-            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
-                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+                <ComposerItem width="4" x="11" y="312.934" rotation="270" height="97.0659" frame="false" outlineWidth="0.3" zValue="37" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -754,6 +746,14 @@
                 <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
                 <ComposerItem width="4" x="11" y="440.317" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="64" labelText="Tel. 032 627 75 92, Fax 032 627 22 14, E-Mail: sogis@bd.so.ch, Web: www.sogis.ch" halign="2" margin="0">
+                <LabelFont description="Frutiger 55 Roman,6,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="4" x="11" y="10" rotation="270" height="98.2829" frame="false" outlineWidth="0.3" zValue="36" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -790,18 +790,18 @@
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLabel>
-            <ComposerLabel valign="32" labelText="Legende:" halign="1" margin="0">
-                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="24.8" x="19" y="553" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
             <ComposerLabel valign="32" labelText="Bemerkungen:" halign="1" margin="0">
                 <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
                 <ComposerItem width="24.8" x="19" y="645" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.31022" id="" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerLabel valign="32" labelText="Legende:" halign="1" margin="0">
+                <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="24.8" x="19" y="553" rotation="0" height="6.6" frame="false" outlineWidth="0.3" zValue="31" lastValidViewScaleFactor="4.34597" id="" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="0" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -2630,7 +2630,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>average_messungen20140227104656848</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."average_messungen" (wkb_geometry) sql=</datasource>
             <title></title>
@@ -2756,8 +2756,8 @@
                 <property key="labeling/priority" value="5"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/scaleMax" value="10000"/>
+                <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="255"/>
@@ -2803,175 +2803,6 @@
             <editform>/tmp</editform>
             <editforminit></editforminit>
             <annotationform>/tmp</annotationform>
-            <excludeAttributesWMS/>
-            <excludeAttributesWFS/>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="50000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
-            <id>bodenbedeckung_boflaeche20140227100700220</id>
-            <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avdpool_ng"."bodenbedeckung_boflaeche" (geometrie) sql="art_txt" = 'bestockt.geschlossener_Wald'</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Wald</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">postgres</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="229,250,229,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="no"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
-            </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefinedProperty0" value=""/>
-                <property key="labeling/dataDefinedProperty1" value=""/>
-                <property key="labeling/dataDefinedProperty10" value=""/>
-                <property key="labeling/dataDefinedProperty11" value=""/>
-                <property key="labeling/dataDefinedProperty12" value=""/>
-                <property key="labeling/dataDefinedProperty13" value=""/>
-                <property key="labeling/dataDefinedProperty14" value=""/>
-                <property key="labeling/dataDefinedProperty15" value=""/>
-                <property key="labeling/dataDefinedProperty16" value=""/>
-                <property key="labeling/dataDefinedProperty17" value=""/>
-                <property key="labeling/dataDefinedProperty18" value=""/>
-                <property key="labeling/dataDefinedProperty19" value=""/>
-                <property key="labeling/dataDefinedProperty2" value=""/>
-                <property key="labeling/dataDefinedProperty20" value=""/>
-                <property key="labeling/dataDefinedProperty3" value=""/>
-                <property key="labeling/dataDefinedProperty4" value=""/>
-                <property key="labeling/dataDefinedProperty5" value=""/>
-                <property key="labeling/dataDefinedProperty6" value=""/>
-                <property key="labeling/dataDefinedProperty7" value=""/>
-                <property key="labeling/dataDefinedProperty8" value=""/>
-                <property key="labeling/dataDefinedProperty9" value=""/>
-                <property key="labeling/decimals" value="0"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Bitstream Vera Sans"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value=""/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="true"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/xQuadOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-                <property key="labeling/yQuadOffset" value="0"/>
-            </customproperties>
-            <displayfield>ogc_fid</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Bitstream Vera Sans"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype type="0" name="art"/>
-                <edittype type="0" name="art_txt"/>
-                <edittype type="0" name="entstehung"/>
-                <edittype type="0" name="gem_bfs"/>
-                <edittype type="0" name="lieferdatum"/>
-                <edittype type="0" name="los"/>
-                <edittype type="0" name="ogc_fid"/>
-                <edittype type="0" name="qualitaet"/>
-                <edittype type="0" name="qualitaet_txt"/>
-                <edittype type="0" name="tid"/>
-            </edittypes>
-            <editorlayout>generatedlayout</editorlayout>
-            <editform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</editform>
-            <editforminit></editforminit>
-            <annotationform>/home_nas/bjsvw/bjsvwzie/qgis_projekte/lokale_entzerrung</annotationform>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
@@ -4139,7 +3970,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>kontrollmessungen_bbp20140312145527070</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_bbp" (the_geom) sql=</datasource>
             <title></title>
@@ -4290,8 +4121,8 @@
                 <property key="labeling/priority" value="5"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/scaleMax" value="10000"/>
+                <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="255"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="255"/>
@@ -4341,7 +4172,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>kontrollmessungen_lfp220140312120401675</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_lfp2" (the_geom) sql=</datasource>
             <title></title>
@@ -4476,8 +4307,8 @@
                 <property key="labeling/priority" value="5"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/scaleMax" value="10000"/>
+                <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="127"/>
                 <property key="labeling/textColorG" value="170"/>
                 <property key="labeling/textColorR" value="0"/>
@@ -4526,7 +4357,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>kontrollmessungen_techkurs20140312122835881</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_lokale_entzerrung"."kontrollmessungen_techkurs" (the_geom) sql=</datasource>
             <title></title>
@@ -4591,7 +4422,7 @@
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferJoinStyle" value="0"/>
                 <property key="labeling/bufferNoFill" value="false"/>
                 <property key="labeling/bufferSize" value="1"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
@@ -4661,8 +4492,8 @@
                 <property key="labeling/priority" value="5"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/scaleMax" value="10000"/>
+                <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="170"/>
                 <property key="labeling/textColorR" value="255"/>
@@ -4896,6 +4727,170 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="25000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
+            <id>lcsf20140403104138032</id>
+            <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."lcsf" (geometrie) sql="art"  = 'geschlossener_Wald'</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>geschlossener Wald</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="229,250,229,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
+            <displayfield>ogc_fid</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Liberation Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="art"/>
+                <edittype type="0" name="bfsnr"/>
+                <edittype type="0" name="gwr_egid"/>
+                <edittype type="0" name="ogc_fid"/>
+                <edittype type="0" name="qualitaet"/>
+            </edittypes>
+            <editorlayout>generatedlayout</editorlayout>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>mbsf20140227171250075</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_avwmsde_t"."mbsf" (geometrie) sql=</datasource>
@@ -5058,7 +5053,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="500000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="500000" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>operate_kontrolliert20140325100009596</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_lokale_entzerrung"."operate_kontrolliert" (wkb_geometry) sql=</datasource>
             <title></title>
@@ -5082,7 +5077,8 @@
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
                     <rule filter=" &quot;status&quot;  = 1" symbol="0" label="spannungsarm"/>
-                    <rule filter=" &quot;status&quot;  > 1" symbol="1" label="nicht spannungsarm"/>
+                    <rule filter=" &quot;status&quot;  = 3" symbol="1" label="nicht spannungsarm"/>
+                    <rule filter=" &quot;status&quot;  = 2" symbol="2" label="eventuell Nachmessungen"/>
                 </rules>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
@@ -5098,6 +5094,16 @@
                     <symbol outputUnit="MM" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,170,0,60"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="255,255,0,60"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -5429,7 +5435,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>v_messungen_statistik20140303174821632</id>
+            <id>v_messungen_statistik20140325142025490</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='ogc_fid' srid=21781 type=MULTIPOLYGON table="av_lokale_entzerrung"."v_messungen_statistik" (geometry) sql=</datasource>
             <title></title>
             <abstract></abstract>
@@ -5453,7 +5459,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="32,155,69,255"/>
+                            <prop k="color" v="144,183,103,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -5515,7 +5521,7 @@
         </Paths>
         <WMSServiceTitle type="QString">Webgis Lokale Entzerrung</WMSServiceTitle>
         <WFSLayers type="QStringList">
-            <value>v_messungen_statistik20140303174821632</value>
+            <value>v_messungen_statistik20140325142025490</value>
         </WFSLayers>
         <WMSRestrictedLayers type="QStringList">
             <value>print</value>

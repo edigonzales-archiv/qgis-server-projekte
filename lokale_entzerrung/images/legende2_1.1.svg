@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="561.56036"
+   height="294.64334"
+   viewBox="0 0 1871.8679 982.146"
+   version="1.2"
+   id="svg2"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="legende2_1.svg">
+  <metadata
+     id="metadata290">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Webgis Lokale Entzerrung</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
+     id="namedview288"
+     showgrid="false"
+     inkscape:zoom="3.5887626"
+     inkscape:cx="160.61885"
+     inkscape:cy="93.803959"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="-0.036870839,139.39685"
+       id="guide3368" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="347.13632,293.87118"
+       id="guide3420" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="32.315909,131.53122"
+       id="guide3430" />
+  </sodipodi:namedview>
+  <title
+     id="title4">Webgis Lokale Entzerrung</title>
+  <desc
+     id="desc6">Generated with Qt</desc>
+  <defs
+     id="defs8">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 371.99942 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.1 : 371.99942 : 1"
+       inkscape:persp3d-origin="526.04999 : 247.99961 : 1"
+       id="perspective292" />
+    <inkscape:perspective
+       id="perspective3244"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3277"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3335"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3335-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3378"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3403"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3630"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3655"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g12"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     vector-effect="non-scaling-stroke"
+     transform="translate(-382.36865,-412.51084)" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g14"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-382.36865,-412.51084)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g20"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-382.36865,-412.51084)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g26"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-382.36865,-412.51084)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g28"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g34"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g40"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g42"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,84.100977,-73.067753)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:41.99948502px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text44"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="161"
+       x="20"
+       xml:space="preserve">Vektoren Mittel 1:2</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g46"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g48"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,41.222347,104.89364)">
+    <polyline
+       style="fill:none"
+       id="polyline50"
+       points="0,0.5 0,0.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g52"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g54"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g56"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,84.100977,-161.80096)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text58"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="296"
+       x="20"
+       xml:space="preserve">Vektoren LFP / GP 1:2</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g60"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#cea2a2;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g62"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,147.35312)">
+    <polyline
+       style="fill:none"
+       id="polyline64"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g66"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g68"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g74"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#d1a2a2;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g76"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,41.222347,210.37788)">
+    <polyline
+       style="fill:none"
+       id="polyline78"
+       points="0,0.5 0,0.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g80"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g82"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g88"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#00aa7f;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g90"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,392.83849)">
+    <polyline
+       style="fill:none"
+       id="polyline92"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#00aa7f;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g94"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,40.600347,415.82843)">
+    <image
+       id="image96"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       height="47"
+       width="47"
+       y="-23"
+       x="-23" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#00aa7f;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g98"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,652.83913)" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g100"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g102"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g108"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g114"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#ffaa00;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g116"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,601.22097)">
+    <polyline
+       style="fill:none"
+       id="polyline118"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#ffaa00;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g120"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,40.600347,624.22093)">
+    <image
+       id="image122"
+       xlink:href="data:image/png;base64,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"
+       preserveAspectRatio="none"
+       height="47"
+       width="47"
+       y="-23"
+       x="-23" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#ffaa00;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g124"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,907.88913)" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g126"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g128"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g134"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g136"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,23.510347,1073.2091)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g62-0"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.99975099,0,0,0.99975099,16.443827,813.89453)">
+    <polyline
+       style="fill:#ff00ff;stroke:#ff00ff"
+       id="polyline64-9"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g138"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,40.505347,836.86453)"
+     vector-effect="non-scaling-stroke">
+    <image
+       id="image140"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABSUlEQVRYhe2VsUoDQRCGvw1WooQIYiki9hKI5AUsBN/APIk+iVgYiARSWOoD2KkIaXwDm6S4wsRK8LfYdTiDept4R5r9YLk9mLv5mJubhUQikUgsB7fog0JtoAO0cDQQGfAI9BzuoSzBIomG0LWQbLnc3q+BUL16kZqehaQ9SV1JY3lGki4l7ZrQsFIhq8ixpDf9zFTSkQn1qxJpW0V+E/liImnHhJqxOWpz+HQAOANWCyLXgFO7O5kjRxxC9yLXI0W8WGXuYnOsRNs4GgBsRsZv2W4jNkX8ZxIZAsaR8SPbZeXL+IEGt5HRN7YrfwAKHYgwR6YF/fIqaVsfoWf2S5cJQgMR5sjkD5FDa95eJSJBph4mq58jF+GveQ/X828VeRJar0wmJ9SfOYtmV28Rkf+c2k38QGvhf98M36xXDjdc9L2JRCKRWAaffUehaGuZTYkAAAAASUVORK5CYII="
+       preserveAspectRatio="none"
+       height="35"
+       width="35"
+       y="-17"
+       x="-17" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g142"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,23.510347,1073.2091)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g144"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g146"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,-23.722653,-310.16067)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text148"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="987.5"
+       x="110"
+       xml:space="preserve">GP</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g150"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g152"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,1138.1491)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ff00ff;fill-opacity:1;stroke:#ff00ff;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g62-0-1"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.99975099,0,0,0.99975099,17.757387,885.48353)">
+    <polyline
+       style="fill:#ff00ff;stroke:#ff00ff"
+       id="polyline64-9-7"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g154"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,40.600347,907.81453)"
+     vector-effect="non-scaling-stroke">
+    <image
+       id="image156"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAYAAABzJ5OsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEGklEQVRoge2YzWtdRRiHfydX21xpxbbhgg30hohEV12obdWCFP+NVjSlUOiifoC23ZRu3XThQhfFtpEitMbvQKkBGxDRQIWKwRQLokZqktosWm4SepvHxcw5Z870fNw0J3FzfnDvGebjfZ937pyZea9UqVKlSpUKFJRpDLFR0g5JA5IakuqS5iVNS7omaTxQcKdMnysSohuxH3EZcRdBzucu4lvEIKL7/4SuIQ4h/kkFXQ88Zp/pgdxAHER0rTV4P2I8AdMHHAVGgVmSmgG+Ad4BmvcF8T2iuVbguxFzkfMBYBhYojPdA84DTyYC+Bexay3AWwgI7EwudgjtawF4MxHAHcTO1QLvj2b8YeBcBtQSMAF8CgzZ5wTZv8wQ8FAUwE3EtrLBa9EaDzLAZ4AjwOOkv6BbgWPAzZSxZxJ9v0OUt4XbXcUYfzvF+ceYnSV/mzSfzcCFFBuHE/0OlAVeR0xHL6e/xt/14PYAp4FfgL/t80PgJa/fSc/OPNAftU8h1pUBvz9yOJwy42FbDzCSMqOuvgS22P5Bir1ziQD3lQF/OdrH3Zduhnip9ACTBeChJjBLJxx3y2lrA70R/KWVgm+MjvyjHsQRZ5aKZtzXZ87Y417bG1HbIqK+EviXIyejjoMl4l1lzzLBQ71gxze9+hHcpbM7j6/oXjEQlbY7tb9KumHLrzzQvMTj/pB03anfnuj1VJ6JIviGJGm9pB6n9ppTfq7AQpZ2ZNjrlVTz/GeoCL7ufMdyb+SbCixkyR13O9WrJD2SZ6IIft75jrXBKc8VWMiSO+5Rr62VUkpREfy0JGlR0qxTO+CUxwssZOnHDHtTkpY8/xkqgo9X41Wn9mlJW235bIGFLIXj+iQ94dRfTfSazDNRBD8uqS1JGnVqA0mv2vKYpK8KrPgalvSDLb/mtcV+FiVdWablpGzOafbje85+PEt8Um7BnJyd6Gfik7kBzDltbdxb6cUVgVv4wejQOO+BXHAOlM2YkzNPnzjgAfCF1/4R7gG1twz4bpssm9RtwXN40oKETl8EPgB+An63z/eB550+AfCeZ6eFuT+ZPn+Wcqu0ARyMHL+VMqPDmEtWJ/f5BvB5io1DiX6DpYBb+C5Mlm+MD6U4v4W5ZDUzoPuAEyTXeKhTib5jpWZSNoAmJss3OeeZFIhQvwFfY+77I8D1nL6ngFoEPo3oLRXcCWAXJss3zg5jMqAHUQt/qdxGPLsq4E4AOzFZvnHaj8mA2h1CtzG7SvxyhjO+uuBOANswWX4M0ItJJEaAKQ/4L8wyep20fxfGVm2p5ATQhThgk+X7X9AasAHoSmmLt8PB0l/OZQaxDrEPccmmbnlb5QLiImJvGft42f/P1yU9I5MBNWTu4y2Z2+GkpCuBgoUyfVaqVKlSpVz9B5Qze0pVSgvwAAAAAElFTkSuQmCC"
+       preserveAspectRatio="none"
+       height="47"
+       width="47"
+       y="-23"
+       x="-23" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g158"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,17.606347,1138.1491)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g160"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g162"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,-23.722653,-310.16067)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text164"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="1047.5"
+       x="110"
+       xml:space="preserve">LFP3</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g166"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#ff00ff;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g168"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,41.222347,979.28453)">
+    <polyline
+       style="fill:none"
+       id="polyline170"
+       points="0,0.5 0,0.5 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g172"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g178"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g180"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text182"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="80"
+       x="775"
+       xml:space="preserve">Hektarraster (200m)</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g184"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#91d9d9;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g186"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,924.73484,78.965157)">
+    <path
+       id="path188"
+       d="M 0,0 81,0 81,46 0,46 0,0" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g190"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g192"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g194"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text196"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="215"
+       x="775"
+       xml:space="preserve">TSP</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g198"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g200"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,903.21134,238.37516)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g202"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,965.53484,267.36716)"
+     vector-effect="non-scaling-stroke">
+    <image
+       id="image204"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAHN0lEQVRoge2ZfXBUZxXGf+/dTXbZJQmbJVkkkCxfIYFAmjYkgYiEmrFjWqcdtJEZOgoztoXWjtaZVtuhKjpYQWsNfszQmYpWNGGDaYHpMFOsYDtarUAhRgRSC6SFCmnCV0gg2d3XP3b33rvZj+z3dJx9/rrnvOee93nuee+9574XMgy5A7PcxT65nZxMz61kekKsPI7gHmw8mumpRSYnky5KgFOAFbgKzBOt9Gdq/kxX9of4hAIUAJszOXnGKitdLAX+GuxEIqkVqzmaCQ4Zqaz8DgqSbSEDAoHCNikzc9Ezs4wX8mUEtaqdV/mubrQRF6szQSPtYuVvyQeeVR1mx7vc1T2XXNtZ1Sf4kXxJvZfThvRX1sQzgEO1l3bZEEao78jVRZVg4lvpppLWe0W2U46BHvA3EFObelh5sEoNOFDTzZVji33B3EJQKVo5ky4+6a2sgecJCBXKEA3tFUHjy7rmgrjlG8eE5MfppJM2sbKDFqBFdcx/8kMmTTMGBVlnWXCuO6naglXSxZ3p4pSWZSxd5AL/BMoBMOZf4N7+6Si5ocGeYXjFdhHvaOC+7qGIGrESd6p5pauyjxEQClD3Uk5YoQAGC9T8fEjnqaKf9ekglfLKyt/jwMhpIB+A/EW93NU9b4KzYN/M09w8H7hAlzEyT6xiIJXcUl9ZIz8gIBThZtlu58QnCWh82Y5E+h023Hw/1dRSKlZ2Uotknepwrj1HXnls362FS+w47uzWeR6WHVSnkl/KxEqJQLIN4b81FNMgNW1z4kpS314JynWVm+CnqeybU1dZF2uApapd0+bBmBdfDnNxLvOf6FNtQROdfD5FDFNz1aSLyfg+yqcDMKn0A+4+MwORwLX0jsErhe/jGZrpS845f2c1kizPVFX2KQJCAZa6ihISCqDkQN1vNFtQBjyRFDs1VZKQu5mNhxMITABMaznL8ledUc7wVU/JiT79/op/MXRqod8aASpEK32RT5gYyVfWy3OqUAzDLHnRGRIzOgAnn4XX66DLAn8wQZcVXm+AU1th9HJo3k/uKQXG/NYkYGuyVJOqrOygGYUDqmPhpkss+HZxUFBfOxx9BMauRE6UWwh3bIcZXwj2v9V6nA86tdePlxViNW8kyjdhsXI7Odg4BiwAINfez+cuFAW1hb1tcOzrsSe9/ZcwZ4Nmj16V7J06iHTb/Z7jwB2iFU8inBNfxlPYQEAoQN2vJwcJ7T8Exx7XbKFA2ZegcS80H4bGPVC6hqDr/c5XYUC3J5dbIFi8Rd8yVgNfSZRyQpWVLoqQnEYwBQBb3Xma/16ii4DXboOr/obIaIXGfVC8MjTZxdfgL/eBx/9msdVC89saNemFvY73GP1otj/1AG7miTWEudGjI9HKfk8VinDTsLMkaHTgb5pQ8C3PcEIBHJ+B29o0+/JhuPyOZgsFlu3W9qcEdnL4biKk4xbr71cfUh2z1w8yedxHzaWD2rFlJpQ+ED3prHVgnqY7/0/B40UrHNgb9H3zo7KThcSJuMRK6dvnVc8zWK5RvaU4JHD4rHZc2MCEDYYwQmG9Zt8Isw3V0FkOYthvGZDx983xVdbF/cCnVLvmZ8aw/a+U2rGIkU/QBZGh45YZZuZs+I/O08wu7o0tuQ8xi5V7sSB0G2LWuZdwrrWEDbaUaseD/yAs+aDkXhh8W7OtzvBx1c8tQjF/qNoKP5E7ME9AXRceK0Z4Epip2vU7I/e/xU3a8Y0z8P6u6Ln7dsLIec0uagofZzBD7Qu3dJ5ZWPhG9OQaYhIrd1OG4Juqo2RVP/b6yOvT3gj5lZp95GEYeCt87EdvwlHdr9qCxVC4JDKZsgecWEr1O5JP+3+FTojYKutlK/iXi8i5ye2/KIoaLxSofl6zx67BweVwZL3vSXv9JFz8Ixx+EA41gTuw3yagpo3or38By/Y4AK/fYUWyJRYZEz49pIsVwCHVUbX5BpVPx/Zf5t+boWdjTKEALN4K82P8mnuz5Tj/3a/1zYJGcf+4X6LjEFWsdGEAjoB/L8jsuMLdfVMibouGw3sv+NpGz3DkGGMe1GwD59rY894a8LDPMYT0FPjIcpgT1ItNasVDEH0ZSx4E3aZX7a8K4hIKMPsh+GwvVDwFeRVo11dA/gKo3Ogbj0cogMluoHLjBdUW1LKAqEkiVlb+DhtGehH4vjimLh9k5RuF8TEKA89NcF+HnHxQTMnlkm7YYz/H2LUyn80lBOWilavhwiNX1sgmVahQPCx5MXmh4Ht9mIqSFwq+zqu+XduqFRQjeSZSeFixsoMqBI+ojjmPjYT0vx8XfKJlOvmLenSer0kX88OFhixjKRG4OIDg01qU4c+gDI2P/dhAeorBq72cJfvFF3V/EP0IFdvBfSi8nGZ6mcA9opVX9Y4gsXIHZqycAGZllFY6IOlFUCVaGQ24xv0cpgJJV8aJpQuCCqB7wrgsssgiiyyyyCKLLLLIIov/C/wP6MXPOle5NGwAAAAASUVORK5CYII="
+       preserveAspectRatio="none"
+       height="59"
+       width="59"
+       y="-29"
+       x="-29" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g206"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,903.21134,238.37516)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g208"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g210"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g212"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text214"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="360"
+       x="775"
+       xml:space="preserve">LFP1 / LFP2</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g216"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g218"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,903.21134,409.59216)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g220"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,965.53484,438.58516)"
+     vector-effect="non-scaling-stroke">
+    <image
+       id="image222"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAHXUlEQVRoge2afXBU1RnGf2c3m80HJISQhCaQACYxhC8ZwaCUEizSaYahFLzRNoxkUQgBM0A0EZ1qwQ5UlJYGa1tomdEOU5S1UOtUZypTBafaUlrlswJSPmp0TEwQEvK5u6d/3L27dze7y36P09nnn+z73ve853nuuefc95wbiDeWyxQU+TqrpCneXRvi3SE32AAspJO18e5axLU3RRYgOYsgHbgGlGAV7fHqPr4jK3nGKRQgE8mWeHYfv5FV5J3Ae15eiWAG+8W/4kEhPiP7Q2kAdvq4InCwE2Rcbnp8xJ5mOTBDMycW8LHrmmA2CvfHg0bsxdbIDODHmpmXyccntlOclc4lXdRzLJPpQ9pGGbEX28+TCPI080ATWUlGeHkDybqoAvrZGGsqsRV7nywF1mlm5SRO3VVKNsCCqeTfNo4TuugmFDk+lnRiK9bODgQmAIOge986yvSXDzxKsYB+p2kGtseSTuzEVssqBFWa2byIz0aPIEkfMj6XNMs8PtK5lqDIu2NFKTZLviKTkZxEUAqQkcqn7XvIT04aGtrTD1kWPh+wOee15BTtTOewsEWbVmxGVtKgCQX47cOYfAkFSDPDz1fQ7XIIJpPL6ljQiv7I3i/zsHEOQQbAlELOn9hOSaAmUsLYes61djpvkOQqNkr4g+iIJrXoj6yNrZpQAbZXGxl3syZCwMFHyQak6iALEz+KNrXoil0qZyCwaGZtJZdL8wlq3zqzmOy7J+leRZI6quW0aNKLolgpMLAT59Qwm+hssXBLKBn2rWeiQdAFgMCA5GfRrJujJ1ahBrhTM1tqsQ9PDS1FbibJTYu4onNVorA0OgSjtUApcphzU54PUDiKTy6+wBhDGNkH7TDSwn+7+xjrdF0GJmIVvZHSjM7ISh7XhALsbyQnHKEAJiO85HlgUwQ0RUJPQ+Ril8gJCB7RzKrpXKooxuwvXEoYsKl//aasYOyt+ZzWuTaiyMJIqUb+GN8rDyJYDGA00PPJr0gbPcIzpKMLdh+Cg0fh5BXoG4TUZJhaBEvugJXzIctrg3e2la6y9aRotTXwClYR0b43MrHVcj6StzRzs0LbUwq5+pB9f4U1v4Evb/hPM3IY7FoF987ySr+D49b3cb9+BHPZL46ESzd8saukiat8CJQDZA+n/dNd5OjLwpY3YP2Lwaf8xUNQv8BtX+tBjlpBp82hbguRHEdwO1ZhD4dy+HP2KvU4hQK8uIZheqHvnIYNL+k6EvDAXPjjY3DsGXitGWrmqNWThof3wHtn3XZmGmJbDe6SUTANyUPhUg5vZBWZA5wDRgDcUUzr37dSoF2WEm5rhhOXVTvdDK9vhHmThqb683FY/Bz0Dqj2jFvg6Fb3TXBIyFvJf764zgRnkw5MlPA7cTVU2uGNrORpnEIF2PY2uIUC/O28Wyioj6cvoQALpkGLxW0fuwAfXNIRFPBqI/rlK5sBNoVDO3Sxar26SjNXL6Cz5GueIW/rXhpjs2HZNwKntFSCfgX/yynP63PLyZtVoqubBWtZKv3cPv8IUaxUz3mF2i7NzPVtNZ6rL8ClNvfvWaXq6ARCkhEqdJvAi21DY6yNlArocZpGROh1c2hiFRQErnF63kKSr/pXXy8Ey0Z/Q3wVHGOySan/Fhd0iedTzXeCTK/2EXTkQpmGdB+IFY+mrXYeab5CC0e5f//jQuBqCdRF6Kj72JxxOb7jfvIAU1JMfOZySH7KcpkSBHsgFLGpNCNcxTl7G/zXv5Xl7t8X2+AV7y88Xth7BFo7de39zMYUE+yuc51GAoynh8abMHchOLFLZBGSx1xmBe0VJf6f0NllMFG3PtfthvfP+Y5999+wdo/bnloEMwPsgpfNYVzhKN2JpOQJFFngv4UbwYk18CyCFACTkb4XHsTPg+YMF7Cj1m1f74U5T8HqX6sr7UetcOgkrNwFlZugu0+NEwJaaj0LDW8IAa81k4fEoTpIB7YFI+Pm64ci5wLvaOaW73Hjie8S1HeZLQfgBy8HE6ni2WXQtCi42KqtHH/zQ13d7GA2vxcBJ0xgsYo0IvknQk2al8mXV37JCH/Hor6w+5BaNvb0+48Zngo7LVBbGXzeji7seSvptjvIdLqOUU4Fm4XDXxtjwIyTNtUheFAz92/AXFYQWol5+wSwzAOzCb7ogg7nCbEQUD4G6u6BvQ3w9bLAebyRZsbgkFw8fMY1pfJp5wpnNn/gr41/4t+XWQxyHtQdx5wyOo88zcjQKA1F3yB09UJGqnoDIoHNDtkruHy9lyKnqw0oxSqu+Yr3v0ANshmnUIPAvqc+cqGgvj5yMiIXCmrltW+9x1FtLvCkv3jfYqvlZGCNZjZ8m17v+vergqrp5E8pQl9Nr0ORt/qK9fEYS4HCW8A3NY/RwGGDQfc95isGu4Nch4OZOtebWEWVd9xQsdVyMZKDsSQXJyzEKv6kd3iKXS5T6OEMENMv4HHCeWAyVjGgOTzfmD2UAQfiTCp2cFAGHv/KkEACCSSQQAIJJJBAAgkk8H+M/wGW8uYYThZkxgAAAABJRU5ErkJggg=="
+       preserveAspectRatio="none"
+       height="59"
+       width="59"
+       y="-29"
+       x="-29" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g224"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,903.21134,409.59216)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g226"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g228"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g230"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text232"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="505"
+       x="775"
+       xml:space="preserve">Alte Gemeindegrenzen / Operatsgrenzen</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g234"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#b50000;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g236"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,924.73484,580.80916)">
+    <path
+       id="path238"
+       d="M 0,0 81,0 81,46 0,46 0,0" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g240"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g242"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g244"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text246"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="640"
+       x="775"
+       xml:space="preserve">Toleranzstufe TS2</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g248"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#cdb3ca;stroke-width:23.62199974;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g250"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,924.73484,740.21913)">
+    <polyline
+       style="fill:none"
+       id="polyline252"
+       points="0,0 81,0 81,46 0,46 0,0 " />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g254"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g256"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-56.826843)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text258"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="710.5"
+       x="865"
+       xml:space="preserve">TS2</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g260"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g266"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:42px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Frutiger 55 Roman"
+     id="g268"
+     font-style="normal"
+     font-weight="400"
+     font-size="42"
+     transform="matrix(1.18081,0,0,1.18081,9.6107473,-123.49364)"
+     vector-effect="non-scaling-stroke">
+    <text
+       style="font-size:42px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Frutiger 55 Roman"
+       id="text270"
+       font-style="normal"
+       font-weight="400"
+       font-size="42"
+       y="856"
+       x="775"
+       xml:space="preserve">Wald</text>
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g272"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#e5fae5;fill-opacity:1;stroke:none;font-family:Liberation Sans"
+     id="g274"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.999751,0,0,0.999751,924.73484,928.60213)">
+    <path
+       style="fill-rule:evenodd"
+       id="path276"
+       d="M 0,0 81,0 81,46 0,46 0,0" />
+  </g>
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g278"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g280"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g282"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-23.722653,-56.826843)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g284"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(11.8081,0,0,11.8081,-382.36865,-412.51084)"
+     vector-effect="non-scaling-stroke" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g286"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     vector-effect="non-scaling-stroke"
+     transform="translate(-382.36865,-412.51084)" />
+  <g
+     style="font-size:37.5px;font-style:normal;font-weight:400;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:4.72441006;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Liberation Sans"
+     id="g62-1"
+     font-style="normal"
+     font-weight="400"
+     font-size="37.5"
+     transform="matrix(0.99975099,0,0,0.99975099,17.690247,75.152697)">
+    <polyline
+       style="fill:#ff0000;stroke:#ff0000"
+       id="polyline64-0"
+       points="0,23.5 47,23.5 " />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-341.651"
+     y="700.07391"
+     id="text3263"><tspan
+       sodipodi:role="line"
+       id="tspan3265"
+       x="-341.651"
+       y="700.07391"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.29327887"
+     y="289.63757"
+     id="text3317"><tspan
+       sodipodi:role="line"
+       x="-0.29327887"
+       y="289.63757"
+       style="font-size:49.59341058;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3321">Kontrollpunkte Dreiecksvermaschung </tspan><tspan
+       sodipodi:role="line"
+       x="-0.29327887"
+       y="351.62933"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3323" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.1256153"
+     y="509.49817"
+     id="text3317-5"><tspan
+       sodipodi:role="line"
+       x="-0.1256153"
+       y="509.49817"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3321-4">Kontrollpunkte Technikerkurs (2009) </tspan><tspan
+       sodipodi:role="line"
+       x="-0.1256153"
+       y="571.48993"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3323-4" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.22430915"
+     y="713.6297"
+     id="text3317-4"><tspan
+       sodipodi:role="line"
+       x="-0.22430915"
+       y="713.6297"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3321-0">Kontrollpunkte BBP (2006) </tspan><tspan
+       sodipodi:role="line"
+       x="-0.22430915"
+       y="775.62146"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'"
+       id="tspan3323-40" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.29047126"
+     y="37.485645"
+     id="text3422"><tspan
+       sodipodi:role="line"
+       x="-0.29047126"
+       y="37.485645"
+       id="tspan3426"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'">Kontrollpunkte AGI SO (2011/2013)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.12435041"
+     y="351.6376"
+     id="text3604"><tspan
+       sodipodi:role="line"
+       id="tspan3606"
+       x="-0.12435041"
+       y="351.6376"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'">Vektoren 1:2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="0.32179669"
+     y="571.93134"
+     id="text3604-0"><tspan
+       sodipodi:role="line"
+       id="tspan3606-7"
+       x="0.32179669"
+       y="571.93134"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'">Vektoren 1:2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:133.33354187px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="-0.42552286"
+     y="774.93719"
+     id="text3604-0-1"><tspan
+       sodipodi:role="line"
+       id="tspan3606-7-5"
+       x="-0.42552286"
+       y="774.93719"
+       style="font-size:49.59341049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Frutiger 55 Roman;-inkscape-font-specification:'Frutiger 55 Roman,'">Vektoren 1:2</tspan></text>
+</svg>
