@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>577851.672714</xmin>
-            <ymin>212512.317969</ymin>
-            <xmax>659467.764786</xmax>
-            <ymax>262520.307031</ymax>
+            <xmin>606140.768671</xmin>
+            <ymin>228855.014070</ymin>
+            <xmax>606706.164998</xmax>
+            <ymax>229201.444935</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -22,6 +22,7 @@
                 <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
+        <layer_coordinate_transform_info/>
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::Checked" name="AVWMS_farbig">
@@ -441,7 +442,7 @@
                     <rule scalemaxdenom="2000" filter="kategorie = 'HFP3'" symbol="5" label="HFP3"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -452,7 +453,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -463,7 +464,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -474,7 +475,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -485,7 +486,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -496,7 +497,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -508,6 +509,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -549,7 +551,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="2000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>cppt20120205191521488</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."cppt" (geometrie) sql=</datasource>
             <title></title>
@@ -580,7 +582,7 @@
                     <rule scalemaxdenom="2000" filter="kategorie = 'HFP3'" symbol="5" label="HFP3"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="1" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -588,10 +590,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -599,10 +601,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -610,10 +612,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -621,10 +623,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -632,10 +634,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -643,12 +645,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -719,7 +815,7 @@
                     <rule scalemaxdenom="2000" filter="kategorie = 'HFP3'" symbol="5" label="HFP3"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -730,7 +826,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -741,7 +837,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -752,7 +848,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -763,7 +859,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -774,7 +870,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -786,6 +882,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -848,9 +945,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -938,9 +1035,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -1028,9 +1125,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -1118,9 +1215,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -1198,9 +1295,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -1278,9 +1375,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -1516,7 +1613,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>hadr20120205191521881</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."hadr" (pos) sql=</datasource>
             <title></title>
@@ -1565,8 +1662,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -1603,8 +1702,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="8.5"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -2096,8 +2197,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -2134,8 +2237,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.2"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -2422,7 +2527,7 @@
                     <rule scalemaxdenom="5000" filter="art NOT IN ('Gebaeude', 'Strasse_Weg', 'geschlossener_Wald', 'Wytweide_dicht', 'Wytweide_offen', 'uebrige_bestockte')" symbol="3" label="uebrige Bodenbedeckung"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="210,210,210,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2432,7 +2537,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2442,15 +2547,16 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="1.4"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2.8"/>
                             <prop k="distance_y" v="2.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="0,0,0,255"/>
                                     <prop k="color_border" v="0,0,0,0"/>
                                     <prop k="name" v="circle"/>
@@ -2471,7 +2577,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2482,6 +2588,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -2661,7 +2768,7 @@
                     <rule scalemaxdenom="25000" filter="art = 'uebrige_vegetationslose'" symbol="25" label="uebrige_vegetationslose"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,200,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2671,7 +2778,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2681,7 +2788,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="10">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="10">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2691,7 +2798,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="11">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="11">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2701,7 +2808,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="12">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="12">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,255,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2711,7 +2818,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="13">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="13">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2721,7 +2828,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="14">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="14">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2731,7 +2838,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="15">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="15">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2741,7 +2848,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="16">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="16">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,255,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2751,7 +2858,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="17">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="17">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="160,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2761,7 +2868,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="18">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="18">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2771,7 +2878,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="19">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="19">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2781,7 +2888,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2791,7 +2898,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="20">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="20">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2801,7 +2908,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="21">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="21">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2811,7 +2918,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="22">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="22">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2821,7 +2928,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="23">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="23">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2831,7 +2938,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="24">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="24">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2841,7 +2948,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="25">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="25">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2851,7 +2958,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2861,7 +2968,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="4">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,230,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2871,7 +2978,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="5">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2881,7 +2988,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="6">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2891,7 +2998,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="7">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="7">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2901,7 +3008,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="8">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="8">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2911,7 +3018,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="9">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="9">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -2922,6 +3029,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>gwr_egid</displayfield>
@@ -3018,7 +3126,7 @@
                     <rule scalemaxdenom="25000" filter="art = 'uebrige_vegetationslose'" symbol="25" label="uebrige_vegetationslose"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,200,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3028,7 +3136,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3038,7 +3146,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="10">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="10">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3048,7 +3156,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="11">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="11">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3058,7 +3166,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="12">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="12">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,255,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3068,7 +3176,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="13">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="13">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3078,7 +3186,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="14">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="14">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3088,7 +3196,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="15">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="15">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3098,7 +3206,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="16">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="16">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,255,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3108,7 +3216,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="17">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="17">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="160,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3118,7 +3226,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="18">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="18">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3128,7 +3236,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="19">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="19">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3138,7 +3246,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3148,7 +3256,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="20">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="20">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="200,240,160,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3158,7 +3266,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="21">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="21">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3168,7 +3276,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="22">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="22">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3178,7 +3286,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="23">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="23">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3188,7 +3296,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="24">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="24">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3198,7 +3306,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="25">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="25">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3208,7 +3316,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3218,7 +3326,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="4">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,230,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3228,7 +3336,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="5">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="220,220,220,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3238,7 +3346,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="6">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="150,200,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3248,7 +3356,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="7">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="7">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3258,7 +3366,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="8">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="8">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3268,7 +3376,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="9">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="9">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,200,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3279,6 +3387,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>gwr_egid</displayfield>
@@ -3353,7 +3462,7 @@
                     <rule scalemaxdenom="5000" filter="art NOT IN ('Gebaeude', 'Strasse_Weg', 'geschlossener_Wald', 'Wytweide_dicht', 'Wytweide_offen', 'uebrige_bestockte')" symbol="3" label="uebrige Bodenbedeckung"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="210,210,210,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3363,7 +3472,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3373,15 +3482,16 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="1.4"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2.8"/>
                             <prop k="distance_y" v="2.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="0,0,0,255"/>
                                     <prop k="color_border" v="0,0,0,0"/>
                                     <prop k="name" v="circle"/>
@@ -3402,7 +3512,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -3413,6 +3523,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -3562,9 +3673,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -3649,9 +3760,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -3736,9 +3847,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -3939,7 +4050,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>lnna20120205191521820</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."lnna" (pos) sql=</datasource>
             <title></title>
@@ -3982,18 +4093,32 @@
             <customproperties>
                 <property key="labeling" value="pal"/>
                 <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/dataDefinedProperty0" value="11"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
                 <property key="labeling/dataDefinedProperty1" value="13"/>
                 <property key="labeling/dataDefinedProperty10" value="7"/>
                 <property key="labeling/dataDefinedProperty11" value="9"/>
                 <property key="labeling/dataDefinedProperty12" value="10"/>
                 <property key="labeling/dataDefinedProperty13" value=""/>
                 <property key="labeling/dataDefinedProperty14" value="8"/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
                 <property key="labeling/dataDefinedProperty2" value="12"/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
                 <property key="labeling/dataDefinedProperty3" value=""/>
                 <property key="labeling/dataDefinedProperty4" value=""/>
                 <property key="labeling/dataDefinedProperty5" value=""/>
@@ -4001,30 +4126,64 @@
                 <property key="labeling/dataDefinedProperty7" value=""/>
                 <property key="labeling/dataDefinedProperty8" value=""/>
                 <property key="labeling/dataDefinedProperty9" value="6"/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="name"/>
+                <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Cadastra"/>
                 <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontSize" value="11"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multiLineLabels" value="false"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
                 <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
                 <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
                 <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="2000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
             <displayfield>name</displayfield>
             <label>0</label>
@@ -4375,7 +4534,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>locpos20120205191521785</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."locpos" (pos) sql=</datasource>
             <title></title>
@@ -4424,8 +4583,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -4462,8 +4623,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -4740,9 +4903,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="180,0,0,255"/>
@@ -4815,9 +4978,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="180,0,0,255"/>
@@ -4890,9 +5053,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="180,0,0,255"/>
@@ -4976,7 +5139,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'unversichert'" symbol="6" label="unversichert"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -4987,7 +5150,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -4998,7 +5161,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5009,7 +5172,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5020,7 +5183,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5031,7 +5194,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5042,7 +5205,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5054,6 +5217,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -5092,7 +5256,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="2000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>osbp20120205191521752</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osbp" (geometrie) sql=</datasource>
             <title></title>
@@ -5124,7 +5288,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'unversichert'" symbol="6" label="unversichert"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5132,10 +5296,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5143,10 +5307,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5154,10 +5318,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5165,10 +5329,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5176,10 +5340,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5187,10 +5351,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5198,12 +5362,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -5272,7 +5530,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'unversichert'" symbol="6" label="unversichert"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5283,7 +5541,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5294,7 +5552,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5305,7 +5563,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5316,7 +5574,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5327,7 +5585,7 @@
                             <prop k="size" v="4"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5338,7 +5596,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5350,6 +5608,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -5562,7 +5821,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>osnr20120205191521733</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."osnr" (pos) sql=</datasource>
             <title></title>
@@ -5611,8 +5870,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0.2"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -5649,8 +5910,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="75"/>
@@ -6133,8 +6396,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0.2"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -6171,8 +6436,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="75"/>
@@ -6453,9 +6720,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -6550,9 +6817,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -6647,9 +6914,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -6851,7 +7118,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>plna20120205191521674</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."plna" (pos) sql=</datasource>
             <title></title>
@@ -6894,10 +7161,18 @@
             <customproperties>
                 <property key="labeling" value="pal"/>
                 <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
                 <property key="labeling/dataDefinedProperty1" value=""/>
                 <property key="labeling/dataDefinedProperty10" value="6"/>
@@ -6905,7 +7180,13 @@
                 <property key="labeling/dataDefinedProperty12" value="9"/>
                 <property key="labeling/dataDefinedProperty13" value=""/>
                 <property key="labeling/dataDefinedProperty14" value="7"/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
                 <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
                 <property key="labeling/dataDefinedProperty3" value=""/>
                 <property key="labeling/dataDefinedProperty4" value=""/>
                 <property key="labeling/dataDefinedProperty5" value=""/>
@@ -6913,30 +7194,64 @@
                 <property key="labeling/dataDefinedProperty7" value=""/>
                 <property key="labeling/dataDefinedProperty8" value=""/>
                 <property key="labeling/dataDefinedProperty9" value="5"/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="betreiber"/>
+                <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Cadastra"/>
                 <property key="labeling/fontItalic" value="true"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="true"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="3.2"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multiLineLabels" value="false"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Italic"/>
                 <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
                 <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
                 <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="2000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
@@ -7128,9 +7443,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -7207,9 +7522,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -7286,9 +7601,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -7365,9 +7680,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -7444,9 +7759,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -7523,9 +7838,9 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 symbollevels="0" type="singleSymbol" html="">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,0,0,255"/>
@@ -7609,7 +7924,7 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('unterirdisches_Gebaeude', 'Reservoir')" symbol="2" label="uebrige_Flaechenelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -7619,7 +7934,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -7629,7 +7944,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -7642,6 +7957,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>gwr_egid</displayfield>
@@ -7713,15 +8029,16 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('Bruecke_Passerelle', 'Reservoir', 'Tunnel_Unterfuehrung_Galerie', 'Unterstand', 'eingedoltes_oeffentliches_Gewaesser', 'uebriger_Gebaeudeteil')" symbol="5" label="uebrige Flaechenelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@0@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@0@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="255,150,150,255"/>
                                     <prop k="color_border" v="255,150,150,255"/>
                                     <prop k="name" v="circle"/>
@@ -7736,9 +8053,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@0@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="255,150,150,255"/>
                                     <prop k="color_border" v="255,150,150,255"/>
                                     <prop k="name" v="circle"/>
@@ -7759,14 +8077,14 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="LinePatternFill" locked="0">
                             <prop k="color" v="255,150,150,255"/>
                             <prop k="distance" v="1.5"/>
                             <prop k="lineangle" v="45"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@1@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@1@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -7785,7 +8103,7 @@
                             <prop k="lineangle" v="137"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@1@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@1@1">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -7799,15 +8117,16 @@
                             </symbol>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="100,150,255,255"/>
                                     <prop k="color_border" v="100,150,255,255"/>
                                     <prop k="name" v="circle"/>
@@ -7822,9 +8141,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="100,150,255,255"/>
                                     <prop k="color_border" v="100,150,255,255"/>
                                     <prop k="name" v="circle"/>
@@ -7845,15 +8165,16 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2"/>
                             <prop k="distance_y" v="2"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@3@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@3@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="150,150,150,255"/>
                                     <prop k="color_border" v="150,150,150,255"/>
                                     <prop k="name" v="rectangle"/>
@@ -7868,9 +8189,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2"/>
                             <prop k="distance_y" v="2"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@3@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@3@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="150,150,150,255"/>
                                     <prop k="color_border" v="150,150,150,255"/>
                                     <prop k="name" v="rectangle"/>
@@ -7891,14 +8213,14 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="4">
                         <layer pass="0" class="LinePatternFill" locked="0">
                             <prop k="color" v="150,150,150,255"/>
                             <prop k="distance" v="1.5"/>
                             <prop k="lineangle" v="45"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@4@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@4@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -7917,7 +8239,7 @@
                             <prop k="lineangle" v="137"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@4@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@4@1">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -7931,7 +8253,7 @@
                             </symbol>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="5">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -7944,6 +8266,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>gwr_egid</displayfield>
@@ -8015,15 +8338,16 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('Bruecke_Passerelle', 'Reservoir', 'Tunnel_Unterfuehrung_Galerie', 'Unterstand', 'eingedoltes_oeffentliches_Gewaesser', 'uebriger_Gebaeudeteil', 'unterirdisches_Gebaeude')" symbol="5" label="uebrige Flaechenelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@0@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@0@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="255,150,150,255"/>
                                     <prop k="color_border" v="255,150,150,255"/>
                                     <prop k="name" v="circle"/>
@@ -8038,9 +8362,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@0@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="255,150,150,255"/>
                                     <prop k="color_border" v="255,150,150,255"/>
                                     <prop k="name" v="circle"/>
@@ -8061,14 +8386,14 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="LinePatternFill" locked="0">
                             <prop k="color" v="255,150,150,255"/>
                             <prop k="distance" v="1.5"/>
                             <prop k="lineangle" v="45"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@1@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@1@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -8087,7 +8412,7 @@
                             <prop k="lineangle" v="137"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@1@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@1@1">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -8101,15 +8426,16 @@
                             </symbol>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="100,150,255,255"/>
                                     <prop k="color_border" v="100,150,255,255"/>
                                     <prop k="name" v="circle"/>
@@ -8124,9 +8450,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="1.8"/>
                             <prop k="distance_y" v="1.8"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@2@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@2@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="100,150,255,255"/>
                                     <prop k="color_border" v="100,150,255,255"/>
                                     <prop k="name" v="circle"/>
@@ -8147,15 +8474,16 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="3">
                         <layer pass="0" class="PointPatternFill" locked="0">
                             <prop k="displacement_x" v="0"/>
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2"/>
                             <prop k="distance_y" v="2"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@3@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@3@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="150,150,150,255"/>
                                     <prop k="color_border" v="150,150,150,255"/>
                                     <prop k="name" v="rectangle"/>
@@ -8170,9 +8498,10 @@
                             <prop k="displacement_y" v="0"/>
                             <prop k="distance_x" v="2"/>
                             <prop k="distance_y" v="2"/>
-                            <symbol outputUnit="MM" alpha="1" type="marker" name="@3@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="@3@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
+                                    <prop k="border_width" v="0"/>
                                     <prop k="color" v="150,150,150,255"/>
                                     <prop k="color_border" v="150,150,150,255"/>
                                     <prop k="name" v="rectangle"/>
@@ -8193,14 +8522,14 @@
                             <prop k="width" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="4">
                         <layer pass="0" class="LinePatternFill" locked="0">
                             <prop k="color" v="150,150,150,255"/>
                             <prop k="distance" v="1.5"/>
                             <prop k="lineangle" v="45"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@4@0">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@4@0">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -8219,7 +8548,7 @@
                             <prop k="lineangle" v="137"/>
                             <prop k="linewidth" v="0.2"/>
                             <prop k="offset" v="0"/>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@4@1">
+                            <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="@4@1">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="square"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -8233,7 +8562,7 @@
                             </symbol>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="5">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8246,6 +8575,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -8402,7 +8732,7 @@
                     <rule filter="&quot;art&quot; = 'Reservoir'" symbol="1" label="Reservoir"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -8412,7 +8742,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -8423,6 +8753,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -8580,7 +8911,7 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('unterirdisches_Gebaeude', 'Reservoir')" symbol="2" label="uebrige_Flaechenelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -8590,7 +8921,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="240,240,240,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
@@ -8600,7 +8931,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8613,6 +8944,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -8770,7 +9102,7 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('Bahngeleise', 'Druckleitung', 'Faehre', 'Gondelbahn_Sesselbahn', 'Hochspannungsfreileitung', 'Luftseilbahn', 'Materialseilbahn', 'Skilift')" symbol="2" label="uebrige Linienelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8802,7 +9134,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8824,7 +9156,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8837,6 +9169,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -8904,7 +9237,7 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('Bahngeleise', 'Druckleitung', 'Faehre', 'Gondelbahn_Sesselbahn', 'Hochspannungsfreileitung', 'Luftseilbahn', 'Materialseilbahn', 'Skilift')" symbol="2" label="uebrige Linienelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8936,7 +9269,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8958,7 +9291,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -8971,6 +9304,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -9038,7 +9372,7 @@
                     <rule scalemaxdenom="2000" filter="art NOT IN ('Bahngeleise', 'Druckleitung', 'Faehre', 'Gondelbahn_Sesselbahn', 'Hochspannungsfreileitung', 'Luftseilbahn', 'Materialseilbahn', 'Skilift')" symbol="2" label="uebrige Linienelemente"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -9070,7 +9404,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -9092,7 +9426,7 @@
                             <prop k="width" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -9105,6 +9439,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -9317,7 +9652,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="2000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>soobj20120205191521574</id>
             <datasource>dbname='rosebud2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_avwmsde_t"."soobj" (pos) sql=</datasource>
             <title></title>
@@ -9360,10 +9695,18 @@
             <customproperties>
                 <property key="labeling" value="pal"/>
                 <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
                 <property key="labeling/dataDefinedProperty1" value=""/>
                 <property key="labeling/dataDefinedProperty10" value="7"/>
@@ -9371,7 +9714,13 @@
                 <property key="labeling/dataDefinedProperty12" value="10"/>
                 <property key="labeling/dataDefinedProperty13" value=""/>
                 <property key="labeling/dataDefinedProperty14" value="8"/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
                 <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
                 <property key="labeling/dataDefinedProperty3" value=""/>
                 <property key="labeling/dataDefinedProperty4" value=""/>
                 <property key="labeling/dataDefinedProperty5" value=""/>
@@ -9379,30 +9728,64 @@
                 <property key="labeling/dataDefinedProperty7" value=""/>
                 <property key="labeling/dataDefinedProperty8" value=""/>
                 <property key="labeling/dataDefinedProperty9" value="6"/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="text"/>
+                <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Cadastra"/>
                 <property key="labeling/fontItalic" value="true"/>
-                <property key="labeling/fontSize" value="8"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="true"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="2.8"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multiLineLabels" value="false"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Italic"/>
                 <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
                 <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
                 <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="2000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
@@ -9646,7 +10029,7 @@
                     <rule scalemaxdenom="2000" filter="art = 'wichtiger_Einzelbaum'" symbol="1" label="wichtiger_Einzelbaum"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9657,7 +10040,7 @@
                             <prop k="size" v="10"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9669,6 +10052,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -9737,7 +10121,7 @@
                     <rule scalemaxdenom="2000" filter="art = 'wichtiger_Einzelbaum'" symbol="1" label="wichtiger_Einzelbaum"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9748,7 +10132,7 @@
                             <prop k="size" v="10"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9760,6 +10144,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -9828,7 +10213,7 @@
                     <rule scalemaxdenom="2000" filter="art = 'wichtiger_Einzelbaum'" symbol="1" label="wichtiger_Einzelbaum"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9839,7 +10224,7 @@
                             <prop k="size" v="10"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9851,6 +10236,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -9925,7 +10311,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'weitere'" symbol="7" label="weitere"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9936,7 +10322,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9947,7 +10333,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9958,7 +10344,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9969,7 +10355,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9980,7 +10366,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -9991,7 +10377,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10002,7 +10388,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="7">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="7">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10014,6 +10400,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -10088,7 +10475,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'weitere'" symbol="7" label="weitere"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10096,10 +10483,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10107,10 +10494,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10118,10 +10505,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="1" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10129,10 +10516,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10140,10 +10527,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10151,10 +10538,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10162,10 +10549,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="7">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="7">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10173,12 +10560,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -10251,7 +10732,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'weitere'" symbol="7" label="weitere"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10262,7 +10743,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10273,7 +10754,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10284,7 +10765,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10295,7 +10776,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10306,7 +10787,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10317,7 +10798,7 @@
                             <prop k="size" v="3"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10328,7 +10809,7 @@
                             <prop k="size" v="5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="7">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="7">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10340,6 +10821,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -10409,7 +10891,7 @@
                     <rule scalemaxdenom="3000000" filter="typ = 'Landesgrenzen'" symbol="2" scalemindenom="1000000" label="Kantonsgrenze"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10451,7 +10933,7 @@
                             <prop k="width" v="0.531818"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10483,7 +10965,7 @@
                             <prop k="width" v="0.45"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10516,6 +10998,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -10582,7 +11065,7 @@
                     <rule scalemaxdenom="3000000" filter="typ = 'Landesgrenzen'" symbol="2" scalemindenom="1000000" label="Kantonsgrenze"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10624,7 +11107,7 @@
                             <prop k="width" v="0.531818"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10656,7 +11139,7 @@
                             <prop k="width" v="0.45"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10689,6 +11172,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -10755,7 +11239,7 @@
                     <rule scalemaxdenom="3000000" filter="typ = 'Landesgrenzen'" symbol="2" scalemindenom="1000000" label="Kantonsgrenze"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10797,7 +11281,7 @@
                             <prop k="width" v="0.531818"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10829,7 +11313,7 @@
                             <prop k="width" v="0.45"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -10862,6 +11346,7 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <legendsymbols/>
             </renderer-v2>
             <customproperties/>
             <displayfield>ogc_fid</displayfield>
@@ -10949,8 +11434,8 @@
             <Automatic type="bool">true</Automatic>
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
-        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSServiceAbstract type="QString">http://www.cadastre.ch/internet/cadastre/de/home/products/webmap/wms.html</WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
         <Measure>
