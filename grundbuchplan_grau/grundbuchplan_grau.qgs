@@ -5,9 +5,9 @@
         <units>meters</units>
         <extent>
             <xmin>603221.183969</xmin>
-            <ymin>218597.329004</ymin>
+            <ymin>218588.019864</ymin>
             <xmax>603452.029586</xmax>
-            <ymax>218746.762216</ymax>
+            <ymax>218756.071356</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -31,7 +31,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung (grau)">
+        <legendgroup open="false" checked="Qt::Checked" name="Amtliche Vermessung (grau)">
             <legendgroup open="false" checked="Qt::Checked" name="Fixpunkte">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="FI.FP" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
@@ -465,9 +465,9 @@
                 </legendlayer>
             </legendgroup>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="digizone_zonenplan" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="digizone_zonenplan" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="graudigizone_zonenplan20130826212645735" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="graudigizone_zonenplan20130826212645735" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Hintergrund">
@@ -21848,20 +21848,18 @@
             <Absolute type="bool">true</Absolute>
         </Paths>
         <WMSServiceTitle type="QString">Webgis Plan für das Grundbuch</WMSServiceTitle>
-        <WFSLayers type="QStringList">
-            <value>qgis_printcomposer_info_v20130526155343449</value>
-        </WFSLayers>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <WMSRestrictedLayers type="QStringList">
             <value>print</value>
         </WMSRestrictedLayers>
-        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
-        <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
         <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+        <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
         <Measure>
@@ -21873,6 +21871,7 @@
             <value>EPSG:900913</value>
             <value>EPSG:3035</value>
             <value>EPSG:32632</value>
+            <value>EPSG:2056</value>
         </WMSCrsList>
         <WFSTLayers>
             <Insert type="QStringList"/>

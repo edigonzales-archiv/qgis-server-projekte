@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>2588918.869964</xmin>
+            <xmin>2585959.326388</xmin>
             <ymin>1212512.446875</ymin>
-            <xmax>2648401.380036</xmax>
+            <xmax>2651360.923612</xmax>
             <ymax>1262520.928125</ymax>
         </extent>
         <projections>0</projections>
@@ -25,14 +25,14 @@
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::Unchecked" name="FixpunkteKategorie">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fixpunktekategorie__lfp [43344]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fixpunktekategorie__lfp [43339]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="fixpunktekategorie__lfp20140601183103763" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Bodenbedeckung">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__boflaeche [272724]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__boflaeche [272873]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__boflaeche20140601203748444" visible="0"/>
                 </filegroup>
@@ -42,7 +42,7 @@
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__bbtext20140601183102904" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__projboflaeche [1191]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__projboflaeche [1176]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__projboflaeche20140601203747552" visible="0"/>
                 </filegroup>
@@ -54,7 +54,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Einzelobjekte">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__flaechenelement [132368]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__flaechenelement [132282]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__flaechenelement20140601203647793" visible="0"/>
                 </filegroup>
@@ -64,7 +64,7 @@
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__flaechenelementtext20140601203647949" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__linienelement [96100]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__linienelement [95932]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__linienelement20140601203648082" visible="0"/>
                 </filegroup>
@@ -74,7 +74,7 @@
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__linienelementtext20140601203648352" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__punktelement [797]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__punktelement [800]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__punktelement20140601203648594" visible="0"/>
                 </filegroup>
@@ -97,38 +97,38 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Liegenschaften">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__grenzpunkt [690303]" showFeatureCount="1">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Liegenschaften">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__grenzpunkt [690290]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__grenzpunkt20140601203449178" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaft [136516]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaft [136531]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__liegenschaft20140601203433981" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaftpos [140025]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaftpos [140039]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__liegenschaftpos20140601220017635" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerk [1504]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerk [1503]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__selbstrecht_bergwerk20140601203434946" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerkpos [1513]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerkpos [1512]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__selbstrecht_bergwerkpos20140601215724202" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaft [1479]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaft [1452]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__projliegenschaft20140601203434431" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaftpos [1629]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaftpos [1592]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__projliegenschaftpos20140601220100585" visible="0"/>
                 </filegroup>
@@ -157,7 +157,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="Hoheitsgrenzen">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hoheitsgrenzen__hoheitsgrenzpunkt [37056]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hoheitsgrenzen__hoheitsgrenzpunkt [37060]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="hoheitsgrenzen__hoheitsgrenzpunkt20140601203317082" visible="0"/>
                 </filegroup>
@@ -184,17 +184,17 @@
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__lokalisationsname20140601202131263" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__lokalisationsnamepos [13933]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__lokalisationsnamepos [13934]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__lokalisationsnamepos20140601202131387" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__gebaeudeeingang [112126]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__gebaeudeeingang [112139]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__gebaeudeeingang20140601202130590" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__hausnummerpos [100483]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__hausnummerpos [100497]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__hausnummerpos20140601202131148" visible="0"/>
                 </filegroup>
@@ -5363,8 +5363,13 @@
             <value>hoheitsgrenzen__uebrigehoheitsgrenzen20140601203317834</value>
             <value>liegenschaften__grenzpunkt20140601203449178</value>
             <value>liegenschaften__liegenschaft20140601203433981</value>
+            <value>liegenschaften__liegenschaftpos20140601220017635</value>
             <value>liegenschaften__projliegenschaft20140601203434431</value>
+            <value>liegenschaften__projliegenschaftpos20140601220100585</value>
+            <value>liegenschaften__projselbstrecht_bergwerk20140601215619795</value>
+            <value>liegenschaften__projselbstrecht_bergwerkpos20140601215654825</value>
             <value>liegenschaften__selbstrecht_bergwerk20140601203434946</value>
+            <value>liegenschaften__selbstrecht_bergwerkpos20140601215724202</value>
             <value>nomenklatur__namen20140601203621074</value>
             <value>nomenklatur__namenpos20140601203621333</value>
             <value>rohrleitungen__linienelement20140601203403640</value>

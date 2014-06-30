@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>588594.309568</xmin>
-            <ymin>212512.317969</ymin>
-            <xmax>648725.127932</xmax>
-            <ymax>262520.307031</ymax>
+            <xmin>584312.730857</xmin>
+            <ymin>211253.334638</ymin>
+            <xmax>653006.706643</xmax>
+            <ymax>263779.290362</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -25,14 +25,14 @@
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::Unchecked" name="FixpunkteKategorie">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fixpunktekategorie__lfp [43344]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="fixpunktekategorie__lfp [43339]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="fixpunktekategorie__lfp20140601151113263" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Bodenbedeckung">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__boflaeche [272724]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__boflaeche [272875]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__boflaeche20140601151121482" visible="0"/>
                 </filegroup>
@@ -42,7 +42,7 @@
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__bbtext20140601151116839" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__projboflaeche [1191]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bodenbedeckung__projboflaeche [1172]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bodenbedeckung__projboflaeche20140601192910003" visible="0"/>
                 </filegroup>
@@ -54,7 +54,7 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Einzelobjekte">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__flaechenelement [132368]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__flaechenelement [132282]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__flaechenelement20140601192953068" visible="0"/>
                 </filegroup>
@@ -64,7 +64,7 @@
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__flaechenelementtext20140601192951834" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__linienelement [96100]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__linienelement [95932]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__linienelement20140601192951897" visible="0"/>
                 </filegroup>
@@ -74,7 +74,7 @@
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__linienelementtext20140601192952066" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__punktelement [797]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="einzelobjekte__punktelement [800]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="einzelobjekte__punktelement20140601192952191" visible="0"/>
                 </filegroup>
@@ -97,50 +97,50 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Liegenschaften">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__grenzpunkt [690303]" showFeatureCount="1">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Liegenschaften">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__grenzpunkt [690290]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__grenzpunkt20140601193130723" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaft [136516]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaft [136530]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__liegenschaft20140601193131583" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaftpos [140025]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__liegenschaftpos [140038]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__liegenschaftpos20140601214320074" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerk [1504]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerk [1503]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__selbstrecht_bergwerk20140601193135955" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerkpos [1513]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__selbstrecht_bergwerkpos [1512]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__selbstrecht_bergwerkpos20140601214323149" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaft [1479]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaft [1456]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__projliegenschaft20140601193132924" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaftpos [1629]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projliegenschaftpos [1596]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="liegenschaften__projliegenschaftpos20140601214320748" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projselbstrecht_bergwerk [23]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projselbstrecht_bergwerk" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="liegenschaften__projselbstrecht_bergwerk20140601214353099" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="liegenschaften__projselbstrecht_bergwerk20140613205751100" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projselbstrecht_bergwerkpos [24]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften__projselbstrecht_bergwerkpos" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="liegenschaften__projselbstrecht_bergwerkpos20140601214322188" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="liegenschaften__projselbstrecht_bergwerkpos20140613205649597" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -156,8 +156,8 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Hoheitsgrenzen">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hoheitsgrenzen__hoheitsgrenzpunkt [37056]" showFeatureCount="1">
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Hoheitsgrenzen">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="hoheitsgrenzen__hoheitsgrenzpunkt [37060]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="hoheitsgrenzen__hoheitsgrenzpunkt20140601193328956" visible="0"/>
                 </filegroup>
@@ -184,17 +184,17 @@
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__lokalisationsname20140601193419645" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__lokalisationsnamepos [13933]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__lokalisationsnamepos [13934]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__lokalisationsnamepos20140601193419854" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__gebaeudeeingang [112126]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__gebaeudeeingang [112137]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__gebaeudeeingang20140601193419358" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__hausnummerpos [100483]" showFeatureCount="1">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gebaeudeadressen__hausnummerpos [100494]" showFeatureCount="1">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="gebaeudeadressen__hausnummerpos20140601193419547" visible="0"/>
                 </filegroup>
@@ -4472,7 +4472,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>liegenschaften__projselbstrecht_bergwerk20140601214353099</id>
+            <id>liegenschaften__projselbstrecht_bergwerk20140613205751100</id>
             <datasource>dbname='xanadu2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POLYGON table="av_mopublic"."liegenschaften__projselbstrecht_bergwerk" (geometrie) sql=</datasource>
             <title></title>
             <abstract></abstract>
@@ -4496,7 +4496,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="180,165,89,255"/>
+                            <prop k="color" v="162,102,103,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -4508,97 +4508,8 @@
                 <rotation field=""/>
                 <sizescale field="" scalemethod="area"/>
             </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefinedProperty0" value=""/>
-                <property key="labeling/dataDefinedProperty1" value=""/>
-                <property key="labeling/dataDefinedProperty10" value=""/>
-                <property key="labeling/dataDefinedProperty11" value=""/>
-                <property key="labeling/dataDefinedProperty12" value=""/>
-                <property key="labeling/dataDefinedProperty13" value=""/>
-                <property key="labeling/dataDefinedProperty14" value=""/>
-                <property key="labeling/dataDefinedProperty15" value=""/>
-                <property key="labeling/dataDefinedProperty16" value=""/>
-                <property key="labeling/dataDefinedProperty17" value=""/>
-                <property key="labeling/dataDefinedProperty18" value=""/>
-                <property key="labeling/dataDefinedProperty19" value=""/>
-                <property key="labeling/dataDefinedProperty2" value=""/>
-                <property key="labeling/dataDefinedProperty20" value=""/>
-                <property key="labeling/dataDefinedProperty3" value=""/>
-                <property key="labeling/dataDefinedProperty4" value=""/>
-                <property key="labeling/dataDefinedProperty5" value=""/>
-                <property key="labeling/dataDefinedProperty6" value=""/>
-                <property key="labeling/dataDefinedProperty7" value=""/>
-                <property key="labeling/dataDefinedProperty8" value=""/>
-                <property key="labeling/dataDefinedProperty9" value=""/>
-                <property key="labeling/decimals" value="0"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Liberation Sans"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Normal"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="true"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/xQuadOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-                <property key="labeling/yQuadOffset" value="0"/>
-            </customproperties>
-            <displayfield>ogc_fid</displayfield>
+            <customproperties/>
+            <displayfield></displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -4620,32 +4531,16 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <edittypes>
-                <edittype type="0" name="bfsnr"/>
-                <edittype type="0" name="egris_egrid"/>
-                <edittype type="0" name="flaechenmass"/>
-                <edittype type="0" name="grundstuecksart"/>
-                <edittype type="0" name="nbident"/>
-                <edittype type="0" name="nummer"/>
-                <edittype type="0" name="ogc_fid"/>
-                <edittype type="0" name="stand_am"/>
-                <edittype type="0" name="tid"/>
-                <edittype type="0" name="vollstaendigkeit"/>
-            </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <excludeAttributesWMS>
-                <attribute>ogc_fid</attribute>
-            </excludeAttributesWMS>
-            <excludeAttributesWFS>
-                <attribute>ogc_fid</attribute>
-            </excludeAttributesWFS>
+            <annotationform></annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>liegenschaften__projselbstrecht_bergwerkpos20140601214322188</id>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>liegenschaften__projselbstrecht_bergwerkpos20140613205649597</id>
             <datasource>dbname='xanadu2' host=localhost port=5432 user='mspublic' password='mspublic' sslmode=disable key='ogc_fid' srid=21781 type=POINT table="av_mopublic"."liegenschaften__projselbstrecht_bergwerkpos" (pos) sql=</datasource>
             <title></title>
             <abstract></abstract>
@@ -4670,7 +4565,7 @@
                     <symbol outputUnit="MM" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="228,14,57,255"/>
+                            <prop k="color" v="133,41,90,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
@@ -4682,97 +4577,8 @@
                 <rotation field=""/>
                 <sizescale field="" scalemethod="area"/>
             </renderer-v2>
-            <customproperties>
-                <property key="labeling" value="pal"/>
-                <property key="labeling/addDirectionSymbol" value="false"/>
-                <property key="labeling/angleOffset" value="0"/>
-                <property key="labeling/bufferColorB" value="255"/>
-                <property key="labeling/bufferColorG" value="255"/>
-                <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferJoinStyle" value="64"/>
-                <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/bufferSizeInMapUnits" value="false"/>
-                <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefinedProperty0" value=""/>
-                <property key="labeling/dataDefinedProperty1" value=""/>
-                <property key="labeling/dataDefinedProperty10" value=""/>
-                <property key="labeling/dataDefinedProperty11" value=""/>
-                <property key="labeling/dataDefinedProperty12" value=""/>
-                <property key="labeling/dataDefinedProperty13" value=""/>
-                <property key="labeling/dataDefinedProperty14" value=""/>
-                <property key="labeling/dataDefinedProperty15" value=""/>
-                <property key="labeling/dataDefinedProperty16" value=""/>
-                <property key="labeling/dataDefinedProperty17" value=""/>
-                <property key="labeling/dataDefinedProperty18" value=""/>
-                <property key="labeling/dataDefinedProperty19" value=""/>
-                <property key="labeling/dataDefinedProperty2" value=""/>
-                <property key="labeling/dataDefinedProperty20" value=""/>
-                <property key="labeling/dataDefinedProperty3" value=""/>
-                <property key="labeling/dataDefinedProperty4" value=""/>
-                <property key="labeling/dataDefinedProperty5" value=""/>
-                <property key="labeling/dataDefinedProperty6" value=""/>
-                <property key="labeling/dataDefinedProperty7" value=""/>
-                <property key="labeling/dataDefinedProperty8" value=""/>
-                <property key="labeling/dataDefinedProperty9" value=""/>
-                <property key="labeling/decimals" value="0"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
-                <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
-                <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Liberation Sans"/>
-                <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
-                <property key="labeling/fontMaxPixelSize" value="10000"/>
-                <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
-                <property key="labeling/fontStrikeout" value="false"/>
-                <property key="labeling/fontUnderline" value="false"/>
-                <property key="labeling/fontWeight" value="50"/>
-                <property key="labeling/fontWordSpacing" value="0"/>
-                <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
-                <property key="labeling/labelOffsetInMapUnits" value="true"/>
-                <property key="labeling/labelPerPart" value="false"/>
-                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-                <property key="labeling/limitNumLabels" value="false"/>
-                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-                <property key="labeling/maxNumLabels" value="2000"/>
-                <property key="labeling/mergeLines" value="false"/>
-                <property key="labeling/minFeatureSize" value="0"/>
-                <property key="labeling/multilineAlign" value="0"/>
-                <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Normal"/>
-                <property key="labeling/obstacle" value="true"/>
-                <property key="labeling/placeDirectionSymbol" value="0"/>
-                <property key="labeling/placement" value="0"/>
-                <property key="labeling/placementFlags" value="0"/>
-                <property key="labeling/plussign" value="true"/>
-                <property key="labeling/preserveRotation" value="true"/>
-                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-                <property key="labeling/priority" value="5"/>
-                <property key="labeling/reverseDirectionSymbol" value="false"/>
-                <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="0"/>
-                <property key="labeling/scaleMin" value="0"/>
-                <property key="labeling/textColorB" value="0"/>
-                <property key="labeling/textColorG" value="0"/>
-                <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
-                <property key="labeling/upsidedownLabels" value="0"/>
-                <property key="labeling/wrapChar" value=""/>
-                <property key="labeling/xOffset" value="0"/>
-                <property key="labeling/xQuadOffset" value="0"/>
-                <property key="labeling/yOffset" value="0"/>
-                <property key="labeling/yQuadOffset" value="0"/>
-            </customproperties>
-            <displayfield>ogc_fid</displayfield>
+            <customproperties/>
+            <displayfield></displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -4794,42 +4600,12 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <edittypes>
-                <edittype type="0" name="bfsnr"/>
-                <edittype type="0" name="hali"/>
-                <edittype type="0" name="hali_txt"/>
-                <edittype type="0" name="nbident"/>
-                <edittype type="0" name="nummer"/>
-                <edittype type="0" name="ogc_fid"/>
-                <edittype type="0" name="ori"/>
-                <edittype type="0" name="rot"/>
-                <edittype type="0" name="selbstrecht_bergwerkpos_von"/>
-                <edittype type="0" name="tid"/>
-                <edittype type="0" name="vali"/>
-                <edittype type="0" name="vali_txt"/>
-                <edittype type="0" name="x"/>
-                <edittype type="0" name="y"/>
-            </edittypes>
             <editorlayout>generatedlayout</editorlayout>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <excludeAttributesWMS>
-                <attribute>rot</attribute>
-                <attribute>x</attribute>
-                <attribute>y</attribute>
-                <attribute>hali_txt</attribute>
-                <attribute>ogc_fid</attribute>
-                <attribute>vali_txt</attribute>
-            </excludeAttributesWMS>
-            <excludeAttributesWFS>
-                <attribute>rot</attribute>
-                <attribute>x</attribute>
-                <attribute>y</attribute>
-                <attribute>hali_txt</attribute>
-                <attribute>ogc_fid</attribute>
-                <attribute>vali_txt</attribute>
-            </excludeAttributesWFS>
+            <annotationform></annotationform>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -5944,8 +5720,13 @@
             <value>hoheitsgrenzen__uebrigehoheitsgrenzen20140601193329150</value>
             <value>liegenschaften__grenzpunkt20140601193130723</value>
             <value>liegenschaften__liegenschaft20140601193131583</value>
+            <value>liegenschaften__liegenschaftpos20140601214320074</value>
             <value>liegenschaften__projliegenschaft20140601193132924</value>
+            <value>liegenschaften__projliegenschaftpos20140601214320748</value>
+            <value>liegenschaften__projselbstrecht_bergwerk20140613205751100</value>
+            <value>liegenschaften__projselbstrecht_bergwerkpos20140613205649597</value>
             <value>liegenschaften__selbstrecht_bergwerk20140601193135955</value>
+            <value>liegenschaften__selbstrecht_bergwerkpos20140601214323149</value>
             <value>nomenklatur__namen20140601193055279</value>
             <value>nomenklatur__namenpos20140601193055510</value>
             <value>rohrleitungen__linienelement20140601193259066</value>
