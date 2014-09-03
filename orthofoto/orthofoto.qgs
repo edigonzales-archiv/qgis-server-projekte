@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>588239.235543</xmin>
-            <ymin>208410.115918</ymin>
-            <xmax>649760.764457</xmax>
-            <ymax>266809.884082</ymax>
+            <xmin>606619.062146</xmin>
+            <ymin>228022.223730</ymin>
+            <xmax>610605.796321</xmax>
+            <ymax>230626.783532</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,46 +24,58 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="true" checked="Qt::Checked" name="Orthofoto_RGB">
-            <legendgroup open="false" checked="Qt::Checked" name="Ortho2013_RGB">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2013_RGB_5m" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Orthofoto_RGB">
+            <legendgroup open="true" checked="Qt::Checked" name="Ortho2014_RGB">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2014_RGB_5m" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2013rgb_50020131010071509150" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ortho2014rgb_50020140901195105715" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2013_RGB" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2014_RGB" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2013rgb20131010072019422" visible="1"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendgroup open="false" checked="Qt::Checked" name="Ortho2012_RGB">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2012_RGB_5m" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2012rgb_50020130624170533153" visible="1"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2012_RGB" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2012rgb20130624171301390" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ortho2014rgb20140901193743392" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="true" checked="Qt::Checked" name="Ortho2011_RGB">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2011_RGB_5m" showFeatureCount="0">
+            <legendgroup open="true" checked="Qt::Unchecked" name="Ortho2013_RGB">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2013_RGB_5m" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2011rgb_50020130624165840111" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ortho2013rgb_50020131010071509150" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Orthofoto2011_RGB" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2013_RGB" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2011rgb20130624171636739" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="ortho2013rgb20131010072019422" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Unchecked" name="Ortho2012_RGB">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2012_RGB_5m" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ortho2012rgb_50020130624170533153" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2012_RGB" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ortho2012rgb20130624171301390" visible="0"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Orthofoto_CIR">
-            <legendgroup open="false" checked="Qt::Unchecked" name="Ortho2013_CIR">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Orthofoto_CIR">
+            <legendgroup open="true" checked="Qt::Unchecked" name="Ortho2014_CIR">
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2014_CIR_5m" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ortho2014cir_50020140902082302497" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2014_CIR" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="ortho2014cir20140902094844996" visible="0"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="true" checked="Qt::Unchecked" name="Ortho2013_CIR">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2013_CIR_5m" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="ortho2013cir_50020131010072205886" visible="0"/>
@@ -87,133 +99,9 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendgroup open="false" checked="Qt::Unchecked" name="Ortho2011_CIR">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2011_CIR_5m" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2011cir_50020130624172717811" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2011_CIR" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="ortho2011cir20130624172710265" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
         </legendgroup>
     </legend>
     <projectlayers layercount="12">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
-            <id>ortho2011cir20130624172710265</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/cir/12_5cm/ortho2011cir.vrt</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Orthofoto2011_CIR</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
-        </maplayer>
-        <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
-            <id>ortho2011cir_50020130624172717811</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/cir/500cm/ortho2011cir_500.tif</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Orthofoto2011_CIR_5m</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency>
-                    <threeValuePixelList>
-                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
-                    </threeValuePixelList>
-                </rasterTransparency>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
-            <id>ortho2011rgb20130624171636739</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/rgb/12_5cm/ortho2011rgb.vrt</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Orthofoto2011_RGB</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
-        </maplayer>
-        <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
-            <id>ortho2011rgb_50020130624165840111</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/rgb/500cm/ortho2011rgb_500.tif</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Orthofoto2011_RGB_5m</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency>
-                    <threeValuePixelList>
-                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
-                    </threeValuePixelList>
-                </rasterTransparency>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
-        </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2012cir20130624172346652</id>
             <datasource>../../Geodaten/ch/so/kva/orthofoto/2012/cir/12_5cm/ortho2012cir.vrt</datasource>
@@ -270,7 +158,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2012rgb20130624171301390</id>
             <datasource>../../Geodaten/ch/so/kva/orthofoto/2012/rgb/12_5cm/ortho2012rgb.vrt</datasource>
             <title></title>
@@ -294,7 +182,7 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
         <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2012rgb_50020130624170533153</id>
@@ -382,7 +270,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2013rgb20131010072019422</id>
             <datasource>../../Geodaten/ch/so/kva/orthofoto/2013/rgb/12_5cm/ortho2013rgb.vrt</datasource>
             <title></title>
@@ -406,7 +294,7 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
         <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2013rgb_50020131010071509150</id>
@@ -433,6 +321,126 @@
                 <rasterTransparency>
                     <threeValuePixelList>
                         <pixelListEntry red="255" blue="255" green="255" percentTransparent="100"/>
+                    </threeValuePixelList>
+                </rasterTransparency>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ortho2014cir20140902094844996</id>
+            <datasource>../../Geodaten/ch/so/kva/orthofoto/2014/cir/12_5cm/ortho2014cir.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Orthofoto2014_CIR</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency>
+                    <threeValuePixelList>
+                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
+                    </threeValuePixelList>
+                </rasterTransparency>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ortho2014cir_50020140902082302497</id>
+            <datasource>../../Geodaten/ch/so/kva/orthofoto/2014/cir/500cm/ortho2014cir_500.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Orthofoto2014_CIR_5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency>
+                    <threeValuePixelList>
+                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
+                    </threeValuePixelList>
+                </rasterTransparency>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ortho2014rgb20140901193743392</id>
+            <datasource>../../Geodaten/ch/so/kva/orthofoto/2014/rgb/12_5cm/ortho2014rgb.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Orthofoto2014_RGB</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency>
+                    <threeValuePixelList>
+                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
+                    </threeValuePixelList>
+                </rasterTransparency>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2"/>
+        </maplayer>
+        <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ortho2014rgb_50020140901195105715</id>
+            <datasource>../../Geodaten/ch/so/kva/orthofoto/2014/rgb/500cm/ortho2014rgb_500.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Orthofoto2014_RGB_5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency>
+                    <threeValuePixelList>
+                        <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
                     </threeValuePixelList>
                 </rasterTransparency>
             </rasterrenderer>

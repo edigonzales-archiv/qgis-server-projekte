@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>453400.000000</xmin>
-            <ymin>35238.795987</ymin>
-            <xmax>856600.000000</xmax>
-            <ymax>328761.204013</ymax>
+            <xmin>613592.185948</xmin>
+            <ymin>225200.770902</ymin>
+            <xmax>618206.927256</xmax>
+            <ymax>227463.192777</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -465,7 +465,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Pixelkarten">
+        <legendgroup open="false" checked="Qt::Checked" name="Pixelkarten">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="lk25_pkb" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="HGSWlk25_pkb20140112205346310" visible="1"/>
@@ -7495,7 +7495,7 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="12500" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="1" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>HGSWlk25_pkb20140112205346310</id>
             <datasource>/opt/GeodatenNotPublic/pixelkarten/lk25/pkb/lk25_pkb.vrt</datasource>
             <title></title>
@@ -22485,8 +22485,8 @@
             <Automatic type="bool">true</Automatic>
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
-        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">true</WMSAddWktGeometry>
         <Measure>
