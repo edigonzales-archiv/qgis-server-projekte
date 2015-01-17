@@ -1,0 +1,525 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="Hoehen" version="1.9.0-Master">
+    <title>Hoehen</title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>597515.034912</xmin>
+            <ymin>229140.840257</ymin>
+            <xmax>613257.743262</xmax>
+            <ymax>238533.548600</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>1919</srsid>
+                <srid>21781</srid>
+                <authid>EPSG:21781</authid>
+                <description>CH1903 / LV03</description>
+                <projectionacronym>somerc</projectionacronym>
+                <ellipsoidacronym>bessel</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+        <layer_coordinate_transform_info/>
+    </mapcanvas>
+    <legend updateDrawingOrder="true">
+        <legendgroup open="true" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dtm.relief.2014">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dtm.relief.2014.5m" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dtm_relief_5m20141129212716417" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dtm.relief.2014.50cm" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dtm_relief20141129213229654" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Checked" name="ch.so.agi.hoehen.dtm.gradient.2014">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ch.so.agi.hoehen.dtm.gradient.2014.5m" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dtm_gradient_5m20141201113712808" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ch.so.agi.hoehen.dtm.gradient.2014.50cm" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dtm_gradient20141201113544999" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.relief.2014">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.relief.2014.5m" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dom_relief_5m20141117202306033" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.relief.2014.50cm" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="dom_relief20141117202130474" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.ndsm.2014">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.ndsm.2014.5m" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ndsm_5m20141201120633532" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.ndsm.2014.50cm" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="ndsm20141201120354993" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.differenz.2014-2002">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.differenz.2014-2002.5m" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="change_detection_5m20141201133802556" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.hoehen.dom.differenz.2014-2002.50cm" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="change_detection20141201133733784" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <projectlayers layercount="10">
+        <maplayer minimumScale="0" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>change_detection20141201133733784</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/differenzen/2014vs2002/dom/grid/50cm/change_detection.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dom.differenz.2014-2002.50cm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" classificationMax="16.128" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-13.2316" type="singlebandpseudocolor">
+                <rasterTransparency>
+                    <singleValuePixelList>
+                        <pixelListEntry min="-1" max="1" percentTransparent="100"/>
+                    </singleValuePixelList>
+                </rasterTransparency>
+                <rastershader>
+                    <colorrampshader colorRampType="DISCRETE" clip="0">
+                        <item value="-20" label="-40m bis -20m" color="#00007f"/>
+                        <item value="-10" label="-20m bis -10m" color="#0055ff"/>
+                        <item value="-1" label="-10m bis -1m" color="#00aaff"/>
+                        <item value="-1" label="-1m bis 0m" color="#ffffff"/>
+                        <item value="1" label="0m bis 1m" color="#ffffff"/>
+                        <item value="5" label="1m bis 5m" color="#ffaa7f"/>
+                        <item value="20" label="5m bis 20m" color="#d66d30"/>
+                        <item value="40" label="20m bis 40m" color="#ff0000"/>
+                    </colorrampshader>
+                </rastershader>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="25000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>change_detection_5m20141201133802556</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/differenzen/2014vs2002/dom/grid/500cm/change_detection_5m.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dom.differenz.2014-2002.5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="0" classificationMax="16.128" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-13.2316" type="singlebandpseudocolor">
+                <rasterTransparency>
+                    <singleValuePixelList>
+                        <pixelListEntry min="-1" max="1" percentTransparent="100"/>
+                    </singleValuePixelList>
+                </rasterTransparency>
+                <rastershader>
+                    <colorrampshader colorRampType="DISCRETE" clip="0">
+                        <item value="-20" label="-40m bis -20m" color="#00007f"/>
+                        <item value="-10" label="-20m bis -10m" color="#0055ff"/>
+                        <item value="-1" label="-10m bis -1m" color="#00aaff"/>
+                        <item value="-1" label="-1m bis 0m" color="#ffffff"/>
+                        <item value="1" label="0m bis 1m" color="#ffffff"/>
+                        <item value="5" label="1m bis 5m" color="#ffaa7f"/>
+                        <item value="20" label="5m bis 20m" color="#d66d30"/>
+                        <item value="40" label="20m bis 40m" color="#ff0000"/>
+                    </colorrampshader>
+                </rastershader>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dom_relief20141117202130474</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dom/relief/50cm/dom_relief.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dom.relief.2014.50cm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>1</minValue>
+                    <maxValue>255</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="25000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dom_relief_5m20141117202306033</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dom/relief/500cm/dom_relief_5m.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dom.relief.2014.5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>1</minValue>
+                    <maxValue>255</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="100000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dtm_gradient20141201113544999</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dtm/gradient/50cm/dtm_gradient.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dtm.gradient.2014.50cm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="WhiteToBlack" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>0</minValue>
+                    <maxValue>89.908</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="8" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dtm_gradient_5m20141201113712808</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dtm/gradient/500cm/dtm_gradient_5m.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dtm.gradient.2014.5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="WhiteToBlack" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>0</minValue>
+                    <maxValue>89.908</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="8" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dtm_relief20141129213229654</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dtm/relief/50cm/dtm_relief.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dtm.relief.2014.50cm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>1</minValue>
+                    <maxValue>255</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="25000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>dtm_relief_5m20141129212716417</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/dtm/relief/500cm/dtm_relief_5m.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.dtm.relief.2014.5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                    <minValue>1</minValue>
+                    <maxValue>255</maxValue>
+                    <algorithm>1</algorithm>
+                </contrastEnhancement>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="25000" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ndsm20141201120354993</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/ndsm/50cm/ndsm.vrt</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.ndsm.2014.50cm</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" classificationMax="16.128" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-13.2316" type="singlebandpseudocolor">
+                <rasterTransparency>
+                    <singleValuePixelList>
+                        <pixelListEntry min="-1" max="1" percentTransparent="100"/>
+                    </singleValuePixelList>
+                </rasterTransparency>
+                <rastershader>
+                    <colorrampshader colorRampType="DISCRETE" clip="0">
+                        <item value="-1" label="-1m bis 0m" color="#ffffff"/>
+                        <item value="1" label="0m bis 1m" color="#ffffff"/>
+                        <item value="5" label="1m bis 5m" color="#ffaa7f"/>
+                        <item value="20" label="5m bis 20m" color="#d66d30"/>
+                        <item value="40" label="20m bis 40m" color="#ff0000"/>
+                    </colorrampshader>
+                </rastershader>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="25000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
+            <id>ndsm_5m20141201120633532</id>
+            <datasource>../../Geodaten/ch/so/kva/hoehen/2014/ndsm/500cm/ndsm_5m.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.hoehen.ndsm.2014.5m</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="-1" classificationMax="16.128" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-13.2316" type="singlebandpseudocolor">
+                <rasterTransparency>
+                    <singleValuePixelList>
+                        <pixelListEntry min="-1" max="1" percentTransparent="100"/>
+                    </singleValuePixelList>
+                </rasterTransparency>
+                <rastershader>
+                    <colorrampshader colorRampType="DISCRETE" clip="0">
+                        <item value="-1" label="-1m bis 0m" color="#ffffff"/>
+                        <item value="1" label="0m bis 1m" color="#ffffff"/>
+                        <item value="5" label="1m bis 5m" color="#ffaa7f"/>
+                        <item value="20" label="5m bis 20m" color="#d66d30"/>
+                        <item value="40" label="20m bis 40m" color="#ff0000"/>
+                    </colorrampshader>
+                </rastershader>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <WMSContactPerson type="QString">Mitarbeitende AGI</WMSContactPerson>
+        <WMSOnlineResource type="QString">http://www.catais.org/</WMSOnlineResource>
+        <WMSContactOrganization type="QString">Amt für Geoinformation, Kanton Solothurn</WMSContactOrganization>
+        <WMSExtent type="QStringList">
+            <value>590000</value>
+            <value>210000</value>
+            <value>650000</value>
+            <value>270000</value>
+        </WMSExtent>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <WMSServiceTitle type="QString">Hoehen</WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSRestrictedLayers type="QStringList">
+            <value>ndvi</value>
+        </WMSRestrictedLayers>
+        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+        <WMSServiceAbstract type="QString">Höhendaten Kanton Solothurn</WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <Measure>
+            <Ellipsoid type="QString">NONE</Ellipsoid>
+        </Measure>
+        <WMSCrsList type="QStringList">
+            <value>EPSG:21781</value>
+            <value>EPSG:4326</value>
+            <value>EPSG:32632</value>
+            <value>EPSG:3035</value>
+            <value>EPSG:3857</value>
+        </WMSCrsList>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <Digitizing>
+            <LayerSnappingList type="QStringList"/>
+            <LayerSnappingEnabledList type="QStringList"/>
+            <AvoidIntersectionsList type="QStringList"/>
+            <LayerSnappingToleranceUnitList type="QStringList"/>
+            <LayerSnapToList type="QStringList"/>
+            <LayerSnappingToleranceList type="QStringList"/>
+        </Digitizing>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:21781</ProjectCrs>
+            <ProjectCRSID type="int">1919</ProjectCRSID>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString"></WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
+    </properties>
+</qgis>

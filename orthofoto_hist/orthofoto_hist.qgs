@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>606619.062146</xmin>
-            <ymin>228022.223730</ymin>
-            <xmax>610605.796321</xmax>
-            <ymax>230626.783532</ymax>
+            <xmin>601221.584221</xmin>
+            <ymin>221629.380555</ymin>
+            <xmax>617168.520921</xmax>
+            <ymax>233676.025712</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -39,7 +39,7 @@
             </legendgroup>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Orthofoto_CIR">
-            <legendgroup open="false" checked="Qt::Unchecked" name="Ortho2011_CIR">
+            <legendgroup open="true" checked="Qt::Unchecked" name="Ortho2011_CIR">
                 <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Orthofoto2011_CIR_5m" showFeatureCount="0">
                     <filegroup open="false" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="ortho2011cir_50020130624172717811" visible="0"/>
@@ -54,9 +54,9 @@
         </legendgroup>
     </legend>
     <projectlayers layercount="4">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2011cir20130624172710265</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/cir/12_5cm/ortho2011cir.vrt</datasource>
+            <datasource>/home/stefan/Geodaten/ch/so/kva/orthofoto/2011/cir/12_5cm/ortho2011cir.vrt</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Orthofoto2011_CIR</layername>
@@ -78,11 +78,11 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
         <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2011cir_50020130624172717811</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/cir/500cm/ortho2011cir_500.tif</datasource>
+            <datasource>/home/stefan/Geodaten/ch/so/kva/orthofoto/2011/cir/500cm/ortho2011cir_500.tif</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Orthofoto2011_CIR_5m</layername>
@@ -101,18 +101,18 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <customproperties/>
             <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+            <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency>
                     <threeValuePixelList>
                         <pixelListEntry red="0" blue="0" green="0" percentTransparent="100"/>
                     </threeValuePixelList>
                 </rasterTransparency>
             </rasterrenderer>
-            <rasterresampler maxOversampling="2"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="20000" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2011rgb20130624171636739</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/rgb/12_5cm/ortho2011rgb.vrt</datasource>
+            <datasource>/home/stefan/Geodaten/ch/so/kva/orthofoto/2011/rgb/12_5cm/ortho2011rgb.vrt</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Orthofoto2011_RGB</layername>
@@ -138,7 +138,7 @@
         </maplayer>
         <maplayer minimumScale="20000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>ortho2011rgb_50020130624165840111</id>
-            <datasource>../../Geodaten/ch/so/kva/orthofoto/2011/rgb/500cm/ortho2011rgb_500.tif</datasource>
+            <datasource>/home/stefan/Geodaten/ch/so/kva/orthofoto/2011/rgb/500cm/ortho2011rgb_500.tif</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Orthofoto2011_RGB_5m</layername>
@@ -181,7 +181,7 @@
             <value></value>
         </WMSKeywordList>
         <Paths>
-            <Absolute type="bool">false</Absolute>
+            <Absolute type="bool">true</Absolute>
         </Paths>
         <WMSServiceTitle type="QString">Orthofoto</WMSServiceTitle>
         <WFSLayers type="QStringList"/>
