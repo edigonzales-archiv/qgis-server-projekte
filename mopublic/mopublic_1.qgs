@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>606140.768671</xmin>
-            <ymin>228855.014070</ymin>
-            <xmax>606706.164998</xmax>
-            <ymax>229201.444935</ymax>
+            <xmin>605808.732224</xmin>
+            <ymin>229845.121499</ymin>
+            <xmax>606311.175975</xmax>
+            <ymax>230155.636499</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -582,7 +582,7 @@
                     <rule scalemaxdenom="2000" filter="kategorie = 'HFP3'" symbol="5" label="HFP3"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="1" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="1" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -593,7 +593,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -604,7 +604,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -615,7 +615,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -626,7 +626,7 @@
                             <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -637,7 +637,7 @@
                             <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -815,7 +815,7 @@
                     <rule scalemaxdenom="2000" filter="kategorie = 'HFP3'" symbol="5" label="HFP3"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="1" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -823,10 +823,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -834,10 +834,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -845,10 +845,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -856,10 +856,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -867,10 +867,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -878,13 +878,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
                 </symbols>
                 <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -1845,8 +1938,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -1883,8 +1978,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="8.5"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -2374,8 +2471,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -2412,8 +2511,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="9"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.2"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -4273,18 +4374,32 @@
             <customproperties>
                 <property key="labeling" value="pal"/>
                 <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
                 <property key="labeling/bufferColorB" value="255"/>
                 <property key="labeling/bufferColorG" value="255"/>
                 <property key="labeling/bufferColorR" value="255"/>
-                <property key="labeling/bufferSize" value="1"/>
-                <property key="labeling/dataDefinedProperty0" value="11"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
                 <property key="labeling/dataDefinedProperty1" value="13"/>
                 <property key="labeling/dataDefinedProperty10" value="7"/>
                 <property key="labeling/dataDefinedProperty11" value="9"/>
                 <property key="labeling/dataDefinedProperty12" value="10"/>
                 <property key="labeling/dataDefinedProperty13" value=""/>
                 <property key="labeling/dataDefinedProperty14" value="8"/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
                 <property key="labeling/dataDefinedProperty2" value="12"/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
                 <property key="labeling/dataDefinedProperty3" value=""/>
                 <property key="labeling/dataDefinedProperty4" value=""/>
                 <property key="labeling/dataDefinedProperty5" value=""/>
@@ -4292,30 +4407,64 @@
                 <property key="labeling/dataDefinedProperty7" value=""/>
                 <property key="labeling/dataDefinedProperty8" value=""/>
                 <property key="labeling/dataDefinedProperty9" value="6"/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="name"/>
+                <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="Cadastra"/>
                 <property key="labeling/fontItalic" value="false"/>
-                <property key="labeling/fontSize" value="11"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
                 <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multiLineLabels" value="false"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
                 <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
                 <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
                 <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
                 <property key="labeling/scaleMax" value="2000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
             </customproperties>
             <displayfield>name</displayfield>
             <label>0</label>
@@ -4759,8 +4908,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -4797,8 +4948,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -5288,7 +5441,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'unversichert'" symbol="6" label="unversichert"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5299,7 +5452,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5310,7 +5463,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5321,7 +5474,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5332,7 +5485,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5343,7 +5496,7 @@
                             <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5354,7 +5507,7 @@
                             <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5530,7 +5683,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'unversichert'" symbol="6" label="unversichert"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5538,10 +5691,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5549,10 +5702,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5560,10 +5713,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5571,10 +5724,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5582,10 +5735,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5593,10 +5746,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -5604,13 +5757,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="4"/>
+                            <prop k="size" v="4.5"/>
                         </layer>
                     </symbol>
                 </symbols>
                 <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>
@@ -6048,8 +6294,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0.2"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -6086,8 +6334,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="75"/>
@@ -6574,8 +6824,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0.2"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -6612,8 +6864,10 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="10"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="3.5"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.0005"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="75"/>
@@ -9878,8 +10132,10 @@
                 <property key="labeling/bufferColorR" value="255"/>
                 <property key="labeling/bufferJoinStyle" value="64"/>
                 <property key="labeling/bufferNoFill" value="false"/>
-                <property key="labeling/bufferSize" value="0.5"/>
+                <property key="labeling/bufferSize" value="0"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/dataDefinedProperty0" value=""/>
@@ -9913,11 +10169,13 @@
                 <property key="labeling/fontFamily" value="Cadastra"/>
                 <property key="labeling/fontItalic" value="true"/>
                 <property key="labeling/fontLetterSpacing" value="0"/>
-                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontLimitPixelSize" value="true"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="8"/>
-                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSize" value="2.8"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0.001"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0.000666666666666667"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
                 <property key="labeling/fontWeight" value="50"/>
@@ -10475,7 +10733,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'weitere'" symbol="7" label="weitere"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10486,7 +10744,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10497,7 +10755,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10508,7 +10766,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="1" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="1" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10519,7 +10777,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10530,7 +10788,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10541,7 +10799,7 @@
                             <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10552,7 +10810,7 @@
                             <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.0006666666666666666" mapUnitMaxScale="0.001" alpha="1" type="marker" name="7">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="7">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10732,7 +10990,7 @@
                     <rule scalemaxdenom="2000" filter="punktzeichen = 'weitere'" symbol="7" label="weitere"/>
                 </rules>
                 <symbols>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10740,10 +10998,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="1">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10751,10 +11009,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10762,10 +11020,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="1" alpha="1" type="marker" name="3">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10773,10 +11031,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="4">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10784,10 +11042,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="5">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10795,10 +11053,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="6">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10806,10 +11064,10 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" mapUnitMinScale="0" mapUnitMaxScale="0" alpha="1" type="marker" name="7">
+                    <symbol outputUnit="MapUnit" mapUnitMinScale="0.000666667" mapUnitMaxScale="0.001" alpha="1" type="marker" name="7">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -10817,13 +11075,106 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="5"/>
+                            <prop k="size" v="5.5"/>
                         </layer>
                     </symbol>
                 </symbols>
                 <legendsymbols/>
             </renderer-v2>
-            <customproperties/>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/angleOffset" value="0"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferJoinStyle" value="64"/>
+                <property key="labeling/bufferNoFill" value="false"/>
+                <property key="labeling/bufferSize" value="1"/>
+                <property key="labeling/bufferSizeInMapUnits" value="false"/>
+                <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/bufferTransp" value="0"/>
+                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty15" value=""/>
+                <property key="labeling/dataDefinedProperty16" value=""/>
+                <property key="labeling/dataDefinedProperty17" value=""/>
+                <property key="labeling/dataDefinedProperty18" value=""/>
+                <property key="labeling/dataDefinedProperty19" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty20" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/fontCapitals" value="0"/>
+                <property key="labeling/fontFamily" value="Liberation Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontLetterSpacing" value="0"/>
+                <property key="labeling/fontLimitPixelSize" value="false"/>
+                <property key="labeling/fontMaxPixelSize" value="10000"/>
+                <property key="labeling/fontMinPixelSize" value="3"/>
+                <property key="labeling/fontSize" value="9"/>
+                <property key="labeling/fontSizeInMapUnits" value="false"/>
+                <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
+                <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/fontWordSpacing" value="0"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelOffsetInMapUnits" value="true"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+                <property key="labeling/limitNumLabels" value="false"/>
+                <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+                <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+                <property key="labeling/maxNumLabels" value="2000"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/multilineAlign" value="0"/>
+                <property key="labeling/multilineHeight" value="1"/>
+                <property key="labeling/namedStyle" value="Normal"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placeDirectionSymbol" value="0"/>
+                <property key="labeling/placement" value="0"/>
+                <property key="labeling/placementFlags" value="0"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/preserveRotation" value="true"/>
+                <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/reverseDirectionSymbol" value="false"/>
+                <property key="labeling/rightDirectionSymbol" value=">"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/upsidedownLabels" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+                <property key="labeling/xOffset" value="0"/>
+                <property key="labeling/xQuadOffset" value="0"/>
+                <property key="labeling/yOffset" value="0"/>
+                <property key="labeling/yQuadOffset" value="0"/>
+            </customproperties>
             <displayfield>ogc_fid</displayfield>
             <label>0</label>
             <labelattributes>

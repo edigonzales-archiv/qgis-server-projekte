@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>580118.626323</xmin>
-            <ymin>212509.062500</ymin>
-            <xmax>657186.673677</xmax>
-            <ymax>262507.437500</ymax>
+            <xmin>574739.891572</xmin>
+            <ymin>209194.352028</ymin>
+            <xmax>662565.408428</xmax>
+            <ymax>265822.147972</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -315,10 +315,10 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_rgb_200220150117191819934</id>
             <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2002</datasource>
-            <title></title>
+            <title>Orthofoto 2002 (RGB)</title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.rgb.2002</layername>
             <srs>
@@ -341,10 +341,10 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_rgb_200620150117191820069</id>
             <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2006</datasource>
-            <title></title>
+            <title>Orthofoto 2006 (RGB)</title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.rgb.2006</layername>
             <srs>
@@ -367,10 +367,10 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_rgb_200720150117191820216</id>
             <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2007</datasource>
-            <title></title>
+            <title>Orthofoto 2007 (RGB)</title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.rgb.2007</layername>
             <srs>
@@ -393,10 +393,10 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_rgb_201120150117191820384</id>
             <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2011</datasource>
-            <title></title>
+            <title>Orthofoto 2011 (RGB)</title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.rgb.2011</layername>
             <srs>
@@ -497,10 +497,10 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_sw_199320150117191819707</id>
             <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.sw.1993</datasource>
-            <title></title>
+            <title>Orthofoto 1993 (schwarz-weiss)</title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.sw.1993</layername>
             <srs>

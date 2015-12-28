@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>564981.403374</xmin>
-            <ymin>211425.000000</ymin>
-            <xmax>672018.596626</xmax>
-            <ymax>277575.000000</ymax>
+            <xmin>581031.371912</xmin>
+            <ymin>211775.000000</ymin>
+            <xmax>656968.628088</xmax>
+            <ymax>263225.000000</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -26,16 +26,6 @@
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="true" checked="Qt::Checked" name="ch.so.agi.orthofoto">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ch.so.agi.orthofoto.2015-bl.rgb" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2015_bl_rgb20150926110019224" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ch.so.agi.orthofoto.2015.rgb" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2015_rgb20150925163014130" visible="1"/>
-                </filegroup>
-            </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ch.so.agi.orthofoto.2014.rgb" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2014_rgb20150111173309561" visible="1"/>
@@ -46,13 +36,13 @@
                     <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2013_rgb20150111173316049" visible="1"/>
                 </filegroup>
             </legendlayer>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.cir">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.2015.cir" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ch.so.agi.orthofoto.2012.rgb" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2015_cir20150925163014254" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2012_rgb20150111173317919" visible="1"/>
                 </filegroup>
             </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.cir">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.2014.cir" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2014_cir20150111173656829" visible="0"/>
@@ -61,6 +51,11 @@
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.2013.cir" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2013_cir20150111173656951" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="ch.so.agi.orthofoto.2012.cir" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="_ch_so_agi_orthofoto_2012_cir20150111173657059" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -82,10 +77,36 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <projectlayers layercount="10">
+    <projectlayers layercount="9">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>_ch_so_agi_orthofoto_2012_cir20150111173657059</id>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2012.cir</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.orthofoto.2012.cir</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2012_ndvi20150111174253088</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.ndvi.2012</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2012.ndvi</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2012.ndvi</layername>
@@ -114,9 +135,35 @@
             </rasterrenderer>
             <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>_ch_so_agi_orthofoto_2012_rgb20150111173317919</id>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2012.rgb</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ch.so.agi.orthofoto.2012.rgb</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1919</srsid>
+                    <srid>21781</srid>
+                    <authid>EPSG:21781</authid>
+                    <description>CH1903 / LV03</description>
+                    <projectionacronym>somerc</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+            </rasterrenderer>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        </maplayer>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2013_cir20150111173656951</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.cir.2013</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2013.cir</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2013.cir</layername>
@@ -138,11 +185,11 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2013_ndvi20150111174252909</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.ndvi.2013</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2013.ndvi</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2013.ndvi</layername>
@@ -173,7 +220,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2013_rgb20150111173316049</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2013</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2013.rgb</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2013.rgb</layername>
@@ -195,11 +242,11 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2014_cir20150111173656829</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.cir.2014</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2014.cir</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2014.cir</layername>
@@ -221,11 +268,11 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2014_ndvi20150111174252747</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.ndvi.2014</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2014.ndvi</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2014.ndvi</layername>
@@ -256,7 +303,7 @@
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>_ch_so_agi_orthofoto_2014_rgb20150111173309561</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.rgb.2014</datasource>
+            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2014.rgb</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ch.so.agi.orthofoto.2014.rgb</layername>
@@ -278,85 +325,7 @@
             <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
             </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>_ch_so_agi_orthofoto_2015_bl_rgb20150926110019224</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2015-bl.rgb</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>ch.so.agi.orthofoto.2015-bl.rgb</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>_ch_so_agi_orthofoto_2015_cir20150925163014254</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2015.cir</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>ch.so.agi.orthofoto.2015.cir</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>_ch_so_agi_orthofoto_2015_rgb20150925163014130</id>
-            <datasource>GPKG:/opt/Geodaten/ch/so/kva/orthofoto/orthofoto.gpkg:ch.so.agi.orthofoto.2015.rgb</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>ch.so.agi.orthofoto.2015.rgb</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>1919</srsid>
-                    <srid>21781</srid>
-                    <authid>EPSG:21781</authid>
-                    <description>CH1903 / LV03</description>
-                    <projectionacronym>somerc</projectionacronym>
-                    <ellipsoidacronym>bessel</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <customproperties/>
-            <provider>gdal</provider>
-            <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-            </rasterrenderer>
-            <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+            <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
         </maplayer>
     </projectlayers>
     <properties>
@@ -364,10 +333,10 @@
         <WMSOnlineResource type="QString">http://www.catais.org/</WMSOnlineResource>
         <WMSContactOrganization type="QString">Amt für Geoinformation Kanton Solothurn</WMSContactOrganization>
         <WMSExtent type="QStringList">
-            <value>560000</value>
+            <value>590000</value>
             <value>210000</value>
-            <value>675000</value>
-            <value>280000</value>
+            <value>650000</value>
+            <value>270000</value>
         </WMSExtent>
         <WMSKeywordList type="QStringList">
             <value></value>
@@ -411,14 +380,6 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <Digitizing>
-            <LayerSnappingList type="QStringList"/>
-            <LayerSnappingEnabledList type="QStringList"/>
-            <AvoidIntersectionsList type="QStringList"/>
-            <LayerSnappingToleranceUnitList type="QStringList"/>
-            <LayerSnapToList type="QStringList"/>
-            <LayerSnappingToleranceList type="QStringList"/>
-        </Digitizing>
         <Identify>
             <disabledLayers type="QStringList"/>
         </Identify>

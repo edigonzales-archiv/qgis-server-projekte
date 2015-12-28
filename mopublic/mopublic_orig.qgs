@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>619206.722018</xmin>
-            <ymin>238987.143511</ymin>
-            <xmax>629830.741054</xmax>
-            <ymax>247058.480627</ymax>
+            <xmin>576163.642608</xmin>
+            <ymin>205814.434188</ymin>
+            <xmax>661155.794892</xmax>
+            <ymax>269218.190812</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -5712,12 +5712,6 @@
         <WMSContactPerson type="QString">Mitarbeitende AGI</WMSContactPerson>
         <WMSOnlineResource type="QString">http://www.agi.so.ch</WMSOnlineResource>
         <WMSContactOrganization type="QString">Amt für Geoinformation, Kanton Solothurn</WMSContactOrganization>
-        <WMSExtent type="QStringList">
-            <value>600863.87908424</value>
-            <value>225798.28692774</value>
-            <value>643359.95522597</value>
-            <value>258083.63539239</value>
-        </WMSExtent>
         <WMSKeywordList type="QStringList">
             <value></value>
         </WMSKeywordList>
@@ -5759,7 +5753,6 @@
             <value>rohrleitungen__linienelement20140601193259066</value>
             <value>rohrleitungen__linienelementnamepos20140601193259253</value>
         </WFSLayers>
-        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <WMSRestrictedLayers type="QStringList">
             <value>fixpunktekategorie__lfp</value>
             <value>bodenbedeckung__boflaeche</value>
@@ -5792,13 +5785,14 @@
             <value>gebaeudeadressen__gebaeudeeingang</value>
             <value>gebaeudeadressen__hausnummerpos</value>
         </WMSRestrictedLayers>
+        <WMSContactMail type="QString">agi@bd.so.ch</WMSContactMail>
         <PositionPrecision>
             <DecimalPlaces type="int">2</DecimalPlaces>
             <Automatic type="bool">true</Automatic>
             <DegreeFormat type="QString">D</DegreeFormat>
         </PositionPrecision>
-        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSContactPhone type="QString">++41 (0) 32 627 75 92</WMSContactPhone>
+        <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
         <WMSServiceAbstract type="QString">http://www.cadastre.ch/internet/cadastre/de/home/products/mopublic.html</WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
         <Measure>
@@ -5822,179 +5816,6 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <Digitizing>
-            <LayerSnappingList type="QStringList">
-                <value>bodenbedeckung__bbtext20140601151116839</value>
-                <value>bodenbedeckung__boflaeche20140601151121482</value>
-                <value>bodenbedeckung__projbbtext20140601192908325</value>
-                <value>bodenbedeckung__projboflaeche20140601192910003</value>
-                <value>einzelobjekte__flaechenelement20140601192953068</value>
-                <value>einzelobjekte__flaechenelementtext20140601192951834</value>
-                <value>einzelobjekte__linienelement20140601192951897</value>
-                <value>einzelobjekte__linienelementtext20140601192952066</value>
-                <value>einzelobjekte__punktelement20140601192952191</value>
-                <value>einzelobjekte__punktelementtext20140601192952969</value>
-                <value>fixpunktekategorie__lfp20140601151113263</value>
-                <value>gebaeudeadressen__gebaeudeeingang20140601193419358</value>
-                <value>gebaeudeadressen__hausnummerpos20140601193419547</value>
-                <value>gebaeudeadressen__lokalisationsname20140601193419645</value>
-                <value>gebaeudeadressen__lokalisationsnamepos20140601193419854</value>
-                <value>hoheitsgrenzen__gemeindegrenze20140601193328793</value>
-                <value>hoheitsgrenzen__hoheitsgrenzpunkt20140601193328956</value>
-                <value>hoheitsgrenzen__projgemeindegrenze20140601193329068</value>
-                <value>hoheitsgrenzen__uebrigehoheitsgrenzen20140601193329150</value>
-                <value>liegenschaften__grenzpunkt20140601193130723</value>
-                <value>liegenschaften__liegenschaft20140601193131583</value>
-                <value>liegenschaften__liegenschaftpos20140601214320074</value>
-                <value>liegenschaften__projliegenschaft20140601193132924</value>
-                <value>liegenschaften__projliegenschaftpos20140601214320748</value>
-                <value>liegenschaften__projselbstrecht_bergwerk20140613205751100</value>
-                <value>liegenschaften__projselbstrecht_bergwerkpos20140613205649597</value>
-                <value>liegenschaften__selbstrecht_bergwerk20140601193135955</value>
-                <value>liegenschaften__selbstrecht_bergwerkpos20140601214323149</value>
-                <value>nomenklatur__namen20140601193055279</value>
-                <value>nomenklatur__namenpos20140601193055510</value>
-                <value>rohrleitungen__linienelement20140601193259066</value>
-                <value>rohrleitungen__linienelementnamepos20140601193259253</value>
-            </LayerSnappingList>
-            <LayerSnappingEnabledList type="QStringList">
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-                <value>enabled</value>
-            </LayerSnappingEnabledList>
-            <AvoidIntersectionsList type="QStringList"/>
-            <LayerSnappingToleranceUnitList type="QStringList">
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-                <value>1</value>
-            </LayerSnappingToleranceUnitList>
-            <LayerSnapToList type="QStringList">
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-                <value>to_vertex</value>
-            </LayerSnapToList>
-            <LayerSnappingToleranceList type="QStringList">
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-                <value>20.000000</value>
-            </LayerSnappingToleranceList>
-        </Digitizing>
         <Identify>
             <disabledLayers type="QStringList"/>
         </Identify>
